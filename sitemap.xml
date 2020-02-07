@@ -4,14 +4,170 @@
   
   <url>
     <loc>https://tomekent.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.github.io/</loc>
+    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomekent.github.io/authors/</loc>
+    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/talk/collectivedynamics/</loc>
+    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/talk/</loc>
+    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/</loc>
+    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication_types/1/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication_types/2/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/allocation-and-routing/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/authors/arthur-g.-richards/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/kent-2019-a/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/kent-2019/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/decision-making/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/distributed-problem-solving/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/evolutionary-algorithms/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/multi-agent-travelling-salesman/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication_types/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/authors/thomas-e.-kent/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/talk/tbphase/</loc>
+    <lastmod>2018-08-07T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/kent-2015/</loc>
+    <lastmod>2015-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication_types/7/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/kent-2015-a/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/authors/thomas-e-kent/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/kent-2014-a/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/delay/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/dynamic-programming/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/formation-flight/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/routing/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/tags/value-iteration/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/kent-2013/</loc>
+    <lastmod>2013-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/publication/kent-2012/</loc>
+    <lastmod>2012-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/authors/anas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/authors/karam/</loc>
   </url>
   
   <url>
@@ -19,23 +175,15 @@
   </url>
   
   <url>
+    <loc>https://tomekent.github.io/positions/</loc>
+  </url>
+  
+  <url>
     <loc>https://tomekent.github.io/post/</loc>
   </url>
   
   <url>
-    <loc>https://tomekent.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.github.io/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.github.io/tags/</loc>
+    <loc>https://tomekent.github.io/projects/</loc>
   </url>
   
 </urlset>
