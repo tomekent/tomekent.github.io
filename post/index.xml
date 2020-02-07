@@ -5,12 +5,44 @@
     <link>https://tomekent.github.io/post/</link>
       <atom:link href="https://tomekent.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://tomekent.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Co2 Emissions Reduction via formation flight</title>
+      <link>https://tomekent.github.io/post/co2-formation/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tomekent.github.io/post/co2-formation/</guid>
+      <description>&lt;h2 id=&#34;co2-emissions&#34;&gt;Co2 Emissions&lt;/h2&gt;
+&lt;p&gt;I had a quick look back over some of my PhD work in preparation of a new paper I&amp;rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;ve been working on some under the assumptions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The emissions index of CO 2 per kg of fuel burnt is estimated to be roughly 3.16 
+&lt;a href=&#34;https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19920009879.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;A rough estimate of 600 dollars per metric tonne of fuel 
+&lt;a href=&#34;https://www.iata.org/en/publications/economics/fuel-monitor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;singapore-airlines&#34;&gt;Singapore Airlines&lt;/h2&gt;
+&lt;p&gt;Take Singapore Airlines as an example, on a single day some &lt;strong&gt;200 flights could potentially fly in 100 formations pairs&lt;/strong&gt;.
+This would save on average 6.7% of fuel against those same flights flying solo. This works out at 610 tonnes of fuel saved, and as a direct result would burn roughly 1,929 tonnes fewer of Co2. Not only that but they&amp;rsquo;d save 366k in the process but simply not buying the fuel.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s for a single day.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s like planting &lt;strong&gt;704,085 trees a year&lt;/strong&gt; and getting paid $133m for it.&lt;/p&gt;
+&lt;h3 id=&#34;equivalent-of-planting-80-per-hour&#34;&gt;Equivalent of planting 80 per hour:&lt;/h3&gt;
+&lt;p&gt;🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳&lt;/p&gt;
+&lt;h3 id=&#34;and-getting-paid-190-per-tree-at-the-same-time&#34;&gt;And getting paid $190 per tree at the same time&lt;/h3&gt;
+&lt;p&gt;💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰&lt;/p&gt;
+&lt;h3 id=&#34;want-to-find-out-more&#34;&gt;Want to find out more?&lt;/h3&gt;
+&lt;p&gt;Take a look a page I put together a while back to explore the datasets:
+&lt;a href=&#34;http://tomekent.com/FormationFlight/&#34;&gt;http://tomekent.com/FormationFlight/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;found-this-interesting-consider-sharing-it-&#34;&gt;Found this interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

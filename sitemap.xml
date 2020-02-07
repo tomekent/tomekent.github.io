@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tomekent.github.io/post/co2-formation/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/post/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomekent.github.io/authors/admin/</loc>
     <lastmod>2019-10-19T15:00:00+00:00</lastmod>
   </url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>https://tomekent.github.io/talk/</loc>
-    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.github.io/</loc>
     <lastmod>2019-10-19T15:00:00+00:00</lastmod>
   </url>
   
@@ -167,7 +177,19 @@
   </url>
   
   <url>
+    <loc>https://tomekent.github.io/authors/christos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/authors/jian-jiao/</loc>
+  </url>
+  
+  <url>
     <loc>https://tomekent.github.io/authors/karam/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.github.io/authors/xingyu-guo/</loc>
   </url>
   
   <url>
@@ -176,10 +198,6 @@
   
   <url>
     <loc>https://tomekent.github.io/positions/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.github.io/post/</loc>
   </url>
   
   <url>
