@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Value Iteration | Thomas E. Kent</title>
+    <link>https://tomekent.github.io/tags/value-iteration/</link>
+      <atom:link href="https://tomekent.github.io/tags/value-iteration/index.xml" rel="self" type="application/rss+xml" />
+    <description>Value Iteration</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Value Iteration</title>
+      <link>https://tomekent.github.io/tags/value-iteration/</link>
+    </image>
+    
+    <item>
+      <title>Accounting for the effect of ground delay on commercial formation flight</title>
+      <link>https://tomekent.github.io/publication/kent-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://tomekent.github.io/publication/kent-2014-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
