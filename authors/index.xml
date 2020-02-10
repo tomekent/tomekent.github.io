@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Thomas E. Kent</title>
-    <link>https://tomekent.github.io/authors/</link>
-      <atom:link href="https://tomekent.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tomekent.com/authors/</link>
+      <atom:link href="https://tomekent.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 19 Oct 2019 15:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
-      <link>https://tomekent.github.io/authors/</link>
+      <link>https://tomekent.com/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://tomekent.github.io/authors/admin/</link>
+      <link>https://tomekent.com/authors/admin/</link>
       <pubDate>Sat, 19 Oct 2019 15:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/admin/</guid>
+      <guid>https://tomekent.com/authors/admin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arthur G. Richards</title>
-      <link>https://tomekent.github.io/authors/arthur-g.-richards/</link>
+      <link>https://tomekent.com/authors/arthur-g.-richards/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/arthur-g.-richards/</guid>
+      <guid>https://tomekent.com/authors/arthur-g.-richards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thomas E. Kent</title>
-      <link>https://tomekent.github.io/authors/thomas-e.-kent/</link>
+      <link>https://tomekent.com/authors/thomas-e.-kent/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/thomas-e.-kent/</guid>
+      <guid>https://tomekent.com/authors/thomas-e.-kent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thomas E Kent</title>
-      <link>https://tomekent.github.io/authors/thomas-e-kent/</link>
+      <link>https://tomekent.com/authors/thomas-e-kent/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/thomas-e-kent/</guid>
+      <guid>https://tomekent.com/authors/thomas-e-kent/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://tomekent.github.io/authors/anas/</link>
+      <link>https://tomekent.com/authors/anas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/anas/</guid>
+      <guid>https://tomekent.com/authors/anas/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://tomekent.github.io/authors/christos/</link>
+      <link>https://tomekent.com/authors/christos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/christos/</guid>
+      <guid>https://tomekent.com/authors/christos/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://tomekent.github.io/authors/jian-jiao/</link>
+      <link>https://tomekent.com/authors/jian-jiao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/jian-jiao/</guid>
+      <guid>https://tomekent.com/authors/jian-jiao/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://tomekent.github.io/authors/karam/</link>
+      <link>https://tomekent.com/authors/karam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/karam/</guid>
+      <guid>https://tomekent.com/authors/karam/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://tomekent.github.io/authors/xingyu-guo/</link>
+      <link>https://tomekent.com/authors/xingyu-guo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/authors/xingyu-guo/</guid>
+      <guid>https://tomekent.com/authors/xingyu-guo/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thomas E Kent | Thomas E. Kent</title>
-    <link>https://tomekent.github.io/authors/thomas-e-kent/</link>
-      <atom:link href="https://tomekent.github.io/authors/thomas-e-kent/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tomekent.com/authors/thomas-e-kent/</link>
+      <atom:link href="https://tomekent.com/authors/thomas-e-kent/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas E Kent</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Thomas E Kent</title>
-      <link>https://tomekent.github.io/authors/thomas-e-kent/</link>
+      <link>https://tomekent.com/authors/thomas-e-kent/</link>
     </image>
     
     <item>
       <title>Optimal Routing and Assignment for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2015-a/</link>
+      <link>https://tomekent.com/publication/kent-2015-a/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2015-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2015-a/</guid>
       <description></description>
     </item>
     

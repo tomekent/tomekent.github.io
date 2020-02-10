@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dynamic Programming | Thomas E. Kent</title>
-    <link>https://tomekent.github.io/tags/dynamic-programming/</link>
-      <atom:link href="https://tomekent.github.io/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tomekent.com/tags/dynamic-programming/</link>
+      <atom:link href="https://tomekent.com/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
     <description>Dynamic Programming</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Dynamic Programming</title>
-      <link>https://tomekent.github.io/tags/dynamic-programming/</link>
+      <link>https://tomekent.com/tags/dynamic-programming/</link>
     </image>
     
     <item>
       <title>Accounting for the effect of ground delay on commercial formation flight</title>
-      <link>https://tomekent.github.io/publication/kent-2014-a/</link>
+      <link>https://tomekent.com/publication/kent-2014-a/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2014-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2014-a/</guid>
       <description></description>
     </item>
     

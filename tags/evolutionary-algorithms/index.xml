@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evolutionary Algorithms | Thomas E. Kent</title>
-    <link>https://tomekent.github.io/tags/evolutionary-algorithms/</link>
-      <atom:link href="https://tomekent.github.io/tags/evolutionary-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tomekent.com/tags/evolutionary-algorithms/</link>
+      <atom:link href="https://tomekent.com/tags/evolutionary-algorithms/index.xml" rel="self" type="application/rss+xml" />
     <description>Evolutionary Algorithms</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Evolutionary Algorithms</title>
-      <link>https://tomekent.github.io/tags/evolutionary-algorithms/</link>
+      <link>https://tomekent.com/tags/evolutionary-algorithms/</link>
     </image>
     
     <item>
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
-      <link>https://tomekent.github.io/publication/kent-2019-a/</link>
+      <link>https://tomekent.com/publication/kent-2019-a/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2019-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2019-a/</guid>
       <description></description>
     </item>
     
