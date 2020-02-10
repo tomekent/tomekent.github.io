@@ -19,7 +19,45 @@
       <guid>https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/</guid>
       <description>&lt;p&gt;This is a summary of some work published last year at the 
 &lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;
-.&lt;/p&gt;
+. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;502&#34; height=&#34;292&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trade-off between optimisation factors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - &lt;strong&gt;unless we can be smart about the way we decompose the problem&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;general-problem&#34;&gt;General Problem&lt;/h2&gt;
 &lt;p&gt;There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.&lt;/p&gt;
 &lt;p&gt;Here we define a fairly standard Multi-Agent Travelling Salesman Problem:&lt;/p&gt;

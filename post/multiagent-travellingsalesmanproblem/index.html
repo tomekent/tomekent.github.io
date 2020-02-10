@@ -28,10 +28,8 @@
   
     
   
-  <meta name="description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference .
-General Problem There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.
-Here we define a fairly standard Multi-Agent Travelling Salesman Problem:
-Setup  Allocating active set of tasks to a set of agents Simultaneously planning agents&rsquo; optimal routes  Caveats  Allocation and routing are closely coupled Dynamic simulated environment Need to consider real world implementation  What we have learnt from our work on this is that:">
+  <meta name="description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference . Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents
+  Trade-off between optimisation factors   If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - unless we can be smart about the way we decompose the problem.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/">
@@ -239,10 +237,8 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
   <meta property="og:site_name" content="Thomas E. Kent">
   <meta property="og:url" content="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/">
   <meta property="og:title" content="Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem | Thomas E. Kent">
-  <meta property="og:description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference .
-General Problem There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.
-Here we define a fairly standard Multi-Agent Travelling Salesman Problem:
-Setup  Allocating active set of tasks to a set of agents Simultaneously planning agents&rsquo; optimal routes  Caveats  Allocation and routing are closely coupled Dynamic simulated environment Need to consider real world implementation  What we have learnt from our work on this is that:"><meta property="og:image" content="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/featured.png">
+  <meta property="og:description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference . Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents
+  Trade-off between optimisation factors   If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - unless we can be smart about the way we decompose the problem."><meta property="og:image" content="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/featured.png">
   <meta property="twitter:image" content="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -298,7 +294,7 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
       "url": "img/https://tomekent.github.io/"
     }
   },
-  "description": "This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference .\nGeneral Problem There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.\nHere we define a fairly standard Multi-Agent Travelling Salesman Problem:\nSetup  Allocating active set of tasks to a set of agents Simultaneously planning agents\u0026rsquo; optimal routes  Caveats  Allocation and routing are closely coupled Dynamic simulated environment Need to consider real world implementation  What we have learnt from our work on this is that:"
+  "description": "This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference . Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents\n  Trade-off between optimisation factors   If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - unless we can be smart about the way we decompose the problem."
 }
 </script>
 
@@ -719,7 +715,45 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
     <div class="article-style">
       <p>This is a summary of some work published last year at the 
 <a href="https://gecco-2019.sigevo.org/index.html/HomePage" target="_blank" rel="noopener">2019 Genetic and Evolutionary Computation Conference</a>
-.</p>
+. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents</p>
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png" data-caption="Trade-off between optimisation factors">
+
+
+  <img data-src="/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="502" height="292">
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Trade-off between optimisation factors
+  </figcaption>
+
+
+</figure>
+
+<p>If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - <strong>unless we can be smart about the way we decompose the problem</strong>.</p>
 <h2 id="general-problem">General Problem</h2>
 <p>There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.</p>
 <p>Here we define a fairly standard Multi-Agent Travelling Salesman Problem:</p>
