@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arthur G. Richards | Thomas E. Kent</title>
-    <link>https://tomekent.github.io/authors/arthur-g.-richards/</link>
-      <atom:link href="https://tomekent.github.io/authors/arthur-g.-richards/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tomekent.com/authors/arthur-g.-richards/</link>
+      <atom:link href="https://tomekent.com/authors/arthur-g.-richards/index.xml" rel="self" type="application/rss+xml" />
     <description>Arthur G. Richards</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Arthur G. Richards</title>
-      <link>https://tomekent.github.io/authors/arthur-g.-richards/</link>
+      <link>https://tomekent.com/authors/arthur-g.-richards/</link>
     </image>
     
     <item>
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
-      <link>https://tomekent.github.io/publication/kent-2019-a/</link>
+      <link>https://tomekent.com/publication/kent-2019-a/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2019-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2019-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decentralised multi-demic evolutionary approach to the dynamic multi-agent travelling salesman problem</title>
-      <link>https://tomekent.github.io/publication/kent-2019/</link>
+      <link>https://tomekent.com/publication/kent-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2019/</guid>
+      <guid>https://tomekent.com/publication/kent-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analytic Approach to Optimal Routing for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2015/</link>
+      <link>https://tomekent.com/publication/kent-2015/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2015/</guid>
+      <guid>https://tomekent.com/publication/kent-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accounting for the effect of ground delay on commercial formation flight</title>
-      <link>https://tomekent.github.io/publication/kent-2014-a/</link>
+      <link>https://tomekent.com/publication/kent-2014-a/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2014-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2014-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On Optimal Routing for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2013/</link>
+      <link>https://tomekent.com/publication/kent-2013/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2013/</guid>
+      <guid>https://tomekent.com/publication/kent-2013/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Geometric Approach to Optimal Routing for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2012/</link>
+      <link>https://tomekent.com/publication/kent-2012/</link>
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2012/</guid>
+      <guid>https://tomekent.com/publication/kent-2012/</guid>
       <description></description>
     </item>
     

@@ -2,24 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thomas E. Kent</title>
-    <link>https://tomekent.github.io/</link>
-      <atom:link href="https://tomekent.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tomekent.com/</link>
+      <atom:link href="https://tomekent.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas E. Kent</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Feb 2020 22:55:39 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Thomas E. Kent</title>
-      <link>https://tomekent.github.io/</link>
+      <link>https://tomekent.com/</link>
     </image>
     
     <item>
       <title>Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</title>
-      <link>https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/</link>
+      <link>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</link>
       <pubDate>Fri, 07 Feb 2020 22:55:39 +0000</pubDate>
-      <guid>https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/</guid>
+      <guid>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</guid>
       <description>&lt;p&gt;This is a summary of some work published last year at the 
 &lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;
-.&lt;/p&gt;
+. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;502&#34; height=&#34;292&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trade-off between optimisation factors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - &lt;strong&gt;unless we can be smart about the way we decompose the problem&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;general-problem&#34;&gt;General Problem&lt;/h2&gt;
 &lt;p&gt;There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.&lt;/p&gt;
 &lt;p&gt;Here we define a fairly standard Multi-Agent Travelling Salesman Problem:&lt;/p&gt;
@@ -100,10 +138,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Chromosome representation of route structure&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Chromosome representation of route structure&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;190&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;190&#34;&gt;
 &lt;/a&gt;
 
 
@@ -138,10 +176,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;SBX Crossover operator&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;SBX Crossover operator&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;388&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;388&#34;&gt;
 &lt;/a&gt;
 
 
@@ -176,10 +214,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - reallocate tasks&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - reallocate tasks&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;444&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;444&#34;&gt;
 &lt;/a&gt;
 
 
@@ -213,10 +251,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - Swap Tasks&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - Swap Tasks&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;431&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;431&#34;&gt;
 &lt;/a&gt;
 
 
@@ -251,10 +289,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Improvement operator - 2 opt swap&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Improvement operator - 2 opt swap&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;675&#34; height=&#34;482&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;675&#34; height=&#34;482&#34;&gt;
 &lt;/a&gt;
 
 
@@ -296,10 +334,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Population Structures&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Population Structures&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1370&#34; height=&#34;594&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1370&#34; height=&#34;594&#34;&gt;
 &lt;/a&gt;
 
 
@@ -335,10 +373,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Distance&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Distance&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
 &lt;/a&gt;
 
 
@@ -373,10 +411,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Sim time&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Sim time&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
 &lt;/a&gt;
 
 
@@ -424,10 +462,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;363&#34; height=&#34;203&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;363&#34; height=&#34;203&#34;&gt;
 &lt;/a&gt;
 
 
@@ -462,10 +500,10 @@ $$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;502&#34; height=&#34;292&#34;&gt;
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;502&#34; height=&#34;292&#34;&gt;
 &lt;/a&gt;
 
 
@@ -480,7 +518,7 @@ $$&lt;/p&gt;
 
 &lt;h2 id=&#34;read-the-full-paper&#34;&gt;Read the full paper&lt;/h2&gt;
 &lt;p&gt;If you want to read in a bit more detail then you can find the full paper here:
-&lt;a  href=&#34;https://tomekent.github.io/publication/kent-2019-a&#34;   class=&#34;btn btn-outline-primary my-1 mr-1&#34; rel=&#34;noopener&#34;&gt;
+&lt;a  href=&#34;https://tomekent.com/publication/kent-2019-a&#34;   class=&#34;btn btn-outline-primary my-1 mr-1&#34; rel=&#34;noopener&#34;&gt;
       &lt;i class=&#34;fas fa-far fa-file-alt pr-1 fa-fw&#34;&gt;&lt;/i&gt;
       
       Kent 2019
@@ -491,9 +529,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Co2 Emissions Reduction via formation flight</title>
-      <link>https://tomekent.github.io/post/co2-formation/</link>
+      <link>https://tomekent.com/post/co2-formation/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/post/co2-formation/</guid>
+      <guid>https://tomekent.com/post/co2-formation/</guid>
       <description>&lt;h2 id=&#34;co2-emissions&#34;&gt;Co2 Emissions&lt;/h2&gt;
 &lt;p&gt;I had a quick look back over some of my PhD work in preparation of a new paper I&amp;rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.&lt;/p&gt;
 &lt;p&gt;So I&amp;rsquo;ve been working on some under the assumptions:&lt;/p&gt;
@@ -523,73 +561,73 @@ This would save on average 6.7% of fuel against those same flights flying solo. 
     
     <item>
       <title>Ignorance is bliss - the role of noise and heterogeneity in training and deployment of Single Agent Policies for the Multi-Agent Persistent Surveillance Problem</title>
-      <link>https://tomekent.github.io/talk/collectivedynamics/</link>
+      <link>https://tomekent.com/talk/collectivedynamics/</link>
       <pubDate>Sat, 19 Oct 2019 15:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/talk/collectivedynamics/</guid>
+      <guid>https://tomekent.com/talk/collectivedynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
-      <link>https://tomekent.github.io/publication/kent-2019-a/</link>
+      <link>https://tomekent.com/publication/kent-2019-a/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2019-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2019-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decentralised multi-demic evolutionary approach to the dynamic multi-agent travelling salesman problem</title>
-      <link>https://tomekent.github.io/publication/kent-2019/</link>
+      <link>https://tomekent.com/publication/kent-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2019/</guid>
+      <guid>https://tomekent.com/publication/kent-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bi-Level Optimisation for Assignment and Routing Problems</title>
-      <link>https://tomekent.github.io/talk/tbphase/</link>
+      <link>https://tomekent.com/talk/tbphase/</link>
       <pubDate>Tue, 07 Aug 2018 15:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/talk/tbphase/</guid>
+      <guid>https://tomekent.com/talk/tbphase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analytic Approach to Optimal Routing for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2015/</link>
+      <link>https://tomekent.com/publication/kent-2015/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2015/</guid>
+      <guid>https://tomekent.com/publication/kent-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimal Routing and Assignment for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2015-a/</link>
+      <link>https://tomekent.com/publication/kent-2015-a/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2015-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2015-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accounting for the effect of ground delay on commercial formation flight</title>
-      <link>https://tomekent.github.io/publication/kent-2014-a/</link>
+      <link>https://tomekent.com/publication/kent-2014-a/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2014-a/</guid>
+      <guid>https://tomekent.com/publication/kent-2014-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On Optimal Routing for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2013/</link>
+      <link>https://tomekent.com/publication/kent-2013/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2013/</guid>
+      <guid>https://tomekent.com/publication/kent-2013/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Geometric Approach to Optimal Routing for Commercial Formation Flight</title>
-      <link>https://tomekent.github.io/publication/kent-2012/</link>
+      <link>https://tomekent.com/publication/kent-2012/</link>
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/publication/kent-2012/</guid>
+      <guid>https://tomekent.com/publication/kent-2012/</guid>
       <description></description>
     </item>
     
