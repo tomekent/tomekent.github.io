@@ -5,12 +5,489 @@
     <link>https://tomekent.github.io/post/</link>
       <atom:link href="https://tomekent.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Feb 2020 22:55:39 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://tomekent.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</title>
+      <link>https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/</link>
+      <pubDate>Fri, 07 Feb 2020 22:55:39 +0000</pubDate>
+      <guid>https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/</guid>
+      <description>&lt;p&gt;This is a summary of some work published last year at the 
+&lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;general-problem&#34;&gt;General Problem&lt;/h2&gt;
+&lt;p&gt;There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.&lt;/p&gt;
+&lt;p&gt;Here we define a fairly standard Multi-Agent Travelling Salesman Problem:&lt;/p&gt;
+&lt;h4 id=&#34;setup&#34;&gt;Setup&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Allocating active set of tasks to a set of agents&lt;/li&gt;
+&lt;li&gt;Simultaneously planning agents&amp;rsquo; optimal routes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;caveats&#34;&gt;Caveats&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Allocation and routing are closely coupled&lt;/li&gt;
+&lt;li&gt;Dynamic simulated environment&lt;/li&gt;
+&lt;li&gt;Need to consider real world implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What we have learnt from our work on this is that:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;We should align real-world Multi-Agent constraints with the structuring of our optimisation technique&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;evolutionary-algorithm-for-matsp&#34;&gt;Evolutionary Algorithm for MATSP&lt;/h2&gt;
+&lt;p&gt;Our aim is to move away from a single centralised solution to the MATSP. Instead we want to utilise the fact that these agents exist in a world that can be compartmentalised. There are real world constraints, such as geographical seperation that can be used to our advantage.&lt;/p&gt;
+&lt;p&gt;We use the population-distribution island-model, where the global population is divided into a number of demes (distinct populations) and referred to as the Multi-Demic Evolutionary Algorithm (MDEA). Communications between these demes allow for individuals to migrate between them at pre-defined intervals. These demes are structured to align with real world execution of a MATSP where tasks are distributed amongst multiple agents and are completed independently.&lt;/p&gt;
+&lt;h3 id=&#34;matsp-problem-statement&#34;&gt;MATSP Problem Statement&lt;/h3&gt;
+&lt;p&gt;Here we present what&amp;rsquo;s known as thethe three-index flow-based formulation
+First define the indexes $i$ and $j$ to denote a task from the set T
+of tasks 1 to N , the set A of agents from 1 to M and the matrix
+c i ja to denote the cost of agent a travelling from task i to task j.
+Additionally we define the three-index binary decision variable:&lt;/p&gt;
+&lt;p&gt;First define the indexes $i$ and $j$ to denote a task from the set $T$ of tasks 1 to $N$, the set $A$ of agents from 1 to $M$ and the matrix $c_{ija}$ to denote the cost of agent $a$ travelling from task $i$ to task $j$. Additionally we define the three-index binary decision variable:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{equation*}
+x_{ija} =
+\begin{cases}
+1 &amp;amp; \text{if agent $a$ visits task $j$ immediately after task $i$,}\\\&lt;br&gt;
+0 &amp;amp; \text{otherwise}
+\end{cases}
+\end{equation*}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align}
+\min_{x_{ija}} &amp;amp; \sum_{i = 1}^{N} \sum_{j = 1}^{N} \sum_{a = 1}^{M} c_{ija} x_{ija} \\\&lt;br&gt;
+&amp;amp; \sum_{i = 1}^{N}x_{ipa} - \sum_{j = 1}^{N}x_{pja} = 0, \text{  }a \in A, p \in T \label{MATSP_flow} \\\&lt;br&gt;
+&amp;amp; \sum_{j = 1}^{N}x_{1ja} = 1, \text{  } \forall a \in A \label{MATSP_one_agent}\\\&lt;br&gt;
+&amp;amp; u_i - u_j + N \sum_{a = 1}^{M} x_{ija}  \leq N -1, \text{  } \forall i \neq j \neq 1 \label{MATSP_subtour}\\\&lt;br&gt;
+&amp;amp; x_{ija} \in {0,1} \text{   } \forall i,j,a
+\end{align}
+$$&lt;/p&gt;
+&lt;!--	\text{s.t.}&amp; \sum_{i = 1}^{N}\sum_{a = 1}^{M} x_{ija} = 1, \text{  } \forall j \label{MATSP_one_task}\\
+						 &amp; \sum_{i = 1}^{N}x_{ipa} - \sum_{j = 1}^{N}x_{pja} = 0, \text{  }a \in A, p \in T \label{MATSP_flow} \\
+						 &amp; \sum_{j = 1}^{N}x_{1ja} = 1, \text{  } \forall a \in A \label{MATSP_one_agent}\\
+						 &amp; u_i - u_j + N \sum_{a = 1}^{M} x_{ija}  \leq N -1, \text{  } \forall i \neq j \neq 1 \label{MATSP_subtour}\\
+						 &amp; x_{ija} \in \{0,1\} \text{   } \forall i,j,a --&gt;
+&lt;p&gt;The objective, is to minimize the total cost of all the agents travelling between the assigned tasks. The next constraints ensure that each task is visited only once while the flow conservation constraints state that once an agent visits a task then they must also depart from it. The &amp;lsquo;one-agent&amp;rsquo; constraints ensure that each agent is used only once and the sub-tour elimination constraints are used, where $u$ are additional non-negative auxiliary decision variables, with $u_i$ corresponding to the ith task, known as &amp;lsquo;node potentials&amp;rsquo;.&lt;/p&gt;
+&lt;h3 id=&#34;evolutionary-approach-for-matsp&#34;&gt;Evolutionary Approach for MATSP&lt;/h3&gt;
+&lt;h4 id=&#34;3-main-evolutionary-stages&#34;&gt;3 main Evolutionary Stages&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Initialisation&lt;/strong&gt; - creating an starting population for which to evolve;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproduction&lt;/strong&gt; - carrying out evolutionary operators such as crossover, mutation and improvement heuristics to produce offspring;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Selection&lt;/strong&gt; - taking individuals from both the main population and from the offspring to produce the new population;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Chromosome representation of route structure&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;190&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Chromosome representation of route structure
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;crossover-operator-to-create-offspring-from-combining-features-of-the-two-parent-solutions&#34;&gt;Crossover operator to create offspring from combining features of the two parent solutions&lt;/h4&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;SBX Crossover operator&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;388&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    SBX Crossover operator
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;mutation-operators-to-create-slightly-different-offspring-from-one-parent-solutions&#34;&gt;Mutation operators to create slightly different offspring from one parent solutions&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - reallocate tasks&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;444&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Mutation operator - reallocate tasks
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - Swap Tasks&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;431&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Mutation operator - Swap Tasks
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;improvement-operator-to-try-to-quickly-improve-a-solution-using-2-opt&#34;&gt;Improvement operator to try to quickly improve a solution using 2 opt&lt;/h4&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Improvement operator - 2 opt swap&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;675&#34; height=&#34;482&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Improvement operator - 2 opt swap
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;aim-multi-demic-evolutionary-algorithm&#34;&gt;Aim: Multi-demic Evolutionary Algorithm&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Exploit problem structure, aligning real-world implementation demands&lt;/li&gt;
+&lt;li&gt;Decentralised solution with Communication&lt;/li&gt;
+&lt;li&gt;Use multiple populations (or demes)&lt;/li&gt;
+&lt;li&gt;With well-defined agent-population interactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each agent has population structures for &amp;lsquo;thinking about&amp;rsquo; intereactions with other agents. A population &amp;lsquo;A-B&amp;rsquo; that exists onboard agent A is constantly evolved and updated. If new tasks arise these are incorporated, if agent A and agent B come in communiction range then they can &amp;lsquo;pool&amp;rsquo; their A-B and B-A populations and prune any that are now invalid.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Population Structures&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1370&#34; height=&#34;594&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Population Structures
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The objective function, total distance travelled, shown in the below figure, clearly shows that as the communications restriction is gradually lifted the total distances of the dMDEA results tends to the cMDEA, notably, any communication radius of 125 or greater either matches or outperforms the EA.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Distance&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Communication range vs Total Distance
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In addition, as communication range is increased the agents spend more time evolving the demes corresponding to nearby agents and thus the linear runtime increases. The next figure shows the relationship between the communication radius and thus the number of other agents to consider and the resulting run-time. Therefore there is a clear trade-off decision between ability to communicate, and thus agents you should consider, and run-time.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Sim time&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Communication range vs Total Sim time
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;demos&#34;&gt;Demos&lt;/h2&gt;
+&lt;h3 id=&#34;decentralised---homogeneous-comms&#34;&gt;Decentralised - Homogeneous Comms&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/uMYGhZartHw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;decentralised---heterogeneous-comms&#34;&gt;Decentralised - Heterogeneous Comms&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2TYcICFPSTE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;but-i-was-after-a-free-lunch&#34;&gt;But I was after a free lunch&lt;/h2&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;363&#34; height=&#34;203&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trade-off between optimisation factors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Sadly that&amp;rsquo;s really the issue here, in many optimisation problems, but particularly in heuristic iterative approaches such as EAs, there is a trade off between problem complexity, runtime and quality of solution (Figure 4). If you want to keep your compute time the same, i.e. limit generations and population size, but need to solve a harder problem, i.e. &lt;strong&gt;one with more agents&lt;/strong&gt;, you will need to sacrifice solution quality.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;502&#34; height=&#34;292&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trade-off between optimisation factors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;read-the-full-paper&#34;&gt;Read the full paper&lt;/h2&gt;
+&lt;p&gt;If you want to read in a bit more detail then you can find the full paper here:
+&lt;a  href=&#34;https://tomekent.github.io/publication/kent-2019-a&#34;   class=&#34;btn btn-outline-primary my-1 mr-1&#34; rel=&#34;noopener&#34;&gt;
+      &lt;i class=&#34;fas fa-far fa-file-alt pr-1 fa-fw&#34;&gt;&lt;/i&gt;
+      
+      Kent 2019
+&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Co2 Emissions Reduction via formation flight</title>
