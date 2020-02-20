@@ -28,13 +28,11 @@
   
     
   
-  <meta name="description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference .
-General Problem There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.
-Here we define a fairly standard Multi-Agent Travelling Salesman Problem:
-Setup  Allocating active set of tasks to a set of agents Simultaneously planning agents&rsquo; optimal routes  Caveats  Allocation and routing are closely coupled Dynamic simulated environment Need to consider real world implementation  What we have learnt from our work on this is that:">
+  <meta name="description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference . Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents
+  Trade-off between optimisation factors   If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - unless we can be smart about the way we decompose the problem.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/">
+  <link rel="alternate" hreflang="en-us" href="https://tomekent.com/post/multiagent-travellingsalesmanproblem/">
 
   
 
@@ -221,7 +219,7 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
   <link rel="icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/">
+  <link rel="canonical" href="https://tomekent.com/post/multiagent-travellingsalesmanproblem/">
 
   
   
@@ -237,13 +235,11 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
   <meta property="twitter:creator" content="@tomekent">
   
   <meta property="og:site_name" content="Thomas E. Kent">
-  <meta property="og:url" content="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/">
+  <meta property="og:url" content="https://tomekent.com/post/multiagent-travellingsalesmanproblem/">
   <meta property="og:title" content="Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem | Thomas E. Kent">
-  <meta property="og:description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference .
-General Problem There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.
-Here we define a fairly standard Multi-Agent Travelling Salesman Problem:
-Setup  Allocating active set of tasks to a set of agents Simultaneously planning agents&rsquo; optimal routes  Caveats  Allocation and routing are closely coupled Dynamic simulated environment Need to consider real world implementation  What we have learnt from our work on this is that:"><meta property="og:image" content="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/featured.png">
-  <meta property="twitter:image" content="https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference . Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents
+  Trade-off between optimisation factors   If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - unless we can be smart about the way we decompose the problem."><meta property="og:image" content="https://tomekent.com/post/multiagent-travellingsalesmanproblem/featured.png">
+  <meta property="twitter:image" content="https://tomekent.com/post/multiagent-travellingsalesmanproblem/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-02-07T22:55:39&#43;00:00">
@@ -274,12 +270,12 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/"
+    "@id": "https://tomekent.com/post/multiagent-travellingsalesmanproblem/"
   },
   "headline": "Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem",
   
   "image": [
-    "https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/featured.png"
+    "https://tomekent.com/post/multiagent-travellingsalesmanproblem/featured.png"
   ],
   
   "datePublished": "2020-02-07T22:55:39Z",
@@ -295,10 +291,10 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
     "name": "Thomas E. Kent",
     "logo": {
       "@type": "ImageObject",
-      "url": "img/https://tomekent.github.io/"
+      "url": "img/https://tomekent.com/"
     }
   },
-  "description": "This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference .\nGeneral Problem There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.\nHere we define a fairly standard Multi-Agent Travelling Salesman Problem:\nSetup  Allocating active set of tasks to a set of agents Simultaneously planning agents\u0026rsquo; optimal routes  Caveats  Allocation and routing are closely coupled Dynamic simulated environment Need to consider real world implementation  What we have learnt from our work on this is that:"
+  "description": "This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference . Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents\n  Trade-off between optimisation factors   If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - unless we can be smart about the way we decompose the problem."
 }
 </script>
 
@@ -719,7 +715,45 @@ Setup  Allocating active set of tasks to a set of agents Simultaneously planning
     <div class="article-style">
       <p>This is a summary of some work published last year at the 
 <a href="https://gecco-2019.sigevo.org/index.html/HomePage" target="_blank" rel="noopener">2019 Genetic and Evolutionary Computation Conference</a>
-.</p>
+. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents</p>
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png" data-caption="Trade-off between optimisation factors">
+
+
+  <img data-src="/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="502" height="292">
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Trade-off between optimisation factors
+  </figcaption>
+
+
+</figure>
+
+<p>If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - <strong>unless we can be smart about the way we decompose the problem</strong>.</p>
 <h2 id="general-problem">General Problem</h2>
 <p>There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.</p>
 <p>Here we define a fairly standard Multi-Agent Travelling Salesman Problem:</p>
@@ -752,7 +786,7 @@ Additionally we define the three-index binary decision variable:</p>
 \begin{equation*}
 x_{ija} =
 \begin{cases}
-1 &amp; \text{if agent $a$ visits task $j$ immediately after task $i$,}\\\<br>
+1 &amp; \text{if agent $a$ visits task $j$ after $i$,}\\\<br>
 0 &amp; \text{otherwise}
 \end{cases}
 \end{equation*}
@@ -1206,7 +1240,7 @@ $$</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/&amp;text=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://tomekent.com/post/multiagent-travellingsalesmanproblem/&amp;text=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1219,7 +1253,7 @@ $$</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/&amp;t=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://tomekent.com/post/multiagent-travellingsalesmanproblem/&amp;t=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1232,7 +1266,7 @@ $$</p>
       
       
       <li>
-        <a href="mailto:?subject=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem&amp;body=https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem&amp;body=https://tomekent.com/post/multiagent-travellingsalesmanproblem/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1245,7 +1279,7 @@ $$</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/&amp;title=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://tomekent.com/post/multiagent-travellingsalesmanproblem/&amp;title=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1258,7 +1292,7 @@ $$</p>
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem%20https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem%20https://tomekent.com/post/multiagent-travellingsalesmanproblem/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1271,7 +1305,7 @@ $$</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://tomekent.github.io/post/multiagent-travellingsalesmanproblem/&amp;title=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://tomekent.com/post/multiagent-travellingsalesmanproblem/&amp;title=Evolutionary%20Algorithms%20for%20the%20Multi%20Agent%20Travelling%20Salesman%20Problem" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1311,7 +1345,7 @@ $$</p>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://tomekent.github.io/">Thomas E. Kent</a></h5>
+      <h5 class="card-title"><a href="https://tomekent.com/">Thomas E. Kent</a></h5>
       <h6 class="card-subtitle">Research Associate in Applied Mathematics &amp; Computer Science</h6>
       <p class="card-text">A post-doctoral research associate in Bristol University&rsquo;s Computer Science Department. Currently working on the T-B Phase project (Thales Bristol Partnership in Hybrid Autonomous Systems Engineering). I am interested in exploring how we can utilise AI, Machine Learning and Decision Making techniques within a number of key Multi-Agent Systems use-cases, e.g. Search and Rescue, Persistent Surveillance.</p>
       <ul class="network-icon" aria-hidden="true">

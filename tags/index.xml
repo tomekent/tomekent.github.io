@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Thomas E. Kent</title>
-    <link>https://tomekent.github.io/tags/</link>
-      <atom:link href="https://tomekent.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tomekent.com/tags/</link>
+      <atom:link href="https://tomekent.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
-      <link>https://tomekent.github.io/tags/</link>
+      <link>https://tomekent.com/tags/</link>
     </image>
     
     <item>
       <title>Allocation and Routing</title>
-      <link>https://tomekent.github.io/tags/allocation-and-routing/</link>
+      <link>https://tomekent.com/tags/allocation-and-routing/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/allocation-and-routing/</guid>
+      <guid>https://tomekent.com/tags/allocation-and-routing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decision Making</title>
-      <link>https://tomekent.github.io/tags/decision-making/</link>
+      <link>https://tomekent.com/tags/decision-making/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/decision-making/</guid>
+      <guid>https://tomekent.com/tags/decision-making/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Distributed problem solving</title>
-      <link>https://tomekent.github.io/tags/distributed-problem-solving/</link>
+      <link>https://tomekent.com/tags/distributed-problem-solving/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/distributed-problem-solving/</guid>
+      <guid>https://tomekent.com/tags/distributed-problem-solving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evolutionary Algorithms</title>
-      <link>https://tomekent.github.io/tags/evolutionary-algorithms/</link>
+      <link>https://tomekent.com/tags/evolutionary-algorithms/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/evolutionary-algorithms/</guid>
+      <guid>https://tomekent.com/tags/evolutionary-algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi Agent Travelling Salesman</title>
-      <link>https://tomekent.github.io/tags/multi-agent-travelling-salesman/</link>
+      <link>https://tomekent.com/tags/multi-agent-travelling-salesman/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/multi-agent-travelling-salesman/</guid>
+      <guid>https://tomekent.com/tags/multi-agent-travelling-salesman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Delay</title>
-      <link>https://tomekent.github.io/tags/delay/</link>
+      <link>https://tomekent.com/tags/delay/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/delay/</guid>
+      <guid>https://tomekent.com/tags/delay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamic Programming</title>
-      <link>https://tomekent.github.io/tags/dynamic-programming/</link>
+      <link>https://tomekent.com/tags/dynamic-programming/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/dynamic-programming/</guid>
+      <guid>https://tomekent.com/tags/dynamic-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Formation Flight</title>
-      <link>https://tomekent.github.io/tags/formation-flight/</link>
+      <link>https://tomekent.com/tags/formation-flight/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/formation-flight/</guid>
+      <guid>https://tomekent.com/tags/formation-flight/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Routing</title>
-      <link>https://tomekent.github.io/tags/routing/</link>
+      <link>https://tomekent.com/tags/routing/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/routing/</guid>
+      <guid>https://tomekent.com/tags/routing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Value Iteration</title>
-      <link>https://tomekent.github.io/tags/value-iteration/</link>
+      <link>https://tomekent.com/tags/value-iteration/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.github.io/tags/value-iteration/</guid>
+      <guid>https://tomekent.com/tags/value-iteration/</guid>
       <description></description>
     </item>
     
