@@ -5,12 +5,275 @@
     <link>https://tomekent.com/</link>
       <atom:link href="https://tomekent.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas E. Kent</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Feb 2020 22:55:39 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2020 12:10:03 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Thomas E. Kent</title>
       <link>https://tomekent.com/</link>
     </image>
+    
+    <item>
+      <title>Continuous Control, DDPG and Neuron saturation</title>
+      <link>https://tomekent.com/post/neuron_saturation/</link>
+      <pubDate>Thu, 20 Feb 2020 12:10:03 +0000</pubDate>
+      <guid>https://tomekent.com/post/neuron_saturation/</guid>
+      <description>&lt;h2 id=&#34;never-work-with-angles&#34;&gt;Never work with angles&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m sure if W.C. Fields was alive today and interested in machine learning he might have updated his maxim of never working with children or animals to include angles.&lt;/p&gt;
+&lt;p&gt;Many off the shelf RL algorithms seem like straightforward tools to replicate state of the art results on your own specific problem domain. Deep neural nets have shown great promise of &amp;lsquo;learning&amp;rsquo; complex tasks such as computer vision and continuous control problems but to adapt them can be challenging and require greater knowledge of the underlying mathematics and Neural Network structures to debug problems - often parameter tuning by trial and error.&lt;/p&gt;
+&lt;p&gt;Lets have a look at Deep Deterministic Policy Gradient (DDPG) and see how well a Deep Neural Network, approximating a policy function, can perform at an angle based continuous control problem.&lt;/p&gt;
+&lt;h2 id=&#34;continuous-action-control-choice-for-persistent-surveillance&#34;&gt;Continuous Action Control choice for Persistent Surveillance&lt;/h2&gt;
+&lt;p&gt;Some of my current work is looking at training/designing polices for multiple agents to perform persistent surveillance (similar to coverage/patrolling problems.). The aim is for agents to maximise some metric, &amp;lsquo;hex score&amp;rsquo;, that represents how well the world&amp;rsquo;s current &amp;lsquo;level of surveillance&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;As an agent enters a hex it observes it and the score shoots up, then all hexes currently not directly observed have their score decay (with some half life).&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/RL_flow_hu19952ed86cd2e4a82b64167dd55dabdb_254460_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Reinforcement Learning state, action reward flow&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/RL_flow_hu19952ed86cd2e4a82b64167dd55dabdb_254460_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1388&#34; height=&#34;560&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Reinforcement Learning state, action reward flow
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Our observation, and thus our input to our Neural Network are the hex scores around the agent. This is feed into our network in order to choose the optimal action (direction to move) for the agent to take.&lt;/p&gt;
+&lt;h3 id=&#34;single-neuron-output&#34;&gt;Single Neuron Output&lt;/h3&gt;
+&lt;p&gt;The standard off the shelf DDPG algorithm for a continuous control task has a single neuron output.
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_1D_huce17e29cee23123115ae54ee0486ada5_96940_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Deep Neural Net with 1 output neuron&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_1D_huce17e29cee23123115ae54ee0486ada5_96940_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;807&#34; height=&#34;455&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Deep Neural Net with 1 output neuron
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+We replicate this and choose our output to be a single neuron, with a $\tanh$ activation function. This activation value which lies between $[-1, 1]$ can be multiplied by $\pi$ to recover an angle $\theta \in [-\pi, +\pi]$ - this is the direction the agent should move.
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/tanh_hub637aef497ecec60f3206fc452d24de9_7624_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Activation function $\tanh$&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/tanh_hub637aef497ecec60f3206fc452d24de9_7624_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;490&#34; height=&#34;270&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Activation function $\tanh$
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;trained-ddpg-agent&#34;&gt;Trained DDPG Agent&lt;/h3&gt;
+&lt;p&gt;After 2000 runs of 600 time steps the DDPG policy has successfully converged and produces &lt;em&gt;half decent&lt;/em&gt; results.
+&lt;img src=&#34;result_animation1.gif&#34; alt=&#34;Agent performing persistent surveillance in a hex world&#34;&gt;
+It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent scores, so lets see if we can improve it.&lt;/p&gt;
+&lt;h2 id=&#34;rose-plots-and-neuron-saturation&#34;&gt;Rose Plots and Neuron Saturation&lt;/h2&gt;
+&lt;p&gt;While it appears to work fairly well, if we use a rose-plot to show action choices over an entire episode we can see an issue. This rose plot indicates frequency of angle chosen:
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/action_choices_1D_hu3f6a3828a8e3aae45e42766374c9f5b2_68149_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Action choices rose plot for 3 policies&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/action_choices_1D_hu3f6a3828a8e3aae45e42766374c9f5b2_68149_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;544&#34; height=&#34;196&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Action choices rose plot for 3 policies
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On the left we have completely random action selection;&lt;/li&gt;
+&lt;li&gt;In the middle a discrete 6 direction choice made by a simple greedy heuristic algorithm;&lt;/li&gt;
+&lt;li&gt;On the right a Deep Deterministic Policy Gradient (DDPG) as outline above.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What we hope for is something that produces a better, more continuous version of the heuristic (middle), instead what we get is good old &lt;strong&gt;neuron saturation&lt;/strong&gt;. The problem here is the $\tanh$ activation function (and a problem that exists in all activation functions) saturates at +1 or -1, the asymptotes, and as a result so too does our action selection at $+\pi$ or $-\pi$ respectively.&lt;/p&gt;
+&lt;h3 id=&#34;double-neuron-output&#34;&gt;Double Neuron Output&lt;/h3&gt;
+&lt;p&gt;That said, issues with working with angles and its discontinuities are well documented. One approach to fix this is to add more output neurons. We opt to add a second neuron and parametrise the action angle so that instead of multiplying the activation by $\pi$ we use it to represent $\sin(\theta)$ and $\cos(\theta)$ (which are easily converted into $\theta =\arctan(\sin(\theta)/\cos(\theta))$).
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_2D_hu0f4b464f92eaed595070d2fece475984_107298_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Deep Neural Net with 2 output neuron&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_2D_hu0f4b464f92eaed595070d2fece475984_107298_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;902&#34; height=&#34;455&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Deep Neural Net with 2 output neuron
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/action_choices_2D_hu5e26145098f5c49f58806e948031233c_73890_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Action choices rose plot: [Random, discrete heuristic, DDPG]&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/action_choices_2D_hu5e26145098f5c49f58806e948031233c_73890_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;544&#34; height=&#34;196&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Action choices rose plot: [Random, discrete heuristic, DDPG]
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This balances out some of the neuron saturation but also seems to instead now saturate at the &amp;lsquo;corners&amp;rsquo; [(1,1), (1,-1), (-1,-1), (-1,1)]&lt;/p&gt;
+&lt;h2 id=&#34;multi-agent-deployment&#34;&gt;Multi Agent Deployment&lt;/h2&gt;
+&lt;p&gt;Some of our most recent work looks at whether we can simply train single agent policies like above and deploy them to multi agent problems - &lt;em&gt;without Multi-Agent RL&lt;/em&gt;. It turns out we can, but there are catches. I recently gave a talk called 
+&lt;a href=&#34;talk/collectivedynamics/&#34;&gt;Ignorance is bliss - the role of noise and Heterogeneity in training and deployment of Single Agent Policies for the Multi-Agent Persistent Survellance Problem7&lt;/a&gt;
+ which goes into some more detail.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;result_animation_3agents.gif&#34; alt=&#34;Agent performing persistent surveillance in a hex world&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A paper which is currently under review, &lt;em&gt;Single-Agent Polices for the Multi-Agent Persistent Surveillance
+Problem via Artificial Heterogeneity&lt;/em&gt;, describes how deploying multiple heterogeneous agents can cause undesirable emergent clustering behaviour. So stay tuned for that.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</title>
@@ -90,7 +353,7 @@ Additionally we define the three-index binary decision variable:&lt;/p&gt;
 \begin{equation*}
 x_{ija} =
 \begin{cases}
-1 &amp;amp; \text{if agent $a$ visits task $j$ immediately after task $i$,}\\\&lt;br&gt;
+1 &amp;amp; \text{if agent $a$ visits task $j$ after $i$,}\\\&lt;br&gt;
 0 &amp;amp; \text{otherwise}
 \end{cases}
 \end{equation*}

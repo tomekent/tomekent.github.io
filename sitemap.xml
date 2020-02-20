@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</loc>
-    <lastmod>2020-02-07T22:55:39+00:00</lastmod>
+    <loc>https://tomekent.com/post/neuron_saturation/</loc>
+    <lastmod>2020-02-20T12:10:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomekent.com/post/</loc>
-    <lastmod>2020-02-07T22:55:39+00:00</lastmod>
+    <lastmod>2020-02-20T12:10:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomekent.com/</loc>
+    <lastmod>2020-02-20T12:10:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</loc>
     <lastmod>2020-02-07T22:55:39+00:00</lastmod>
   </url>
   
