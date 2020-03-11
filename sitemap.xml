@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tomekent.com/slides/</loc>
+    <lastmod>2020-02-26T09:46:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/slides/test/</loc>
+    <lastmod>2020-02-26T09:46:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/</loc>
+    <lastmod>2020-02-26T09:46:05+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomekent.com/post/neuron_saturation/</loc>
     <lastmod>2020-02-20T12:10:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomekent.com/post/</loc>
-    <lastmod>2020-02-20T12:10:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/</loc>
     <lastmod>2020-02-20T12:10:03+00:00</lastmod>
   </url>
   

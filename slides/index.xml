@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides | Thomas E. Kent</title>
+    <link>https://tomekent.com/slides/</link>
+      <atom:link href="https://tomekent.com/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Feb 2020 09:46:05 +0000</lastBuildDate>
+    <item>
+      <title>Test</title>
+      <link>https://tomekent.com/slides/test/</link>
+      <pubDate>Wed, 26 Feb 2020 09:46:05 +0000</pubDate>
+      <guid>https://tomekent.com/slides/test/</guid>
+      <description>&lt;h1 id=&#34;title&#34;&gt;Title&lt;/h1&gt;
+&lt;p&gt;Author Name&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
+&lt;p&gt;&amp;hellip; Hey&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;if x&amp;lt;x_lim:
+    run_me(x)
+else:
+    run_you(x)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;body&gt;
+       &lt;style type=&#34;text/css&#34;&gt;
+           #header-left {
+               position: absolute;
+               top: 0%;
+               left: 0%;
+           }
+           #header-right {
+               position: absolute;
+               top: 0%;
+               right: 0%;
+           }
+           #footer-left {
+               position: absolute;
+               bottom: 0%;
+               left: 0%;
+           }
+       &lt;/style&gt;
+&lt;pre&gt;&lt;code&gt;   &amp;lt;div id=&amp;quot;hidden&amp;quot; style=&amp;quot;display:none;&amp;quot;&amp;gt;
+       &amp;lt;div id=&amp;quot;header&amp;quot;&amp;gt;
+           &amp;lt;div id=&amp;quot;header-left&amp;quot;&amp;gt;…&amp;lt;/div&amp;gt;
+           &amp;lt;div id=&amp;quot;header-right&amp;quot;&amp;gt;…&amp;lt;/div&amp;gt;
+           &amp;lt;div id=&amp;quot;footer-left&amp;quot;&amp;gt;…&amp;lt;/div&amp;gt;
+       &amp;lt;/div&amp;gt;
+   &amp;lt;/div&amp;gt;
+
+   &amp;lt;div class=&amp;quot;reveal&amp;quot;&amp;gt;
+       &amp;lt;div class=&amp;quot;slides&amp;quot;&amp;gt;
+           …
+       &amp;lt;/div&amp;gt;
+   &amp;lt;/div&amp;gt;
+
+   &amp;lt;script src=&amp;quot;reveal.js/lib/js/head.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+   &amp;lt;script src=&amp;quot;reveal.js/js/reveal.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+   &amp;lt;script&amp;gt;
+       …
+   &amp;lt;/script&amp;gt;
+
+   &amp;lt;script src=&amp;quot;jquery/jquery-2.1.3.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+   &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+       var header = $(&#39;#header&#39;).html();
+       if ( window.location.search.match( /print-pdf/gi ) ) {
+           $(&#39;.slides &amp;gt; section&#39;).prepend(header);
+       }
+       else {
+           $(&#39;.slides&#39;).prepend(header);
+       }
+   &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+   &lt;body&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
