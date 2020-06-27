@@ -38,12 +38,57 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/authors/admin/</loc>
-    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
+    <loc>https://tomekent.com/publication_types/2/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication/kent-2020/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/anthony-pipe/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/arthur-richards/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomekent.com/authors/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/jim-hutchinson/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication_types/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/thomas-kent/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/wolfgang-schuster/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/admin/</loc>
     <lastmod>2019-10-19T15:00:00+00:00</lastmod>
   </url>
   
@@ -59,11 +104,6 @@
   
   <url>
     <loc>https://tomekent.com/publication_types/1/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication_types/2/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -104,16 +144,6 @@
   
   <url>
     <loc>https://tomekent.com/tags/multi-agent-travelling-salesman/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication_types/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   

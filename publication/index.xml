@@ -5,12 +5,20 @@
     <link>https://tomekent.com/publication/</link>
       <atom:link href="https://tomekent.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
       <link>https://tomekent.com/publication/</link>
     </image>
+    
+    <item>
+      <title>A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned</title>
+      <link>https://tomekent.com/publication/kent-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tomekent.com/publication/kent-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
