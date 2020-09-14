@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We look at the use of bi-level optimisation techniques to solve a number of standard assignment and routing problems.">
+  <meta name="description" content="Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This paper is motivated by the question of if it is possible to train single- agent policies in isolation and without the need for explicit cooperation or coordination still successfully deploy them to multi-agent scenarios. In particular we look at the multi-agent Persistent Surveillance Problem (MAPSP), which is the problem of using a number of agents to continually visit and re-visit areas of a map to maximise a metric of surveillance. We outline five distinct single-agent policies to solve the MAPSP: Reinforcement Learning (DDPG); Neuro-Evolution (NEAT); a Gradient Descent (GD) heuristic; a random heuristic; and a pre-defined ‘ploughing pattern’ (Trail). We will compare the performance and scalability of these single-agent policies to the Multi-Agent PSP. Importantly, in doing so we will demonstrate an emergent property which we call the Homogeneous-Policy Convergence Cycle (HPCC), whereby agents following homogeneous policies can get stuck together, continuously repeating the same action as other agents, significantly impacting performance. This paper will show that just a small amount of noise, at the state or action level, is sufficient to solve the problem, essentially creating artificially-heterogeneous policies for the agents.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://tomekent.com/talk/tbphase/">
+  <link rel="alternate" hreflang="en-us" href="https://tomekent.com/publication/kent-2020a/">
 
   
 
@@ -215,7 +215,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://tomekent.com/talk/tbphase/">
+  <link rel="canonical" href="https://tomekent.com/publication/kent-2020a/">
 
   
   
@@ -232,23 +232,28 @@
   <meta property="twitter:creator" content="@tomekent">
   
   <meta property="og:site_name" content="Thomas E. Kent">
-  <meta property="og:url" content="https://tomekent.com/talk/tbphase/">
-  <meta property="og:title" content="Bi-Level Optimisation for Assignment and Routing Problems | Thomas E. Kent">
-  <meta property="og:description" content="We look at the use of bi-level optimisation techniques to solve a number of standard assignment and routing problems."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://tomekent.com/publication/kent-2020a/">
+  <meta property="og:title" content="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity | Thomas E. Kent">
+  <meta property="og:description" content="Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This paper is motivated by the question of if it is possible to train single- agent policies in isolation and without the need for explicit cooperation or coordination still successfully deploy them to multi-agent scenarios. In particular we look at the multi-agent Persistent Surveillance Problem (MAPSP), which is the problem of using a number of agents to continually visit and re-visit areas of a map to maximise a metric of surveillance. We outline five distinct single-agent policies to solve the MAPSP: Reinforcement Learning (DDPG); Neuro-Evolution (NEAT); a Gradient Descent (GD) heuristic; a random heuristic; and a pre-defined ‘ploughing pattern’ (Trail). We will compare the performance and scalability of these single-agent policies to the Multi-Agent PSP. Importantly, in doing so we will demonstrate an emergent property which we call the Homogeneous-Policy Convergence Cycle (HPCC), whereby agents following homogeneous policies can get stuck together, continuously repeating the same action as other agents, significantly impacting performance. This paper will show that just a small amount of noise, at the state or action level, is sufficient to solve the problem, essentially creating artificially-heterogeneous policies for the agents."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-08-07T16:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-09-14T11:38:05&#43;01:00">
     
-    <meta property="article:modified_time" content="2018-08-07T15:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-09-14T11:38:05&#43;01:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
+
+
 
 
 
@@ -256,41 +261,48 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://tomekent.com/talk/tbphase/"
+    "@id": "https://tomekent.com/publication/kent-2020a/"
   },
-  "name": "Bi-Level Optimisation for Assignment and Routing Problems",
+  "headline": "Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity",
   
+  "datePublished": "2020-09-14T11:38:05+01:00",
+  "dateModified": "2020-09-14T11:38:05+01:00",
   
-  "startDate": "2018-08-07T15:00:00Z",
-  
-  "endDate": "2018-08-07T16:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
-    "name": "Thomas E. Kent"
+    "name": "Thomas Kent"
   },
   
-  "description": "We look at the use of bi-level optimisation techniques to solve a number of standard assignment and routing problems."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Thomas E. Kent",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "img/https://tomekent.com/"
+    }
+  },
+  "description": "Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This paper is motivated by the question of if it is possible to train single- agent policies in isolation and without the need for explicit cooperation or coordination still successfully deploy them to multi-agent scenarios. In particular we look at the multi-agent Persistent Surveillance Problem (MAPSP), which is the problem of using a number of agents to continually visit and re-visit areas of a map to maximise a metric of surveillance. We outline five distinct single-agent policies to solve the MAPSP: Reinforcement Learning (DDPG); Neuro-Evolution (NEAT); a Gradient Descent (GD) heuristic; a random heuristic; and a pre-defined ‘ploughing pattern’ (Trail). We will compare the performance and scalability of these single-agent policies to the Multi-Agent PSP. Importantly, in doing so we will demonstrate an emergent property which we call the Homogeneous-Policy Convergence Cycle (HPCC), whereby agents following homogeneous policies can get stuck together, continuously repeating the same action as other agents, significantly impacting performance. This paper will show that just a small amount of noise, at the state or action level, is sufficient to solve the problem, essentially creating artificially-heterogeneous policies for the agents."
 }
 </script>
 
   
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Bi-Level Optimisation for Assignment and Routing Problems | Thomas E. Kent</title>
+
+
+  <title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity | Thomas E. Kent</title>
 
 </head>
 
@@ -577,7 +589,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Bi-Level Optimisation for Assignment and Routing Problems</h1>
+  <h1>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</h1>
 
   
 
@@ -597,12 +609,20 @@
 
 
   
-  <span><a href="/authors/admin/">Thomas E. Kent</a></span>
+  <span><a href="/authors/thomas-kent/">Thomas Kent</a></span>, <span><a href="/authors/arthur-richards/">Arthur Richards</a></span>, <span><a href="/authors/angus-johnson/">Angus Johnson</a></span>
 
   </div>
   
   
 
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2020
+  </span>
   
 
   
@@ -629,6 +649,8 @@
 
 
 
+
+  
 
 
 
@@ -644,42 +666,34 @@
 
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
     
   
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="http://users.auth.gr/nbassili/EUMAS-AT-2020-proceedings/EUMAS_2020_paper_31.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/kent-2020a/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
   
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/files/slides/Bi-level%20Optimisation.pdf" >
-    <i class="fas fa-file-pdf mr-1"></i>
-    pdf
-  </a>
+
+
+
+
 
 
 </div>
@@ -693,33 +707,22 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">We look at the use of bi-level optimisation techniques to solve a number of standard assignment and routing problems.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This paper is motivated by the question of if it is possible to train single- agent policies in isolation and without the need for explicit cooperation or coordination still successfully deploy them to multi-agent scenarios. In particular we look at the multi-agent Persistent Surveillance Problem (MAPSP), which is the problem of using a number of agents to continually visit and re-visit areas of a map to maximise a metric of surveillance. We outline five distinct single-agent policies to solve the MAPSP: Reinforcement Learning (DDPG); Neuro-Evolution (NEAT); a Gradient Descent (GD) heuristic; a random heuristic; and a pre-defined ‘ploughing pattern’ (Trail). We will compare the performance and scalability of these single-agent policies to the Multi-Agent PSP. Importantly, in doing so we will demonstrate an emergent property which we call the Homogeneous-Policy Convergence Cycle (HPCC), whereby agents following homogeneous policies can get stuck together, continuously repeating the same action as other agents, significantly impacting performance. This paper will show that just a small amount of noise, at the state or action level, is sufficient to solve the problem, essentially creating artificially-heterogeneous policies for the agents.</p>
     
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Aug 7, 2018 3:00 PM &mdash; 4:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
 
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            TB-Phase
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
             
           </div>
         </div>
@@ -729,13 +732,23 @@
     <div class="d-md-none space-below"></div>
     
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">European Conference on Multi-Agent Systems</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -754,7 +767,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://tomekent.com/talk/tbphase/&amp;text=Bi-Level%20Optimisation%20for%20Assignment%20and%20Routing%20Problems" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://tomekent.com/publication/kent-2020a/&amp;text=Single-Agent%20Policies%20for%20the%20Multi-Agent%20Persistent%20Surveillance%20Problem%20via%20Artificial%20Heterogeneity" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -767,7 +780,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://tomekent.com/talk/tbphase/&amp;t=Bi-Level%20Optimisation%20for%20Assignment%20and%20Routing%20Problems" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://tomekent.com/publication/kent-2020a/&amp;t=Single-Agent%20Policies%20for%20the%20Multi-Agent%20Persistent%20Surveillance%20Problem%20via%20Artificial%20Heterogeneity" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -780,7 +793,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Bi-Level%20Optimisation%20for%20Assignment%20and%20Routing%20Problems&amp;body=https://tomekent.com/talk/tbphase/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Single-Agent%20Policies%20for%20the%20Multi-Agent%20Persistent%20Surveillance%20Problem%20via%20Artificial%20Heterogeneity&amp;body=https://tomekent.com/publication/kent-2020a/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -793,7 +806,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://tomekent.com/talk/tbphase/&amp;title=Bi-Level%20Optimisation%20for%20Assignment%20and%20Routing%20Problems" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://tomekent.com/publication/kent-2020a/&amp;title=Single-Agent%20Policies%20for%20the%20Multi-Agent%20Persistent%20Surveillance%20Problem%20via%20Artificial%20Heterogeneity" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -806,7 +819,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Bi-Level%20Optimisation%20for%20Assignment%20and%20Routing%20Problems%20https://tomekent.com/talk/tbphase/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Single-Agent%20Policies%20for%20the%20Multi-Agent%20Persistent%20Surveillance%20Problem%20via%20Artificial%20Heterogeneity%20https://tomekent.com/publication/kent-2020a/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -819,7 +832,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://tomekent.com/talk/tbphase/&amp;title=Bi-Level%20Optimisation%20for%20Assignment%20and%20Routing%20Problems" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://tomekent.com/publication/kent-2020a/&amp;title=Single-Agent%20Policies%20for%20the%20Multi-Agent%20Persistent%20Surveillance%20Problem%20via%20Artificial%20Heterogeneity" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -852,134 +865,16 @@
   
   
   
-    
-  
   
   
   <div class="media author-card content-widget-hr">
     
-      
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu42c327394fd0191411c307d3f5451bed_1465392_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
-    
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://tomekent.com/">Thomas E. Kent</a></h5>
-      <h6 class="card-subtitle">Senior Research Associate in Applied Mathematics &amp; Computer Science</h6>
-      <p class="card-text">A post-doctoral research associate in Bristol University&rsquo;s Computer Science Department. Currently working on the T-B Phase project (Thales Bristol Partnership in Hybrid Autonomous Systems Engineering). I am interested in exploring how we can utilise AI, Machine Learning and Decision Making techniques within a number of key Multi-Agent Systems use-cases, e.g. Search and Rescue, Persistent Surveillance.</p>
+      <h5 class="card-title"><a href="/authors/thomas-kent/"></a></h5>
+      
+      
       <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/tomekent" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/tomekent/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=gdGPmPIAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.researchgate.net/profile/Thomas_Kent4" target="_blank" rel="noopener">
-        <i class="ai ai-researchgate"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/tomekent" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/files/cv.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
   
 </ul>
 

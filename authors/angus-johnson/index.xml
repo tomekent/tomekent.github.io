@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thomas Kent | Thomas E. Kent</title>
-    <link>https://tomekent.com/authors/thomas-kent/</link>
-      <atom:link href="https://tomekent.com/authors/thomas-kent/index.xml" rel="self" type="application/rss+xml" />
-    <description>Thomas Kent</description>
+    <title>Angus Johnson | Thomas E. Kent</title>
+    <link>https://tomekent.com/authors/angus-johnson/</link>
+      <atom:link href="https://tomekent.com/authors/angus-johnson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Angus Johnson</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 11:38:05 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Thomas Kent</title>
-      <link>https://tomekent.com/authors/thomas-kent/</link>
+      <title>Angus Johnson</title>
+      <link>https://tomekent.com/authors/angus-johnson/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://tomekent.com/publication/kent-2020a/</link>
       <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
       <guid>https://tomekent.com/publication/kent-2020a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned</title>
-      <link>https://tomekent.com/publication/kent-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.com/publication/kent-2020/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>https://tomekent.com/talk/</link>
       <atom:link href="https://tomekent.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 19 Oct 2019 15:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 15:00:00 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Talks</title>
       <link>https://tomekent.com/talk/</link>
     </image>
+    
+    <item>
+      <title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>
+      <link>https://tomekent.com/talk/eumas2020/</link>
+      <pubDate>Mon, 14 Sep 2020 15:00:00 +0100</pubDate>
+      <guid>https://tomekent.com/talk/eumas2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ignorance is bliss - the role of noise and heterogeneity in training and deployment of Single Agent Policies for the Multi-Agent Persistent Surveillance Problem</title>

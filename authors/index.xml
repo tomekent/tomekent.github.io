@@ -5,7 +5,7 @@
     <link>https://tomekent.com/authors/</link>
       <atom:link href="https://tomekent.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 15:00:00 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
-      <title>Anthony Pipe</title>
-      <link>https://tomekent.com/authors/anthony-pipe/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.com/authors/anthony-pipe/</guid>
+      <title></title>
+      <link>https://tomekent.com/authors/admin/</link>
+      <pubDate>Mon, 14 Sep 2020 15:00:00 +0100</pubDate>
+      <guid>https://tomekent.com/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angus Johnson</title>
+      <link>https://tomekent.com/authors/angus-johnson/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      <guid>https://tomekent.com/authors/angus-johnson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arthur Richards</title>
       <link>https://tomekent.com/authors/arthur-richards/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
       <guid>https://tomekent.com/authors/arthur-richards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas Kent</title>
+      <link>https://tomekent.com/authors/thomas-kent/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      <guid>https://tomekent.com/authors/thomas-kent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anthony Pipe</title>
+      <link>https://tomekent.com/authors/anthony-pipe/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tomekent.com/authors/anthony-pipe/</guid>
       <description></description>
     </item>
     
@@ -37,26 +61,10 @@
     </item>
     
     <item>
-      <title>Thomas Kent</title>
-      <link>https://tomekent.com/authors/thomas-kent/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://tomekent.com/authors/thomas-kent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Wolfgang Schuster</title>
       <link>https://tomekent.com/authors/wolfgang-schuster/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://tomekent.com/authors/wolfgang-schuster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tomekent.com/authors/admin/</link>
-      <pubDate>Sat, 19 Oct 2019 15:00:00 +0000</pubDate>
-      <guid>https://tomekent.com/authors/admin/</guid>
       <description></description>
     </item>
     

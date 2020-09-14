@@ -3,17 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tomekent.com/authors/admin/</loc>
+    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/</loc>
+    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/talk/eumas2020/</loc>
+    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/talk/</loc>
+    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/</loc>
+    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication_types/1/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/angus-johnson/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/arthur-richards/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication_types/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication/kent-2020a/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/thomas-kent/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomekent.com/slides/</loc>
     <lastmod>2020-02-26T09:46:05+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomekent.com/slides/test/</loc>
-    <lastmod>2020-02-26T09:46:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/</loc>
     <lastmod>2020-02-26T09:46:05+00:00</lastmod>
   </url>
   
@@ -53,32 +108,7 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/authors/arthur-richards/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/authors/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomekent.com/authors/jim-hutchinson/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication_types/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/authors/thomas-kent/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,23 +118,8 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/authors/admin/</loc>
-    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomekent.com/talk/collectivedynamics/</loc>
     <lastmod>2019-10-19T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/talk/</loc>
-    <lastmod>2019-10-19T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication_types/1/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
