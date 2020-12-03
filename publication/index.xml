@@ -5,12 +5,20 @@
     <link>https://tomekent.com/publication/</link>
       <atom:link href="https://tomekent.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 11:38:05 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://tomekent.com/publication/</link>
     </image>
+    
+    <item>
+      <title>Potential of Formation Flight for Commercial Aviation: Three Case Studies</title>
+      <link>https://tomekent.com/publication/kent-2020-joa/</link>
+      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      <guid>https://tomekent.com/publication/kent-2020-joa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>

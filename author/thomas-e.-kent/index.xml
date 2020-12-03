@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas E. Kent</title>
+    <link>https://tomekent.com/author/thomas-e.-kent/</link>
+      <atom:link href="https://tomekent.com/author/thomas-e.-kent/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thomas E. Kent</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 15:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
+      <title>Thomas E. Kent</title>
+      <link>https://tomekent.com/author/thomas-e.-kent/</link>
+    </image>
+    
+    <item>
+      <title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>
+      <link>https://tomekent.com/talk/eumas2020/</link>
+      <pubDate>Mon, 14 Sep 2020 15:00:00 +0100</pubDate>
+      <guid>https://tomekent.com/talk/eumas2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ignorance is bliss - the role of noise and heterogeneity in training and deployment of Single Agent Policies for the Multi-Agent Persistent Surveillance Problem</title>
+      <link>https://tomekent.com/talk/collectivedynamics/</link>
+      <pubDate>Sat, 19 Oct 2019 15:00:00 +0000</pubDate>
+      <guid>https://tomekent.com/talk/collectivedynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bi-Level Optimisation for Assignment and Routing Problems</title>
+      <link>https://tomekent.com/talk/tbphase/</link>
+      <pubDate>Tue, 07 Aug 2018 15:00:00 +0000</pubDate>
+      <guid>https://tomekent.com/talk/tbphase/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

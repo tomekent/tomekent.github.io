@@ -5,9 +5,9 @@
     <link>https://tomekent.com/post/</link>
       <atom:link href="https://tomekent.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2020 12:10:03 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2020 12:10:03 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://tomekent.com/post/</link>
     </image>
@@ -29,6 +29,11 @@
 
 
 
+
+  
+
+
+
   
   
 
@@ -42,7 +47,7 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-reinforcement-learning-state-action-reward-flow&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/RL_flow_hu19952ed86cd2e4a82b64167dd55dabdb_254460_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Reinforcement Learning state, action reward flow&#34;&gt;
@@ -54,7 +59,7 @@
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Reinforcement Learning state, action reward flow
   &lt;/figcaption&gt;
 
@@ -69,6 +74,11 @@
 
 
 
+
+  
+
+
+
   
   
 
@@ -82,7 +92,7 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-deep-neural-net-with-1-output-neuron&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_1D_huce17e29cee23123115ae54ee0486ada5_96940_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Deep Neural Net with 1 output neuron&#34;&gt;
@@ -94,7 +104,7 @@
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Deep Neural Net with 1 output neuron
   &lt;/figcaption&gt;
 
@@ -107,6 +117,11 @@ We replicate this and choose our output to be a single neuron, with a $\tanh$ ac
 
 
 
+
+  
+
+
+
   
   
 
@@ -120,7 +135,7 @@ We replicate this and choose our output to be a single neuron, with a $\tanh$ ac
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-activation-function-tanh&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/tanh_hub637aef497ecec60f3206fc452d24de9_7624_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Activation function $\tanh$&#34;&gt;
@@ -132,7 +147,7 @@ We replicate this and choose our output to be a single neuron, with a $\tanh$ ac
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Activation function $\tanh$
   &lt;/figcaption&gt;
 
@@ -150,6 +165,11 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
 
 
+
+  
+
+
+
   
   
 
@@ -163,7 +183,7 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-action-choices-rose-plot-for-3-policies&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/action_choices_1D_hu3f6a3828a8e3aae45e42766374c9f5b2_68149_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Action choices rose plot for 3 policies&#34;&gt;
@@ -175,7 +195,7 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Action choices rose plot for 3 policies
   &lt;/figcaption&gt;
 
@@ -195,6 +215,11 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
 
 
+
+  
+
+
+
   
   
 
@@ -208,7 +233,7 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-deep-neural-net-with-2-output-neuron&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_2D_hu0f4b464f92eaed595070d2fece475984_107298_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Deep Neural Net with 2 output neuron&#34;&gt;
@@ -220,7 +245,7 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Deep Neural Net with 2 output neuron
   &lt;/figcaption&gt;
 
@@ -232,6 +257,11 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
 
 
+
+  
+
+
+
   
   
 
@@ -245,7 +275,7 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-action-choices-rose-plot-random-discrete-heuristic-ddpg&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/action_choices_2D_hu5e26145098f5c49f58806e948031233c_73890_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Action choices rose plot: [Random, discrete heuristic, DDPG]&#34;&gt;
@@ -257,7 +287,7 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Action choices rose plot: [Random, discrete heuristic, DDPG]
   &lt;/figcaption&gt;
 
@@ -266,9 +296,7 @@ It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent score
 
 &lt;p&gt;This balances out some of the neuron saturation but also seems to instead now saturate at the &amp;lsquo;corners&amp;rsquo; [(1,1), (1,-1), (-1,-1), (-1,1)]&lt;/p&gt;
 &lt;h2 id=&#34;multi-agent-deployment&#34;&gt;Multi Agent Deployment&lt;/h2&gt;
-&lt;p&gt;Some of our most recent work looks at whether we can simply train single agent policies like above and deploy them to multi agent problems - &lt;em&gt;without Multi-Agent RL&lt;/em&gt;. It turns out we can, but there are catches. I recently gave a talk called 
-&lt;a href=&#34;talk/collectivedynamics/&#34;&gt;Ignorance is bliss - the role of noise and Heterogeneity in training and deployment of Single Agent Policies for the Multi-Agent Persistent Survellance Problem7&lt;/a&gt;
- which goes into some more detail.&lt;/p&gt;
+&lt;p&gt;Some of our most recent work looks at whether we can simply train single agent policies like above and deploy them to multi agent problems - &lt;em&gt;without Multi-Agent RL&lt;/em&gt;. It turns out we can, but there are catches. I recently gave a talk called &lt;a href=&#34;talk/collectivedynamics/&#34;&gt;Ignorance is bliss - the role of noise and Heterogeneity in training and deployment of Single Agent Policies for the Multi-Agent Persistent Survellance Problem7&lt;/a&gt; which goes into some more detail.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;result_animation_3agents.gif&#34; alt=&#34;Agent performing persistent surveillance in a hex world&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A paper which is currently under review, &lt;em&gt;Single-Agent Polices for the Multi-Agent Persistent Surveillance
 Problem via Artificial Heterogeneity&lt;/em&gt;, describes how deploying multiple heterogeneous agents can cause undesirable emergent clustering behaviour. So stay tuned for that.&lt;/p&gt;
@@ -280,11 +308,14 @@ Problem via Artificial Heterogeneity&lt;/em&gt;, describes how deploying multipl
       <link>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</link>
       <pubDate>Fri, 07 Feb 2020 22:55:39 +0000</pubDate>
       <guid>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</guid>
-      <description>&lt;p&gt;This is a summary of some work published last year at the 
-&lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;
-. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;
+      <description>&lt;p&gt;This is a summary of some work published last year at the &lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;
 
 
+
+
+
+
+  
 
 
 
@@ -301,7 +332,7 @@ Problem via Artificial Heterogeneity&lt;/em&gt;, describes how deploying multipl
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-trade-off-between-optimisation-factors&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
@@ -313,7 +344,7 @@ Problem via Artificial Heterogeneity&lt;/em&gt;, describes how deploying multipl
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Trade-off between optimisation factors
   &lt;/figcaption&gt;
 
@@ -327,7 +358,7 @@ Problem via Artificial Heterogeneity&lt;/em&gt;, describes how deploying multipl
 &lt;h4 id=&#34;setup&#34;&gt;Setup&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Allocating active set of tasks to a set of agents&lt;/li&gt;
-&lt;li&gt;Simultaneously planning agents&amp;rsquo; optimal routes&lt;/li&gt;
+&lt;li&gt;Simultaneously planning agents&#39; optimal routes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;caveats&#34;&gt;Caveats&lt;/h4&gt;
 &lt;ul&gt;
@@ -385,6 +416,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -398,7 +434,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-chromosome-representation-of-route-structure&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Chromosome representation of route structure&#34;&gt;
@@ -423,6 +459,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -436,7 +477,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-sbx-crossover-operator&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;SBX Crossover operator&#34;&gt;
@@ -448,7 +489,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     SBX Crossover operator
   &lt;/figcaption&gt;
 
@@ -461,6 +502,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -474,7 +520,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-mutation-operator---reallocate-tasks&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - reallocate tasks&#34;&gt;
@@ -498,6 +544,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -511,7 +562,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-mutation-operator---swap-tasks&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - Swap Tasks&#34;&gt;
@@ -523,7 +574,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Mutation operator - Swap Tasks
   &lt;/figcaption&gt;
 
@@ -536,6 +587,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -549,7 +605,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-improvement-operator---2-opt-swap&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Improvement operator - 2 opt swap&#34;&gt;
@@ -561,7 +617,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Improvement operator - 2 opt swap
   &lt;/figcaption&gt;
 
@@ -581,6 +637,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -594,7 +655,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-population-structures&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Population Structures&#34;&gt;
@@ -606,7 +667,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Population Structures
   &lt;/figcaption&gt;
 
@@ -620,6 +681,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -633,7 +699,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-communication-range-vs-total-distance&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Distance&#34;&gt;
@@ -645,7 +711,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Communication range vs Total Distance
   &lt;/figcaption&gt;
 
@@ -658,6 +724,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -671,7 +742,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-communication-range-vs-total-sim-time&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Sim time&#34;&gt;
@@ -683,7 +754,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Communication range vs Total Sim time
   &lt;/figcaption&gt;
 
@@ -709,6 +780,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -722,7 +798,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-trade-off-between-optimisation-factors&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
@@ -734,7 +810,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Trade-off between optimisation factors
   &lt;/figcaption&gt;
 
@@ -747,6 +823,11 @@ $$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -760,7 +841,7 @@ $$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-trade-off-between-optimisation-factors&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
@@ -772,7 +853,7 @@ $$&lt;/p&gt;
 
   
   
-  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
     Trade-off between optimisation factors
   &lt;/figcaption&gt;
 
@@ -781,11 +862,81 @@ $$&lt;/p&gt;
 
 &lt;h2 id=&#34;read-the-full-paper&#34;&gt;Read the full paper&lt;/h2&gt;
 &lt;p&gt;If you want to read in a bit more detail then you can find the full paper here:
-&lt;a  href=&#34;https://tomekent.com/publication/kent-2019-a&#34;   class=&#34;btn btn-outline-primary my-1 mr-1&#34; rel=&#34;noopener&#34;&gt;
-      &lt;i class=&#34;fas fa-far fa-file-alt pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-      
-      Kent 2019
+
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;&lt;a href=&#34;https://tomekent.com/author/thomas-e.-kent/&#34;&gt;Thomas E. Kent&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://tomekent.com/author/arthur-g.-richards/&#34;&gt;Arthur G. Richards&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2019).
+  &lt;a href=&#34;https://tomekent.com/publication/kent-2019-a/&#34;&gt;Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem&lt;/a&gt;.
+  &lt;em&gt;arXiv preprint arXiv:1906.05616&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://tomekent.com/files/publications/Kent_Richards_2019_GECCO_full.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
 &lt;/a&gt;
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/kent-2019-a/cite.bib&#34;&gt;
+  Cite
+&lt;/button&gt;
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
 &lt;/p&gt;
 </description>
     </item>
@@ -799,12 +950,8 @@ $$&lt;/p&gt;
 &lt;p&gt;I had a quick look back over some of my PhD work in preparation of a new paper I&amp;rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.&lt;/p&gt;
 &lt;p&gt;So I&amp;rsquo;ve been working on some under the assumptions:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The emissions index of CO 2 per kg of fuel burnt is estimated to be roughly 3.16 
-&lt;a href=&#34;https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19920009879.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;A rough estimate of 600 dollars per metric tonne of fuel 
-&lt;a href=&#34;https://www.iata.org/en/publications/economics/fuel-monitor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;
-&lt;/li&gt;
+&lt;li&gt;The emissions index of CO 2 per kg of fuel burnt is estimated to be roughly 3.16 &lt;a href=&#34;https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19920009879.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A rough estimate of 600 dollars per metric tonne of fuel &lt;a href=&#34;https://www.iata.org/en/publications/economics/fuel-monitor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;singapore-airlines&#34;&gt;Singapore Airlines&lt;/h2&gt;
 &lt;p&gt;Take Singapore Airlines as an example, on a single day some &lt;strong&gt;200 flights could potentially fly in 100 formations pairs&lt;/strong&gt;.
