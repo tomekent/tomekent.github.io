@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jian Jiao | Thomas E. Kent</title>
+    <title>Jian Jiao on Thomas E. Kent</title>
     <link>https://tomekent.com/author/jian-jiao/</link>
-      <atom:link href="https://tomekent.com/author/jian-jiao/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jian Jiao</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
-    <image>
-      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
-      <title>Jian Jiao</title>
-      <link>https://tomekent.com/author/jian-jiao/</link>
-    </image>
-    
+    <description>Recent content in Jian Jiao on Thomas E. Kent</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://tomekent.com/author/jian-jiao/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

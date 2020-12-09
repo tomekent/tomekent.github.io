@@ -1,16 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Thomas E. Kent</title>
+    <title>Authors on Thomas E. Kent</title>
     <link>https://tomekent.com/authors/</link>
-      <atom:link href="https://tomekent.com/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Authors</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate>
-    <image>
-      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
-      <title>Authors</title>
-      <link>https://tomekent.com/authors/</link>
-    </image>
+    <description>Recent content in Authors on Thomas E. Kent</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate><atom:link href="https://tomekent.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arthur Richards</title>
+      <link>https://tomekent.com/author/arthur-richards/</link>
+      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      
+      <guid>https://tomekent.com/author/arthur-richards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas Kent</title>
+      <link>https://tomekent.com/author/thomas-kent/</link>
+      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      
+      <guid>https://tomekent.com/author/thomas-kent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas E. Kent</title>
+      <link>https://tomekent.com/author/thomas-e.-kent/</link>
+      <pubDate>Mon, 14 Sep 2020 15:00:00 +0100</pubDate>
+      
+      <guid>https://tomekent.com/author/thomas-e.-kent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angus Johnson</title>
+      <link>https://tomekent.com/author/angus-johnson/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/author/angus-johnson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anthony Pipe</title>
+      <link>https://tomekent.com/author/anthony-pipe/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/anthony-pipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jim Hutchinson</title>
+      <link>https://tomekent.com/author/jim-hutchinson/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/jim-hutchinson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wolfgang Schuster</title>
+      <link>https://tomekent.com/author/wolfgang-schuster/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/wolfgang-schuster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arthur G. Richards</title>
+      <link>https://tomekent.com/author/arthur-g.-richards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/arthur-g.-richards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas E. Kent</title>
+      <link>https://tomekent.com/author/thomas-e.-kent/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/thomas-e.-kent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas E Kent</title>
+      <link>https://tomekent.com/author/thomas-e-kent/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/thomas-e-kent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anas Shrinah</title>
+      <link>https://tomekent.com/author/anas-shrinah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/anas-shrinah/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christos Sevastopoulos</title>
+      <link>https://tomekent.com/author/christos-sevastopoulos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/christos-sevastopoulos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jian Jiao</title>
+      <link>https://tomekent.com/author/jian-jiao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/jian-jiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karam Safarov</title>
+      <link>https://tomekent.com/author/karam-safarov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/karam-safarov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xingyu Guo</title>
+      <link>https://tomekent.com/author/xingyu-guo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/author/xingyu-guo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

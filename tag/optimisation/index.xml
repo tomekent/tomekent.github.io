@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Optimisation | Thomas E. Kent</title>
+    <title>Optimisation on Thomas E. Kent</title>
     <link>https://tomekent.com/tag/optimisation/</link>
-      <atom:link href="https://tomekent.com/tag/optimisation/index.xml" rel="self" type="application/rss+xml" />
-    <description>Optimisation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate>
-    <image>
-      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
-      <title>Optimisation</title>
-      <link>https://tomekent.com/tag/optimisation/</link>
-    </image>
-    
+    <description>Recent content in Optimisation on Thomas E. Kent</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate><atom:link href="https://tomekent.com/tag/optimisation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Potential of Formation Flight for Commercial Aviation: Three Case Studies</title>
       <link>https://tomekent.com/publication/kent-2020-joa/</link>
       <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      
       <guid>https://tomekent.com/publication/kent-2020-joa/</guid>
       <description></description>
     </item>
@@ -24,6 +20,7 @@
       <title>Analytic Approach to Optimal Routing for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2015/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
       <guid>https://tomekent.com/publication/kent-2015/</guid>
       <description></description>
     </item>
@@ -32,6 +29,7 @@
       <title>Optimal Routing and Assignment for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2015-thesis/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
       <guid>https://tomekent.com/publication/kent-2015-thesis/</guid>
       <description></description>
     </item>
@@ -40,6 +38,7 @@
       <title>On Optimal Routing for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2013/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      
       <guid>https://tomekent.com/publication/kent-2013/</guid>
       <description></description>
     </item>
@@ -48,6 +47,7 @@
       <title>A Geometric Approach to Optimal Routing for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2012/</link>
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      
       <guid>https://tomekent.com/publication/kent-2012/</guid>
       <description></description>
     </item>

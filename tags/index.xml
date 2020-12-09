@@ -1,16 +1,218 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Thomas E. Kent</title>
+    <title>Tags on Thomas E. Kent</title>
     <link>https://tomekent.com/tags/</link>
-      <atom:link href="https://tomekent.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate>
-    <image>
-      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
-      <title>Tags</title>
-      <link>https://tomekent.com/tags/</link>
-    </image>
+    <description>Recent content in Tags on Thomas E. Kent</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate><atom:link href="https://tomekent.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Allocation</title>
+      <link>https://tomekent.com/tag/allocation/</link>
+      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/allocation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formation Flight</title>
+      <link>https://tomekent.com/tag/formation-flight/</link>
+      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/formation-flight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimisation</title>
+      <link>https://tomekent.com/tag/optimisation/</link>
+      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/optimisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Routing</title>
+      <link>https://tomekent.com/tag/routing/</link>
+      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/routing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomy</title>
+      <link>https://tomekent.com/tag/autonomy/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/autonomy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision Making</title>
+      <link>https://tomekent.com/tag/decision-making/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/decision-making/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed problem solving</title>
+      <link>https://tomekent.com/tag/distributed-problem-solving/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/distributed-problem-solving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://tomekent.com/tag/machine-learning/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Systems</title>
+      <link>https://tomekent.com/tag/multi-agent-systems/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/multi-agent-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://tomekent.com/tag/reinforcement-learning/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation</title>
+      <link>https://tomekent.com/tag/simulation/</link>
+      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
+      
+      <guid>https://tomekent.com/tag/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>https://tomekent.com/tag/automation/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autonomous systems</title>
+      <link>https://tomekent.com/tag/autonomous-systems/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/autonomous-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autonomous vehicles</title>
+      <link>https://tomekent.com/tag/autonomous-vehicles/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/autonomous-vehicles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>control</title>
+      <link>https://tomekent.com/tag/control/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>future mobility</title>
+      <link>https://tomekent.com/tag/future-mobility/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/future-mobility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sensors</title>
+      <link>https://tomekent.com/tag/sensors/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolutionary Algorithms</title>
+      <link>https://tomekent.com/tag/evolutionary-algorithms/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/evolutionary-algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi Agent Travelling Salesman</title>
+      <link>https://tomekent.com/tag/multi-agent-travelling-salesman/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/multi-agent-travelling-salesman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delay</title>
+      <link>https://tomekent.com/tag/delay/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/delay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Door to door routing</title>
+      <link>https://tomekent.com/tag/door-to-door-routing/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/door-to-door-routing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Programming</title>
+      <link>https://tomekent.com/tag/dynamic-programming/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Value Iteration</title>
+      <link>https://tomekent.com/tag/value-iteration/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomekent.com/tag/value-iteration/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
