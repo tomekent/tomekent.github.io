@@ -1,17 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evolutionary Algorithms on Thomas E. Kent</title>
+    <title>Evolutionary Algorithms | Thomas E. Kent</title>
     <link>https://tomekent.com/tag/evolutionary-algorithms/</link>
-    <description>Recent content in Evolutionary Algorithms on Thomas E. Kent</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://tomekent.com/tag/evolutionary-algorithms/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://tomekent.com/tag/evolutionary-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <description>Evolutionary Algorithms</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
+      <title>Evolutionary Algorithms</title>
+      <link>https://tomekent.com/tag/evolutionary-algorithms/</link>
+    </image>
+    
     <item>
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
       <link>https://tomekent.com/publication/kent-2019-a/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2019-a/</guid>
       <description></description>
     </item>
@@ -20,7 +24,6 @@
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
       <link>https://tomekent.com/publication/kent-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2019/</guid>
       <description></description>
     </item>

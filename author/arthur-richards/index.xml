@@ -1,36 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Arthur Richards on Thomas E. Kent</title>
+    <title>Arthur Richards | Thomas E. Kent</title>
     <link>https://tomekent.com/author/arthur-richards/</link>
-    <description>Recent content in Arthur Richards on Thomas E. Kent</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate><atom:link href="https://tomekent.com/author/arthur-richards/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Potential of Formation Flight for Commercial Aviation: Three Case Studies</title>
-      <link>https://tomekent.com/publication/kent-2020-joa/</link>
-      <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
-      
-      <guid>https://tomekent.com/publication/kent-2020-joa/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://tomekent.com/author/arthur-richards/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arthur Richards</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 11:38:05 +0100</lastBuildDate>
+    <image>
+      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
+      <title>Arthur Richards</title>
+      <link>https://tomekent.com/author/arthur-richards/</link>
+    </image>
     
     <item>
       <title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>
       <link>https://tomekent.com/publication/kent-2020a/</link>
       <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2020a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned</title>
-      <link>https://tomekent.com/publication/kent-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomekent.com/publication/kent-2020/</guid>
       <description></description>
     </item>
     

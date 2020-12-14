@@ -1,17 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Allocation on Thomas E. Kent</title>
+    <title>Allocation | Thomas E. Kent</title>
     <link>https://tomekent.com/tag/allocation/</link>
-    <description>Recent content in Allocation on Thomas E. Kent</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate><atom:link href="https://tomekent.com/tag/allocation/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://tomekent.com/tag/allocation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Allocation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 09:18:15 +0100</lastBuildDate>
+    <image>
+      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
+      <title>Allocation</title>
+      <link>https://tomekent.com/tag/allocation/</link>
+    </image>
+    
     <item>
       <title>Potential of Formation Flight for Commercial Aviation: Three Case Studies</title>
       <link>https://tomekent.com/publication/kent-2020-joa/</link>
       <pubDate>Wed, 02 Dec 2020 09:18:15 +0100</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2020-joa/</guid>
       <description></description>
     </item>
@@ -20,7 +24,6 @@
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
       <link>https://tomekent.com/publication/kent-2019-a/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2019-a/</guid>
       <description></description>
     </item>
@@ -29,7 +32,6 @@
       <title>Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</title>
       <link>https://tomekent.com/publication/kent-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2019/</guid>
       <description></description>
     </item>
@@ -38,7 +40,6 @@
       <title>Analytic Approach to Optimal Routing for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2015/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2015/</guid>
       <description></description>
     </item>
@@ -47,7 +48,6 @@
       <title>Optimal Routing and Assignment for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2015-thesis/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2015-thesis/</guid>
       <description></description>
     </item>
@@ -56,7 +56,6 @@
       <title>Accounting for the effect of ground delay on commercial formation flight</title>
       <link>https://tomekent.com/publication/kent-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2014/</guid>
       <description></description>
     </item>
@@ -65,7 +64,6 @@
       <title>On Optimal Routing for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2013/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2013/</guid>
       <description></description>
     </item>
@@ -74,7 +72,6 @@
       <title>A Geometric Approach to Optimal Routing for Commercial Formation Flight</title>
       <link>https://tomekent.com/publication/kent-2012/</link>
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/publication/kent-2012/</guid>
       <description></description>
     </item>

@@ -1,37 +1,1397 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Thomas E. Kent</title>
+    <title>Posts | Thomas E. Kent</title>
     <link>https://tomekent.com/post/</link>
-    <description>Recent content in Posts on Thomas E. Kent</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 20 Feb 2020 12:10:03 +0000</lastBuildDate><atom:link href="https://tomekent.com/post/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://tomekent.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Dec 2020 18:27:42 +0000</lastBuildDate>
+    <image>
+      <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>https://tomekent.com/post/</link>
+    </image>
+    
+    <item>
+      <title>Formation Flight for Commercial Aviation</title>
+      <link>https://tomekent.com/post/formation-flight-potential/</link>
+      <pubDate>Wed, 09 Dec 2020 18:27:42 +0000</pubDate>
+      <guid>https://tomekent.com/post/formation-flight-potential/</guid>
+      <description>&lt;h2 id=&#34;journal-of-aircraft-paper&#34;&gt;Journal of Aircraft Paper&lt;/h2&gt;
+&lt;p&gt;Follow on work from my PhD has recently been published in the &lt;a href=&#34;https://arc.aiaa.org/doi/10.2514/1.C035954&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journal of Aircraft&lt;/a&gt; and is titled &lt;a href=&#34;https://tomekent.com/publication/kent-2020-joa/&#34;&gt;&amp;ldquo;Potential of Formation Flight for Commercial Aviation: Three Case Studies&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The paper explores the concept of utilising the fuel-saving benefits of formation flight within a commerical flight setting.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d like to take the opportunity to have a quick summary overview of our approach and some of the exciting results.&lt;/p&gt;
+&lt;h2 id=&#34;looking-to-nature-for-inspiration&#34;&gt;Looking to nature for inspiration&lt;/h2&gt;
+&lt;p&gt;Scientist have long looked to nature for inspiration; the field of biomimicry is devoted to developing techniques to emulate nature’s strategies. For example geese, and other migratory birds, fly in a ‘V’ formation when travelling long distances. Research shows that birds participating in such formations will have significant increases to their range while exhibiting lower heart rates during flight compared to flying alone.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-canadian-geese-in-v-formation&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/formation-flight-potential/CanadianGeeseFlyingInVFormation_hu76e2ecfc3886fc036c4f4eb5977146c0_2014974_2000x2000_fit_q75_lanczos.jpg&#34; data-caption=&#34;Canadian Geese in V-Formation&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/formation-flight-potential/CanadianGeeseFlyingInVFormation_hu76e2ecfc3886fc036c4f4eb5977146c0_2014974_2000x2000_fit_q75_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2894&#34; height=&#34;1930&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Canadian Geese in V-Formation
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;the-aerodynamics&#34;&gt;The aerodynamics&lt;/h2&gt;
+&lt;p&gt;The aerodynamic fundamentals behind formation flight for aircraft are fairly well understood. As an aircraft flies, the pressure differentials created over the wings’ surface, generates lift. The wake (often called vortices) left behind the lifting-wing induces downwash inboard, between the aircraft wingtips, and a corresponding upwash outboard. In theory this means that if an aircraft flies through this region of upwash can get some &amp;lsquo;free lift&amp;rsquo; (essentially operating at a lower angle of attack, reducing induced drag) and in turn &lt;strong&gt;save fuel&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-aircraft-wake-vortices&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/formation-flight-potential/wake_hu826535788ef6fe6c36cf5c1f54d50eb2_171357_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Aircraft Wake Vortices&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/formation-flight-potential/wake_hu826535788ef6fe6c36cf5c1f54d50eb2_171357_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1390&#34; height=&#34;1158&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Aircraft Wake Vortices
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;potential-savings&#34;&gt;Potential Savings&lt;/h1&gt;
+&lt;h2 id=&#34;ok-so-theoretically-how-much-could-this-fuel-saving-be&#34;&gt;Ok, so theoretically how much could this fuel saving be?&lt;/h2&gt;
+&lt;p&gt;While estimates regarding the exact levels of drag reduction are mixed, they all remain extremely promising. Some flight tests have recorded levels of induced-drag being reduced by as much as 40-60% for the trail aircraft in a formation of two, equating to roughly a 20-30% reduction in total drag. Alongside this, tests have also directly measured fuel-flow reductions, for an aircraft flying in the upwash of another aircraft, at levels of anywhere &lt;strong&gt;between 4-18%&lt;/strong&gt;. Importantly for commercial formation flight, these kinds of savings can been observed &lt;strong&gt;flying as much as 10-40 wingspans behind the leading aircraft&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;So in theory, what we call the &lt;em&gt;proportional discount factor&lt;/em&gt; $\lambda$, could be in the range of 1-20%. However, fuel is only saved during formation and so many inefficiencies arise from aspects such as climbing and descending to appropriate flight levels, flying to rendevouz locations and even differing aircraft types. In an optimal situation formations would have identical departure and destination airports, spending their entire flight in formation. This is clearly not realistic and these inefficiencies naturally coincide with airlines needing to serve a large number of distinct airports at different times of the day.&lt;/p&gt;
+&lt;h2 id=&#34;ok-how-about-realistically&#34;&gt;Ok, how about realistically?&lt;/h2&gt;
+&lt;p&gt;So this is what this paper looks to address, given the theory, how much fuel-saving could actually be achieved in realistic scenarios?&lt;/p&gt;
+&lt;p&gt;Focusing on two-aircraft formations, the paper builds upon theory outlined in a &lt;a href=&#34;https://tomekent.com/publication/kent-2015/&#34;&gt;previous paper&lt;/a&gt; which uses a three stage approach:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Enumeration:&lt;/strong&gt; For all possible combinations, calculate the formation routes and corresponding costs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preprocess:&lt;/strong&gt; Eliminate combinations exceeding a schedule change constraint $\Delta t$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assignment:&lt;/strong&gt; Given the costs of all combinations remaining, assign a final fleet of formations to fly in order to minimize total cost.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This approach is applied to three distinct use cases, with each being a representative, yet fictitious, airline:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LHA: Long Haul Airline&lt;/strong&gt; - Flights operating to serve a single regional airport (Singapore Internation Airport)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TAA: Transatlantic Airline&lt;/strong&gt; - Flights travelling from the United States to the UK and Mainland Europe&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LCA: Low Cost Airline&lt;/strong&gt; - Short and Medium-haul flights operating across Europe.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-lca-formation-routes&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/formation-flight-potential/maps/map_LCA_hucc4720f7366ff0f76b6212aa0a637f91_822511_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;LCA formation routes&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/formation-flight-potential/maps/map_LCA_hucc4720f7366ff0f76b6212aa0a637f91_822511_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1500&#34; height=&#34;790&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    LCA formation routes
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;There is a distinct spread of formation savings for each case study, with TAA showing savings ranging all the way &lt;strong&gt;up to the 9–9.5%&lt;/strong&gt; interval, &lt;strong&gt;with over 70% of combinations producing fuel savings over 5%.&lt;/strong&gt; Conversely, over &lt;strong&gt;50% of the formations for the LCA would produce less than 1%&lt;/strong&gt; fuel saving and, at most, 5%. The LHA flights lie somewhere in the middle, with results spread more evenly across all of 0–8.5%.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-distribution-of-all-formation-combinations-formation-fuel-saving-in-percent-for-each-case-study&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/formation-flight-potential/saving_spread_hu75e7f4368f45c242d647a1c2f634ea13_29137_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Distribution of all formation combinations’ formation fuel saving (in percent) for each case study.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/formation-flight-potential/saving_spread_hu75e7f4368f45c242d647a1c2f634ea13_29137_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;774&#34; height=&#34;363&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Distribution of all formation combinations’ formation fuel saving (in percent) for each case study.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The overall average percentage fuel savings were promising for all the flight lists, with the transatlantic airline performing best at close to &lt;strong&gt;9%&lt;/strong&gt;, followed by the long-haul airline at just over &lt;strong&gt;6%&lt;/strong&gt;, whereas the low-cost airline flights produced a savings of just under &lt;strong&gt;2%&lt;/strong&gt;, showing that there is real potential even for the short-haul flights.&lt;/p&gt;
+&lt;p&gt;The paper looks at several key performance and suitability measures, for a range of proportional discount factors $\lambda$ between 1-20%, and a range of scheduling constraints.&lt;/p&gt;
+&lt;h3 id=&#34;the-effect-of-scheduling-constraints&#34;&gt;The effect of scheduling constraints&lt;/h3&gt;
+&lt;p&gt;Current airline schedules are complex and require careful planning. Aircraft looking to join in formation will have to &lt;strong&gt;alter their route and/or their schedule&lt;/strong&gt;. For two flight to synchronise for optimal rendevouz/break locations, aircraft will need to either alter their speeds or their takeoff times (The impact of delay/speed changes can be found in our &lt;a href=&#34;https://tomekent.com/publication/kent-2014/&#34;&gt;UKACC paper&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;For a fixed formation discount factor, $\lambda$, of 10%, as we &lt;em&gt;dial-up&lt;/em&gt; the number of minutes each formation&amp;rsquo;s schedule can be altered ($\Delta t$) we can observe the effect it has on formation savings.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-effect-of-scheduling-on-fuel-saving&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/formation-flight-potential/schedule_saving_hufa2ce99554046a8c7d3440ec6b954817_32125_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Effect of Scheduling on fuel saving&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/formation-flight-potential/schedule_saving_hufa2ce99554046a8c7d3440ec6b954817_32125_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;766&#34; height=&#34;311&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Effect of Scheduling on fuel saving
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;There are obviously very few suitable formations for a zero change in takeoff times; however, by simply allowing a $\Delta t$ of just 30 min, the assignments can achieve savings reasonably close to the unconstrained problem.&lt;/p&gt;
+&lt;h3 id=&#34;fuel-saving-and-reduction-in-co2&#34;&gt;Fuel Saving and reduction in CO2&lt;/h3&gt;
+&lt;p&gt;Our objective of minimizing fuel burn has the benefit that, by burning less fuel, airlines can proportionally spend less money on fuel; additionally, there is a proportional reduction in carbon dioxide (CO2) emissions that would have to be burned during solo flight. While fuel prices are constantly changing, a price of 600 U.S. dollars (USD) per metric tonnes (1000 kg) is the current rate as of February 2020. Additionally, the emissions index of CO2 per kilogram of fuel burned is estimated to be roughly 3.16. Using these rates, for scheduling restrictions of $\Delta t = 30$ and $\Delta t = 240$  we can see in the following Table the huge effect reducing fuel burn has on these factors. At the top end, the 210 transatlantic flights could &lt;strong&gt;save over 450,000 USD each day&lt;/strong&gt;, with around &lt;strong&gt;2500 tonnes less CO2 being emitted&lt;/strong&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Airline&lt;/th&gt;
+&lt;th&gt;$\Delta_t$&lt;/th&gt;
+&lt;th&gt;No. Formations&lt;/th&gt;
+&lt;th&gt;Fuel saved (t)&lt;/th&gt;
+&lt;th&gt;Cost saved ($)&lt;/th&gt;
+&lt;th&gt;$CO_2$ saved (t)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;LCA&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;230&lt;/td&gt;
+&lt;td&gt;52&lt;/td&gt;
+&lt;td&gt;31,447&lt;/td&gt;
+&lt;td&gt;166&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LCA&lt;/td&gt;
+&lt;td&gt;240&lt;/td&gt;
+&lt;td&gt;296&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;47,808&lt;/td&gt;
+&lt;td&gt;252&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LHA&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;58&lt;/td&gt;
+&lt;td&gt;308&lt;/td&gt;
+&lt;td&gt;184,910&lt;/td&gt;
+&lt;td&gt;974&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LHA&lt;/td&gt;
+&lt;td&gt;240&lt;/td&gt;
+&lt;td&gt;88&lt;/td&gt;
+&lt;td&gt;475&lt;/td&gt;
+&lt;td&gt;285,200&lt;/td&gt;
+&lt;td&gt;1,502&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TAA&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;102&lt;/td&gt;
+&lt;td&gt;769&lt;/td&gt;
+&lt;td&gt;461,389&lt;/td&gt;
+&lt;td&gt;2,430&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TAA&lt;/td&gt;
+&lt;td&gt;240&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;851&lt;/td&gt;
+&lt;td&gt;510,897&lt;/td&gt;
+&lt;td&gt;2,691&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;suitability-of-formation-flight&#34;&gt;Suitability of Formation Flight&lt;/h3&gt;
+&lt;p&gt;If a formation pair has a formation discount factor of 10%, this means that if both aircraft started and finished in formation, observing the fuel-burn saving over the entire flight, the maximum-achievable saving would be 10%. However, as aircraft obviously need time to climb and descend, and so cannot save fuel over the entire flight. The notion of the &lt;em&gt;utilization&lt;/em&gt;, is the proportion of saving achieved to the maximum achievable. That is, the utilization factor measures how much of the potential fuel-saving is lost due to increases in deviation and cruise distance in order to reach rendezvous and separation points.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-utilisation-of-potential-fuel-saving&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/formation-flight-potential/utilisation_hued25046af834486d8e8e6b9e457d9fb7_30044_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Utilisation of potential fuel saving&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/formation-flight-potential/utilisation_hued25046af834486d8e8e6b9e457d9fb7_30044_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;776&#34; height=&#34;319&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Utilisation of potential fuel saving
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The values are plotted show a clear distinction between the three case studies. The TAA flights can achieve anywhere up to a very impressive 96% utilization; that is, out of the 9.3% theoretical-maximum savings achievable, roughly 8.9% was realized. The LCA and LHA flights, respectively, can achieve levels of utilization of up to roughly 35 and 75%. As the utilization factor is a result of a number of different components, such as geographical suitability and flight distance, but importantly dictated by the theoretical maximum. As aircraft are only considered to be in formations during the cruise leg of their flights, so a higher proportion of cruise to noncruise flights equates to a greater theoretical-maximum saving. This adds to the fairly intuative conclusion that longer flights in general are better suited to formation flight.&lt;/p&gt;
+&lt;h3 id=&#34;sensitivity-to-formation-discount&#34;&gt;Sensitivity to Formation Discount&lt;/h3&gt;
+&lt;p&gt;We now remove all scheduling constraints and look at the effect of changing the estimated formation discount factor between 1-20% and observe the effect this has on total saving.
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-relation-between-discount-factor-and-overall-saving-achieved&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/formation-flight-potential/wf_saving_hub819ecd3f09e6afcf29dcb645b500cd4_49961_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Relation between discount factor and overall saving achieved&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/formation-flight-potential/wf_saving_hub819ecd3f09e6afcf29dcb645b500cd4_49961_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;535&#34; height=&#34;531&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Relation between discount factor and overall saving achieved
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;It is clear that formation flight shows real potential for a wide range of possible formation discount factors for all three case studies and what remains is how can this concept become a reality?&lt;/p&gt;
+&lt;h1 id=&#34;what-next&#34;&gt;What next?&lt;/h1&gt;
+&lt;p&gt;Excitingly this potential for reducing costs, emissions and fuel burn has not gone unnoticed with companies such as Airbus running real world flight tests.&lt;/p&gt;
+&lt;h2 id=&#34;airbus-fellofly&#34;&gt;Airbus Fello&amp;rsquo;fly&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The Airbus fello’fly demonstrator project is putting the principles of wake-energy retrieval to the test as a way to reduce CO2 emissions—by between 3 and 4 million tons per year on widebody operations. But flying two large passenger aircraft close together poses new operational challenges for the aviation ecosystem at large, requiring new procedures to be identified.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This video by Airbus excellently describes how these concepts could be utilised in order to actually realise some of these fuel savings.&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/H1dr9Cxf85k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;In fact they are already conducting flight tests:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Initial flight tests have already begun. The fello’fly team and their flight test colleagues are testing pilot assistance technology—designed to ensure safety standards are optimal when flying two aircraft close together—in a programme that will lead the way to flight demonstrations in an oceanic airspace in 2021, involving airlines and ANSPs and a controlled Entry-Into-Service by 2025.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;further-reading&#34;&gt;Further reading&lt;/h2&gt;
+&lt;p&gt;You can take a look at the paper &lt;a href=&#34;https://tomekent.com/publication/kent-2020-joa/&#34;&gt;here&lt;/a&gt; and let me know if you have any questions.&lt;/p&gt;
+&lt;p&gt;You can also play around with some of the data here: &lt;a href=&#34;https://tomekent.com/FormationFlight&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://tomekent.com/FormationFlight/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Continuous Control, DDPG and Neuron saturation</title>
       <link>https://tomekent.com/post/neuron_saturation/</link>
       <pubDate>Thu, 20 Feb 2020 12:10:03 +0000</pubDate>
-      
       <guid>https://tomekent.com/post/neuron_saturation/</guid>
-      <description>Never work with angles I&amp;rsquo;m sure if W.C. Fields was alive today and interested in machine learning he might have updated his maxim of never working with children or animals to include angles.</description>
+      <description>&lt;h2 id=&#34;never-work-with-angles&#34;&gt;Never work with angles&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m sure if W.C. Fields was alive today and interested in machine learning he might have updated his maxim of never working with children or animals to include angles.&lt;/p&gt;
+&lt;p&gt;Many off the shelf RL algorithms seem like straightforward tools to replicate state of the art results on your own specific problem domain. Deep neural nets have shown great promise of &amp;lsquo;learning&amp;rsquo; complex tasks such as computer vision and continuous control problems but to adapt them can be challenging and require greater knowledge of the underlying mathematics and Neural Network structures to debug problems - often parameter tuning by trial and error.&lt;/p&gt;
+&lt;p&gt;Lets have a look at Deep Deterministic Policy Gradient (DDPG) and see how well a Deep Neural Network, approximating a policy function, can perform at an angle based continuous control problem.&lt;/p&gt;
+&lt;h2 id=&#34;continuous-action-control-choice-for-persistent-surveillance&#34;&gt;Continuous Action Control choice for Persistent Surveillance&lt;/h2&gt;
+&lt;p&gt;Some of my current work is looking at training/designing polices for multiple agents to perform persistent surveillance (similar to coverage/patrolling problems.). The aim is for agents to maximise some metric, &amp;lsquo;hex score&amp;rsquo;, that represents how well the world&amp;rsquo;s current &amp;lsquo;level of surveillance&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;As an agent enters a hex it observes it and the score shoots up, then all hexes currently not directly observed have their score decay (with some half life).&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-reinforcement-learning-state-action-reward-flow&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/RL_flow_hu19952ed86cd2e4a82b64167dd55dabdb_254460_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Reinforcement Learning state, action reward flow&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/RL_flow_hu19952ed86cd2e4a82b64167dd55dabdb_254460_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1388&#34; height=&#34;560&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Reinforcement Learning state, action reward flow
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Our observation, and thus our input to our Neural Network are the hex scores around the agent. This is feed into our network in order to choose the optimal action (direction to move) for the agent to take.&lt;/p&gt;
+&lt;h3 id=&#34;single-neuron-output&#34;&gt;Single Neuron Output&lt;/h3&gt;
+&lt;p&gt;The standard off the shelf DDPG algorithm for a continuous control task has a single neuron output.
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-deep-neural-net-with-1-output-neuron&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_1D_huce17e29cee23123115ae54ee0486ada5_96940_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Deep Neural Net with 1 output neuron&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_1D_huce17e29cee23123115ae54ee0486ada5_96940_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;807&#34; height=&#34;455&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Deep Neural Net with 1 output neuron
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+We replicate this and choose our output to be a single neuron, with a $\tanh$ activation function. This activation value which lies between $[-1, 1]$ can be multiplied by $\pi$ to recover an angle $\theta \in [-\pi, +\pi]$ - this is the direction the agent should move.
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-activation-function-tanh&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/tanh_hub637aef497ecec60f3206fc452d24de9_7624_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Activation function $\tanh$&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/tanh_hub637aef497ecec60f3206fc452d24de9_7624_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;490&#34; height=&#34;270&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Activation function $\tanh$
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;trained-ddpg-agent&#34;&gt;Trained DDPG Agent&lt;/h3&gt;
+&lt;p&gt;After 2000 runs of 600 time steps the DDPG policy has successfully converged and produces &lt;em&gt;half decent&lt;/em&gt; results.
+&lt;img src=&#34;result_animation1.gif&#34; alt=&#34;Agent performing persistent surveillance in a hex world&#34;&gt;
+It runs around &lt;em&gt;heating&lt;/em&gt; those hexes up reaching decent scores, so lets see if we can improve it.&lt;/p&gt;
+&lt;h2 id=&#34;rose-plots-and-neuron-saturation&#34;&gt;Rose Plots and Neuron Saturation&lt;/h2&gt;
+&lt;p&gt;While it appears to work fairly well, if we use a rose-plot to show action choices over an entire episode we can see an issue. This rose plot indicates frequency of angle chosen:
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-action-choices-rose-plot-for-3-policies&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/action_choices_1D_hu3f6a3828a8e3aae45e42766374c9f5b2_68149_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Action choices rose plot for 3 policies&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/action_choices_1D_hu3f6a3828a8e3aae45e42766374c9f5b2_68149_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;544&#34; height=&#34;196&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Action choices rose plot for 3 policies
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On the left we have completely random action selection;&lt;/li&gt;
+&lt;li&gt;In the middle a discrete 6 direction choice made by a simple greedy heuristic algorithm;&lt;/li&gt;
+&lt;li&gt;On the right a Deep Deterministic Policy Gradient (DDPG) as outline above.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What we hope for is something that produces a better, more continuous version of the heuristic (middle), instead what we get is good old &lt;strong&gt;neuron saturation&lt;/strong&gt;. The problem here is the $\tanh$ activation function (and a problem that exists in all activation functions) saturates at +1 or -1, the asymptotes, and as a result so too does our action selection at $+\pi$ or $-\pi$ respectively.&lt;/p&gt;
+&lt;h3 id=&#34;double-neuron-output&#34;&gt;Double Neuron Output&lt;/h3&gt;
+&lt;p&gt;That said, issues with working with angles and its discontinuities are well documented. One approach to fix this is to add more output neurons. We opt to add a second neuron and parametrise the action angle so that instead of multiplying the activation by $\pi$ we use it to represent $\sin(\theta)$ and $\cos(\theta)$ (which are easily converted into $\theta =\arctan(\sin(\theta)/\cos(\theta))$).
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-deep-neural-net-with-2-output-neuron&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_2D_hu0f4b464f92eaed595070d2fece475984_107298_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Deep Neural Net with 2 output neuron&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/NN_PS_2D_hu0f4b464f92eaed595070d2fece475984_107298_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;902&#34; height=&#34;455&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Deep Neural Net with 2 output neuron
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-action-choices-rose-plot-random-discrete-heuristic-ddpg&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/neuron_saturation/action_choices_2D_hu5e26145098f5c49f58806e948031233c_73890_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Action choices rose plot: [Random, discrete heuristic, DDPG]&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/neuron_saturation/action_choices_2D_hu5e26145098f5c49f58806e948031233c_73890_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;544&#34; height=&#34;196&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Action choices rose plot: [Random, discrete heuristic, DDPG]
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This balances out some of the neuron saturation but also seems to instead now saturate at the &amp;lsquo;corners&amp;rsquo; [(1,1), (1,-1), (-1,-1), (-1,1)]&lt;/p&gt;
+&lt;h2 id=&#34;multi-agent-deployment&#34;&gt;Multi Agent Deployment&lt;/h2&gt;
+&lt;p&gt;Some of our most recent work looks at whether we can simply train single agent policies like above and deploy them to multi agent problems - &lt;em&gt;without Multi-Agent RL&lt;/em&gt;. It turns out we can, but there are catches. I recently gave a talk called &lt;a href=&#34;talk/collectivedynamics/&#34;&gt;Ignorance is bliss - the role of noise and Heterogeneity in training and deployment of Single Agent Policies for the Multi-Agent Persistent Survellance Problem7&lt;/a&gt; which goes into some more detail.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;result_animation_3agents.gif&#34; alt=&#34;Agent performing persistent surveillance in a hex world&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A paper which is currently under review, &lt;em&gt;Single-Agent Polices for the Multi-Agent Persistent Surveillance
+Problem via Artificial Heterogeneity&lt;/em&gt;, describes how deploying multiple heterogeneous agents can cause undesirable emergent clustering behaviour. So stay tuned for that.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</title>
       <link>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</link>
       <pubDate>Fri, 07 Feb 2020 22:55:39 +0000</pubDate>
-      
       <guid>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</guid>
-      <description>This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents</description>
+      <description>&lt;p&gt;This is a summary of some work published last year at the &lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trade-off-between-optimisation-factors&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;502&#34; height=&#34;292&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Trade-off between optimisation factors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - &lt;strong&gt;unless we can be smart about the way we decompose the problem&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;general-problem&#34;&gt;General Problem&lt;/h2&gt;
+&lt;p&gt;There are a number of real world problems that require several agents to visit areas of interest, complete tasks and travel between them. These typically include problems such as surveillance, exploration or search and rescue.&lt;/p&gt;
+&lt;p&gt;Here we define a fairly standard Multi-Agent Travelling Salesman Problem:&lt;/p&gt;
+&lt;h4 id=&#34;setup&#34;&gt;Setup&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Allocating active set of tasks to a set of agents&lt;/li&gt;
+&lt;li&gt;Simultaneously planning agents&#39; optimal routes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;caveats&#34;&gt;Caveats&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Allocation and routing are closely coupled&lt;/li&gt;
+&lt;li&gt;Dynamic simulated environment&lt;/li&gt;
+&lt;li&gt;Need to consider real world implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What we have learnt from our work on this is that:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;We should align real-world Multi-Agent constraints with the structuring of our optimisation technique&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;evolutionary-algorithm-for-matsp&#34;&gt;Evolutionary Algorithm for MATSP&lt;/h2&gt;
+&lt;p&gt;Our aim is to move away from a single centralised solution to the MATSP. Instead we want to utilise the fact that these agents exist in a world that can be compartmentalised. There are real world constraints, such as geographical seperation that can be used to our advantage.&lt;/p&gt;
+&lt;p&gt;We use the population-distribution island-model, where the global population is divided into a number of demes (distinct populations) and referred to as the Multi-Demic Evolutionary Algorithm (MDEA). Communications between these demes allow for individuals to migrate between them at pre-defined intervals. These demes are structured to align with real world execution of a MATSP where tasks are distributed amongst multiple agents and are completed independently.&lt;/p&gt;
+&lt;h3 id=&#34;matsp-problem-statement&#34;&gt;MATSP Problem Statement&lt;/h3&gt;
+&lt;p&gt;Here we present what&amp;rsquo;s known as thethe three-index flow-based formulation
+First define the indexes $i$ and $j$ to denote a task from the set T
+of tasks 1 to N , the set A of agents from 1 to M and the matrix
+c i ja to denote the cost of agent a travelling from task i to task j.
+Additionally we define the three-index binary decision variable:&lt;/p&gt;
+&lt;p&gt;First define the indexes $i$ and $j$ to denote a task from the set $T$ of tasks 1 to $N$, the set $A$ of agents from 1 to $M$ and the matrix $c_{ija}$ to denote the cost of agent $a$ travelling from task $i$ to task $j$. Additionally we define the three-index binary decision variable:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{equation*}
+x_{ija} =
+\begin{cases}
+1 &amp;amp; \text{if agent $a$ visits task $j$ after $i$,}\\\&lt;br&gt;
+0 &amp;amp; \text{otherwise}
+\end{cases}
+\end{equation*}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align}
+\min_{x_{ija}} &amp;amp; \sum_{i = 1}^{N} \sum_{j = 1}^{N} \sum_{a = 1}^{M} c_{ija} x_{ija} \\\&lt;br&gt;
+&amp;amp; \sum_{i = 1}^{N}x_{ipa} - \sum_{j = 1}^{N}x_{pja} = 0, \text{  }a \in A, p \in T \label{MATSP_flow} \\\&lt;br&gt;
+&amp;amp; \sum_{j = 1}^{N}x_{1ja} = 1, \text{  } \forall a \in A \label{MATSP_one_agent}\\\&lt;br&gt;
+&amp;amp; u_i - u_j + N \sum_{a = 1}^{M} x_{ija}  \leq N -1, \text{  } \forall i \neq j \neq 1 \label{MATSP_subtour}\\\&lt;br&gt;
+&amp;amp; x_{ija} \in {0,1} \text{   } \forall i,j,a
+\end{align}
+$$&lt;/p&gt;
+&lt;!--	\text{s.t.}&amp; \sum_{i = 1}^{N}\sum_{a = 1}^{M} x_{ija} = 1, \text{  } \forall j \label{MATSP_one_task}\\
+						 &amp; \sum_{i = 1}^{N}x_{ipa} - \sum_{j = 1}^{N}x_{pja} = 0, \text{  }a \in A, p \in T \label{MATSP_flow} \\
+						 &amp; \sum_{j = 1}^{N}x_{1ja} = 1, \text{  } \forall a \in A \label{MATSP_one_agent}\\
+						 &amp; u_i - u_j + N \sum_{a = 1}^{M} x_{ija}  \leq N -1, \text{  } \forall i \neq j \neq 1 \label{MATSP_subtour}\\
+						 &amp; x_{ija} \in \{0,1\} \text{   } \forall i,j,a --&gt;
+&lt;p&gt;The objective, is to minimize the total cost of all the agents travelling between the assigned tasks. The next constraints ensure that each task is visited only once while the flow conservation constraints state that once an agent visits a task then they must also depart from it. The &amp;lsquo;one-agent&amp;rsquo; constraints ensure that each agent is used only once and the sub-tour elimination constraints are used, where $u$ are additional non-negative auxiliary decision variables, with $u_i$ corresponding to the ith task, known as &amp;lsquo;node potentials&amp;rsquo;.&lt;/p&gt;
+&lt;h3 id=&#34;evolutionary-approach-for-matsp&#34;&gt;Evolutionary Approach for MATSP&lt;/h3&gt;
+&lt;h4 id=&#34;3-main-evolutionary-stages&#34;&gt;3 main Evolutionary Stages&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Initialisation&lt;/strong&gt; - creating an starting population for which to evolve;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproduction&lt;/strong&gt; - carrying out evolutionary operators such as crossover, mutation and improvement heuristics to produce offspring;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Selection&lt;/strong&gt; - taking individuals from both the main population and from the offspring to produce the new population;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-chromosome-representation-of-route-structure&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Chromosome representation of route structure&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/chromosome_hu75c523082cc201b794c3cc68caa1fbd4_21445_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;190&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Chromosome representation of route structure
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;crossover-operator-to-create-offspring-from-combining-features-of-the-two-parent-solutions&#34;&gt;Crossover operator to create offspring from combining features of the two parent solutions&lt;/h4&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sbx-crossover-operator&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;SBX Crossover operator&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Crossover_SBX_hu4e67604dabaa4492804c771768d1fee2_43848_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;840&#34; height=&#34;388&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    SBX Crossover operator
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;mutation-operators-to-create-slightly-different-offspring-from-one-parent-solutions&#34;&gt;Mutation operators to create slightly different offspring from one parent solutions&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-mutation-operator---reallocate-tasks&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - reallocate tasks&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_reallocate_hudf00e8223de216f7cf908e9bc7e9cdb1_32459_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;444&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Mutation operator - reallocate tasks
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-mutation-operator---swap-tasks&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Mutation operator - Swap Tasks&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Mutation_swap_hu9ece16d2204ae39d5a6d703dcf60ef23_29885_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;513&#34; height=&#34;431&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Mutation operator - Swap Tasks
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;improvement-operator-to-try-to-quickly-improve-a-solution-using-2-opt&#34;&gt;Improvement operator to try to quickly improve a solution using 2 opt&lt;/h4&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-improvement-operator---2-opt-swap&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Improvement operator - 2 opt swap&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Improvement_hu686ebed896d92e654f8c05433e0f7a0f_37986_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;675&#34; height=&#34;482&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Improvement operator - 2 opt swap
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;aim-multi-demic-evolutionary-algorithm&#34;&gt;Aim: Multi-demic Evolutionary Algorithm&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Exploit problem structure, aligning real-world implementation demands&lt;/li&gt;
+&lt;li&gt;Decentralised solution with Communication&lt;/li&gt;
+&lt;li&gt;Use multiple populations (or demes)&lt;/li&gt;
+&lt;li&gt;With well-defined agent-population interactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each agent has population structures for &amp;lsquo;thinking about&amp;rsquo; intereactions with other agents. A population &amp;lsquo;A-B&amp;rsquo; that exists onboard agent A is constantly evolved and updated. If new tasks arise these are incorporated, if agent A and agent B come in communiction range then they can &amp;lsquo;pool&amp;rsquo; their A-B and B-A populations and prune any that are now invalid.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-population-structures&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Population Structures&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/Populations_flow_hub51ca700d509b4363b269ab48a4ff839_201338_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1370&#34; height=&#34;594&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Population Structures
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The objective function, total distance travelled, shown in the below figure, clearly shows that as the communications restriction is gradually lifted the total distances of the dMDEA results tends to the cMDEA, notably, any communication radius of 125 or greater either matches or outperforms the EA.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-communication-range-vs-total-distance&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Distance&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/dist_hu3d293bd923243efe5a680a8515147495_29125_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Communication range vs Total Distance
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In addition, as communication range is increased the agents spend more time evolving the demes corresponding to nearby agents and thus the linear runtime increases. The next figure shows the relationship between the communication radius and thus the number of other agents to consider and the resulting run-time. Therefore there is a clear trade-off decision between ability to communicate, and thus agents you should consider, and run-time.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-communication-range-vs-total-sim-time&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Communication range vs Total Sim time&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/sim_t_hu04edef47508d77f92ae2e272a88536da_25911_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Communication range vs Total Sim time
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;demos&#34;&gt;Demos&lt;/h2&gt;
+&lt;h3 id=&#34;decentralised---homogeneous-comms&#34;&gt;Decentralised - Homogeneous Comms&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/uMYGhZartHw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;decentralised---heterogeneous-comms&#34;&gt;Decentralised - Heterogeneous Comms&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2TYcICFPSTE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;but-i-was-after-a-free-lunch&#34;&gt;But I was after a free lunch&lt;/h2&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trade-off-between-optimisation-factors&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/cycle_hu53326aaf020c0bab91f1cc0e7e3106bc_22496_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;363&#34; height=&#34;203&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Trade-off between optimisation factors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Sadly that&amp;rsquo;s really the issue here, in many optimisation problems, but particularly in heuristic iterative approaches such as EAs, there is a trade off between problem complexity, runtime and quality of solution (Figure 4). If you want to keep your compute time the same, i.e. limit generations and population size, but need to solve a harder problem, i.e. &lt;strong&gt;one with more agents&lt;/strong&gt;, you will need to sacrifice solution quality.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trade-off-between-optimisation-factors&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Trade-off between optimisation factors&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://tomekent.com/post/multiagent-travellingsalesmanproblem/bars_hu1a0786e2572b06a63892b99ae87e446b_37087_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;502&#34; height=&#34;292&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+    Trade-off between optimisation factors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;read-the-full-paper&#34;&gt;Read the full paper&lt;/h2&gt;
+&lt;p&gt;If you want to read in a bit more detail then you can find the full paper here:
+
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;&lt;a href=&#34;https://tomekent.com/author/thomas-e.-kent/&#34;&gt;Thomas E. Kent&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://tomekent.com/author/arthur-g.-richards/&#34;&gt;Arthur G. Richards&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2019).
+  &lt;a href=&#34;https://tomekent.com/publication/kent-2019-a/&#34;&gt;Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem&lt;/a&gt;.
+  &lt;em&gt;arXiv preprint arXiv:1906.05616&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://tomekent.com/files/publications/Kent_Richards_2019_GECCO_full.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/kent-2019-a/cite.bib&#34;&gt;
+  Cite
+&lt;/button&gt;
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Co2 Emissions Reduction via formation flight</title>
       <link>https://tomekent.com/post/co2-formation/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://tomekent.com/post/co2-formation/</guid>
-      <description>Co2 Emissions I had a quick look back over some of my PhD work in preparation of a new paper I&amp;rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.</description>
+      <description>&lt;h2 id=&#34;co2-emissions&#34;&gt;Co2 Emissions&lt;/h2&gt;
+&lt;p&gt;I had a quick look back over some of my PhD work in preparation of a new paper I&amp;rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;ve been working on some under the assumptions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The emissions index of CO 2 per kg of fuel burnt is estimated to be roughly 3.16 &lt;a href=&#34;https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19920009879.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A rough estimate of 600 dollars per metric tonne of fuel &lt;a href=&#34;https://www.iata.org/en/publications/economics/fuel-monitor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;singapore-airlines&#34;&gt;Singapore Airlines&lt;/h2&gt;
+&lt;p&gt;Take Singapore Airlines as an example, on a single day some &lt;strong&gt;200 flights could potentially fly in 100 formations pairs&lt;/strong&gt;.
+This would save on average 6.7% of fuel against those same flights flying solo. This works out at 610 tonnes of fuel saved, and as a direct result would burn roughly 1,929 tonnes fewer of Co2. Not only that but they&amp;rsquo;d save 366k in the process but simply not buying the fuel.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s for a single day.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s like planting &lt;strong&gt;704,085 trees a year&lt;/strong&gt; and getting paid $133m for it.&lt;/p&gt;
+&lt;h3 id=&#34;equivalent-of-planting-80-per-hour&#34;&gt;Equivalent of planting 80 per hour:&lt;/h3&gt;
+&lt;p&gt;🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳&lt;/p&gt;
+&lt;h3 id=&#34;and-getting-paid-190-per-tree-at-the-same-time&#34;&gt;And getting paid $190 per tree at the same time&lt;/h3&gt;
+&lt;p&gt;💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰&lt;/p&gt;
+&lt;h3 id=&#34;want-to-find-out-more&#34;&gt;Want to find out more?&lt;/h3&gt;
+&lt;p&gt;Take a look a page I put together a while back to explore the datasets:
+&lt;a href=&#34;http://tomekent.com/FormationFlight/&#34;&gt;http://tomekent.com/FormationFlight/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;found-this-interesting-consider-sharing-it-&#34;&gt;Found this interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
     </item>
     
   </channel>

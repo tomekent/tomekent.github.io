@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tomekent.com/post/formation-flight-potential/</loc>
+    <lastmod>2020-12-09T18:27:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/post/</loc>
+    <lastmod>2020-12-09T18:27:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/</loc>
+    <lastmod>2020-12-09T18:27:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomekent.com/tag/allocation/</loc>
     <lastmod>2020-12-02T09:18:15+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tomekent.com/author/arthur-richards/</loc>
+    <loc>https://tomekent.com/author/arthur-g.-richards/</loc>
     <lastmod>2020-12-02T09:18:15+01:00</lastmod>
   </url>
   
@@ -48,12 +63,7 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/thomas-kent/</loc>
+    <loc>https://tomekent.com/author/thomas-e.-kent/</loc>
     <lastmod>2020-12-02T09:18:15+01:00</lastmod>
   </url>
   
@@ -74,6 +84,11 @@
   
   <url>
     <loc>https://tomekent.com/author/angus-johnson/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/author/arthur-richards/</loc>
     <lastmod>2020-09-14T11:38:05+01:00</lastmod>
   </url>
   
@@ -118,6 +133,11 @@
   </url>
   
   <url>
+    <loc>https://tomekent.com/author/thomas-kent/</loc>
+    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomekent.com/slides/</loc>
     <lastmod>2020-02-26T09:46:05+00:00</lastmod>
   </url>
@@ -129,11 +149,6 @@
   
   <url>
     <loc>https://tomekent.com/post/neuron_saturation/</loc>
-    <lastmod>2020-02-20T12:10:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/post/</loc>
     <lastmod>2020-02-20T12:10:03+00:00</lastmod>
   </url>
   
@@ -203,11 +218,6 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/author/arthur-g.-richards/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomekent.com/publication/kent-2019-a/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -224,11 +234,6 @@
   
   <url>
     <loc>https://tomekent.com/tag/multi-agent-travelling-salesman/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/thomas-e.-kent/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
