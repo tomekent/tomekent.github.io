@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Angus Johnson | Thomas E. Kent</title>
-    <link>https://tomekent.com/author/angus-johnson/</link>
-      <atom:link href="https://tomekent.com/author/angus-johnson/index.xml" rel="self" type="application/rss+xml" />
-    <description>Angus Johnson</description>
+    <title>Travelling Salesman Problem | Thomas E. Kent</title>
+    <link>https://tomekent.com/tag/travelling-salesman-problem/</link>
+      <atom:link href="https://tomekent.com/tag/travelling-salesman-problem/index.xml" rel="self" type="application/rss+xml" />
+    <description>Travelling Salesman Problem</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
-      <title>Angus Johnson</title>
-      <link>https://tomekent.com/author/angus-johnson/</link>
+      <title>Travelling Salesman Problem</title>
+      <link>https://tomekent.com/tag/travelling-salesman-problem/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://tomekent.com/publication/kent-2022/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://tomekent.com/publication/kent-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>
-      <link>https://tomekent.com/publication/kent-2020a/</link>
-      <pubDate>Mon, 14 Sep 2020 11:38:05 +0100</pubDate>
-      <guid>https://tomekent.com/publication/kent-2020a/</guid>
       <description></description>
     </item>
     

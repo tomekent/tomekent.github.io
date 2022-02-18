@@ -5,12 +5,20 @@
     <link>https://tomekent.com/</link>
       <atom:link href="https://tomekent.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas E. Kent</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Dec 2020 18:27:42 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
       <title>Thomas E. Kent</title>
       <link>https://tomekent.com/</link>
     </image>
+    
+    <item>
+      <title>Homogeneous Agent Behaviours for the Multi-Agent Simultaneous Searching and Routing Problem</title>
+      <link>https://tomekent.com/publication/kent-2022/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tomekent.com/publication/kent-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Formation Flight for Commercial Aviation</title>

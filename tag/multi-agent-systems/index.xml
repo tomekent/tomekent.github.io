@@ -5,12 +5,20 @@
     <link>https://tomekent.com/tag/multi-agent-systems/</link>
       <atom:link href="https://tomekent.com/tag/multi-agent-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Multi-Agent Systems</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 11:38:05 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png</url>
       <title>Multi-Agent Systems</title>
       <link>https://tomekent.com/tag/multi-agent-systems/</link>
     </image>
+    
+    <item>
+      <title>Homogeneous Agent Behaviours for the Multi-Agent Simultaneous Searching and Routing Problem</title>
+      <link>https://tomekent.com/publication/kent-2022/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tomekent.com/publication/kent-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>

@@ -3,6 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tomekent.com/author/angus-johnson/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/author/arthur-g.-richards/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/authors/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication/kent-2022/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/tag/multi-agent-systems/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/tag/path-planning/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/publication/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/tag/search-and-rescue/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/tag/simulation/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/tags/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/author/thomas-e.-kent/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/tag/travelling-salesman-problem/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomekent.com/tag/unmanned-aerial-vehicles/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomekent.com/post/formation-flight-potential/</loc>
     <lastmod>2020-12-09T18:27:42+00:00</lastmod>
   </url>
@@ -13,22 +83,7 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/</loc>
-    <lastmod>2020-12-09T18:27:42+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomekent.com/tag/allocation/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/arthur-g.-richards/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/authors/</loc>
     <lastmod>2020-12-02T09:18:15+01:00</lastmod>
   </url>
   
@@ -48,22 +103,7 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/publication/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomekent.com/tag/routing/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tags/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/thomas-e.-kent/</loc>
     <lastmod>2020-12-02T09:18:15+01:00</lastmod>
   </url>
   
@@ -80,11 +120,6 @@
   <url>
     <loc>https://tomekent.com/author/thomas-e.-kent/</loc>
     <lastmod>2020-09-14T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/angus-johnson/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
   </url>
   
   <url>
@@ -113,17 +148,7 @@
   </url>
   
   <url>
-    <loc>https://tomekent.com/tag/multi-agent-systems/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomekent.com/tag/reinforcement-learning/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/simulation/</loc>
     <lastmod>2020-09-14T11:38:05+01:00</lastmod>
   </url>
   
