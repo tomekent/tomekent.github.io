@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Formation Flight on Thomas E. Kent</title>
+		<link>https://tomekent.com/tags/formation-flight/</link>
+		<description>Recent content in Formation Flight on Thomas E. Kent</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 09 Dec 2020 18:27:42 +0000</lastBuildDate>
+		
+			<atom:link href="https://tomekent.com/tags/formation-flight/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Formation Flight for Commercial Aviation</title>
+				<link>https://tomekent.com/posts/formation-flight-potential/</link>
+				<pubDate>Wed, 09 Dec 2020 18:27:42 +0000</pubDate>
+				<guid>https://tomekent.com/posts/formation-flight-potential/</guid>
+				<description>&lt;h2 id=&#34;journal-of-aircraft-paper&#34;&gt;Journal of Aircraft Paper&lt;/h2&gt;&#xA;&lt;p&gt;Follow on work from my PhD has recently been published in the &lt;a href=&#34;https://arc.aiaa.org/doi/10.2514/1.C035954&#34;&gt;Journal of Aircraft&lt;/a&gt; and is titled &amp;ldquo;Potential of Formation Flight for Commercial Aviation: Three Case Studies&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;The paper explores the concept of utilising the fuel-saving benefits of formation flight within a commercial flight setting.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;d like to take the opportunity to have a quick summary overview of our approach and some of the exciting results.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Co2 Emissions Reduction via Formation Flight</title>
+				<link>https://tomekent.com/posts/co2-formation/</link>
+				<pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/co2-formation/</guid>
+				<description>&lt;h2 id=&#34;co2-emissions&#34;&gt;Co2 Emissions&lt;/h2&gt;&#xA;&lt;p&gt;I had a quick look back over some of my PhD work in preparation of a new paper I&amp;rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.&lt;/p&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve been working on some under the assumptions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The emissions index of CO 2 per kg of fuel burnt is estimated to be roughly 3.16 &lt;a href=&#34;https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19920009879.pdf&#34;&gt;[1]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;A rough estimate of 600 dollars per metric tonne of fuel &lt;a href=&#34;https://www.iata.org/en/publications/economics/fuel-monitor/&#34;&gt;[2]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;singapore-airlines&#34;&gt;Singapore Airlines&lt;/h2&gt;&#xA;&lt;p&gt;Take Singapore Airlines as an example, on a single day some &lt;strong&gt;200 flights could potentially fly in 100 formations pairs&lt;/strong&gt;.&#xA;This would save on average 6.7% of fuel against those same flights flying solo. This works out at 610 tonnes of fuel saved, and as a direct result would burn roughly 1,929 tonnes fewer of Co2. Not only that but they&amp;rsquo;d save 366k in the process but simply not buying the fuel.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

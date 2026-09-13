@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blogs on Thomas E. Kent</title>
+		<link>http://localhost:1313/blogs/</link>
+		<description>Recent content in Blogs on Thomas E. Kent</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Saab UK Awards Mind Foundry LookOut Phase 3 Contract</title>
+				<link>http://localhost:1313/blogs/saab-lookout-phase-3/</link>
+				<pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/saab-lookout-phase-3/</guid>
+				<description>&lt;p&gt;Mind Foundry has been selected by Saab UK to work together on Phase 3 of the LookOut programme, funded through the Defence and Security Accelerator (DASA) on behalf of the Royal Navy.&lt;/p&gt;&#xA;&lt;p&gt;The project aims to mature and de-risk new technology that will inform the Royal Navy&amp;rsquo;s future Maritime Early Warning capability, working alongside Saab UK and in close collaboration with DSTL. It&amp;rsquo;s a good example of the kind of applied, defence-focused machine learning work I&amp;rsquo;ve been leading at Mind Foundry — taking early-stage research and pushing it towards real operational impact.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Formation Flight for Commercial Aviation</title>
+				<link>http://localhost:1313/blogs/formation-flight-potential/</link>
+				<pubDate>Wed, 09 Dec 2020 18:27:42 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/formation-flight-potential/</guid>
+				<description>&lt;h2 id=&#34;journal-of-aircraft-paper&#34;&gt;Journal of Aircraft Paper&lt;/h2&gt;&#xA;&lt;p&gt;Follow on work from my PhD has recently been published in the &lt;a href=&#34;https://arc.aiaa.org/doi/10.2514/1.C035954&#34;&gt;Journal of Aircraft&lt;/a&gt; and is titled &amp;ldquo;Potential of Formation Flight for Commercial Aviation: Three Case Studies&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;The paper explores the concept of utilising the fuel-saving benefits of formation flight within a commercial flight setting.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;d like to take the opportunity to have a quick summary overview of our approach and some of the exciting results.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>
+				<link>http://localhost:1313/blogs/eumas2020-single-agent-policies/</link>
+				<pubDate>Mon, 14 Sep 2020 15:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/eumas2020-single-agent-policies/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; &lt;a href=&#34;https://eumas2020.csd.auth.gr/eumas2020/&#34;&gt;17th European Conference on Multi-Agent Systems&lt;/a&gt; (EUMAS 2020), 14 September 2020 — Thessaloniki, Greece (held virtually)&lt;/p&gt;&#xA;&lt;p&gt;Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This talk was motivated by the question of whether it is possible to train single-agent policies in isolation and without the need for explicit cooperation or coordination, and still successfully deploy them to multi-agent scenarios.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Continuous Control, DDPG and Neuron Saturation</title>
+				<link>http://localhost:1313/blogs/neuron_saturation/</link>
+				<pubDate>Thu, 20 Feb 2020 12:10:03 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/neuron_saturation/</guid>
+				<description>&lt;h2 id=&#34;never-work-with-angles&#34;&gt;Never work with angles&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m sure if W.C. Fields was alive today and interested in machine learning he might have updated his maxim of never working with children or animals to include angles.&lt;/p&gt;&#xA;&lt;p&gt;Many off the shelf RL algorithms seem like straightforward tools to replicate state of the art results on your own specific problem domain. Deep neural nets have shown great promise of &amp;rsquo;learning&amp;rsquo; complex tasks such as computer vision and continuous control problems but to adapt them can be challenging and require greater knowledge of the underlying mathematics and Neural Network structures to debug problems - often parameter tuning by trial and error.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</title>
+				<link>http://localhost:1313/blogs/multiagent-travellingsalesmanproblem/</link>
+				<pubDate>Fri, 07 Feb 2020 22:55:39 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/multiagent-travellingsalesmanproblem/</guid>
+				<description>&lt;p&gt;This is a summary of some work published last year at the &lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blogs/multiagent-travellingsalesmanproblem/bars.png&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;Trade-off between optimisation factors&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - &lt;strong&gt;unless we can be smart about the way we decompose the problem&lt;/strong&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Co2 Emissions Reduction via Formation Flight</title>
+				<link>http://localhost:1313/blogs/co2-formation/</link>
+				<pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/co2-formation/</guid>
+				<description>&lt;h2 id=&#34;co2-emissions&#34;&gt;Co2 Emissions&lt;/h2&gt;&#xA;&lt;p&gt;I had a quick look back over some of my PhD work in preparation of a new paper I&amp;rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.&lt;/p&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve been working on some under the assumptions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The emissions index of CO 2 per kg of fuel burnt is estimated to be roughly 3.16 &lt;a href=&#34;https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19920009879.pdf&#34;&gt;[1]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;A rough estimate of 600 dollars per metric tonne of fuel &lt;a href=&#34;https://www.iata.org/en/publications/economics/fuel-monitor/&#34;&gt;[2]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;singapore-airlines&#34;&gt;Singapore Airlines&lt;/h2&gt;&#xA;&lt;p&gt;Take Singapore Airlines as an example, on a single day some &lt;strong&gt;200 flights could potentially fly in 100 formations pairs&lt;/strong&gt;.&#xA;This would save on average 6.7% of fuel against those same flights flying solo. This works out at 610 tonnes of fuel saved, and as a direct result would burn roughly 1,929 tonnes fewer of Co2. Not only that but they&amp;rsquo;d save 366k in the process but simply not buying the fuel.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ignorance Is Bliss: Noise and Heterogeneity in Multi-Agent Persistent Surveillance</title>
+				<link>http://localhost:1313/blogs/collective-dynamics-seminar/</link>
+				<pubDate>Sat, 19 Oct 2019 15:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/collective-dynamics-seminar/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; &lt;a href=&#34;https://seis.bristol.ac.uk/~nb14397/seminars.html&#34;&gt;Collective Dynamics Seminar&lt;/a&gt;, 19 October 2019&lt;/p&gt;&#xA;&lt;p&gt;Reinforcement Learning for Multi-Agent systems is hard! Can we instead get away with just training a single agent and then deploying it on many agents? Maybe, but there are catches.&lt;/p&gt;&#xA;&lt;p&gt;This talk explored a &amp;rsquo;toy&amp;rsquo; problem of multi-agent persistent surveillance where the basic objective is for agents to continuously monitor areas of a map to maximise a surveillance &amp;lsquo;score&amp;rsquo;. To see how a single agent policy, trained in isolation, can perform when deployed in a multi-agent scenario, I compared the performance of a number of single-agent policies: Reinforcement Learning (DDPG), Neuro-Evolution, and a gradient descent heuristic, against more traditional pre-defined boustrophedon-style &amp;lsquo;ploughing patterns&amp;rsquo;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bi-Level Optimisation for Assignment and Routing Problems</title>
+				<link>http://localhost:1313/blogs/tb-phase-bi-level-optimisation/</link>
+				<pubDate>Tue, 07 Aug 2018 15:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blogs/tb-phase-bi-level-optimisation/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; TB-Phase Project, 7 August 2018&lt;/p&gt;&#xA;&lt;p&gt;We look at the use of bi-level optimisation techniques to solve a number of standard assignment and routing problems.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/slides/Bi-level%20Optimisation.pdf&#34;&gt;Download the slides&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

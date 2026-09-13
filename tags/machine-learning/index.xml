@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Machine Learning on Thomas E. Kent</title>
+		<link>https://tomekent.com/tags/machine-learning/</link>
+		<description>Recent content in Machine Learning on Thomas E. Kent</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://tomekent.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Saab UK Awards Mind Foundry LookOut Phase 3 Contract</title>
+				<link>https://tomekent.com/posts/saab-lookout-phase-3/</link>
+				<pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/saab-lookout-phase-3/</guid>
+				<description>&lt;p&gt;Mind Foundry has been selected by Saab UK to work together on Phase 3 of the LookOut programme, funded through the Defence and Security Accelerator (DASA) on behalf of the Royal Navy.&lt;/p&gt;&#xA;&lt;p&gt;The project aims to mature and de-risk new technology that will inform the Royal Navy&amp;rsquo;s future Maritime Early Warning capability, working alongside Saab UK and in close collaboration with DSTL. It&amp;rsquo;s a good example of the kind of applied, defence-focused machine learning work I&amp;rsquo;ve been leading at Mind Foundry — taking early-stage research and pushing it towards real operational impact.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Optimisation on Thomas E. Kent</title>
+		<link>https://tomekent.com/tags/optimisation/</link>
+		<description>Recent content in Optimisation on Thomas E. Kent</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 07 Feb 2020 22:55:39 +0000</lastBuildDate>
+		
+			<atom:link href="https://tomekent.com/tags/optimisation/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</title>
+				<link>https://tomekent.com/posts/multiagent-travellingsalesmanproblem/</link>
+				<pubDate>Fri, 07 Feb 2020 22:55:39 +0000</pubDate>
+				<guid>https://tomekent.com/posts/multiagent-travellingsalesmanproblem/</guid>
+				<description>&lt;p&gt;This is a summary of some work published last year at the &lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://tomekent.com/posts/multiagent-travellingsalesmanproblem/bars.png&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;Trade-off between optimisation factors&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - &lt;strong&gt;unless we can be smart about the way we decompose the problem&lt;/strong&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bi-Level Optimisation for Assignment and Routing Problems</title>
+				<link>https://tomekent.com/posts/tb-phase-bi-level-optimisation/</link>
+				<pubDate>Tue, 07 Aug 2018 15:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/tb-phase-bi-level-optimisation/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; TB-Phase Project, 7 August 2018&lt;/p&gt;&#xA;&lt;p&gt;We look at the use of bi-level optimisation techniques to solve a number of standard assignment and routing problems.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tomekent.com/files/slides/Bi-level%20Optimisation.pdf&#34;&gt;Download the slides&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

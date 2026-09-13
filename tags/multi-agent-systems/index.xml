@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Multi-Agent Systems on Thomas E. Kent</title>
+		<link>https://tomekent.com/tags/multi-agent-systems/</link>
+		<description>Recent content in Multi-Agent Systems on Thomas E. Kent</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 14 Sep 2020 15:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://tomekent.com/tags/multi-agent-systems/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>
+				<link>https://tomekent.com/posts/eumas2020-single-agent-policies/</link>
+				<pubDate>Mon, 14 Sep 2020 15:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/eumas2020-single-agent-policies/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; &lt;a href=&#34;https://eumas2020.csd.auth.gr/eumas2020/&#34;&gt;17th European Conference on Multi-Agent Systems&lt;/a&gt; (EUMAS 2020), 14 September 2020 — Thessaloniki, Greece (held virtually)&lt;/p&gt;&#xA;&lt;p&gt;Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This talk was motivated by the question of whether it is possible to train single-agent policies in isolation and without the need for explicit cooperation or coordination, and still successfully deploy them to multi-agent scenarios.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Continuous Control, DDPG and Neuron Saturation</title>
+				<link>https://tomekent.com/posts/neuron_saturation/</link>
+				<pubDate>Thu, 20 Feb 2020 12:10:03 +0000</pubDate>
+				<guid>https://tomekent.com/posts/neuron_saturation/</guid>
+				<description>&lt;h2 id=&#34;never-work-with-angles&#34;&gt;Never work with angles&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m sure if W.C. Fields was alive today and interested in machine learning he might have updated his maxim of never working with children or animals to include angles.&lt;/p&gt;&#xA;&lt;p&gt;Many off the shelf RL algorithms seem like straightforward tools to replicate state of the art results on your own specific problem domain. Deep neural nets have shown great promise of &amp;rsquo;learning&amp;rsquo; complex tasks such as computer vision and continuous control problems but to adapt them can be challenging and require greater knowledge of the underlying mathematics and Neural Network structures to debug problems - often parameter tuning by trial and error.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</title>
+				<link>https://tomekent.com/posts/multiagent-travellingsalesmanproblem/</link>
+				<pubDate>Fri, 07 Feb 2020 22:55:39 +0000</pubDate>
+				<guid>https://tomekent.com/posts/multiagent-travellingsalesmanproblem/</guid>
+				<description>&lt;p&gt;This is a summary of some work published last year at the &lt;a href=&#34;https://gecco-2019.sigevo.org/index.html/HomePage&#34;&gt;2019 Genetic and Evolutionary Computation Conference&lt;/a&gt;. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://tomekent.com/posts/multiagent-travellingsalesmanproblem/bars.png&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;Trade-off between optimisation factors&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;If we want to solve increasingly complex problems, then we might either need more compute, or we sacrifice solution quality - &lt;strong&gt;unless we can be smart about the way we decompose the problem&lt;/strong&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ignorance Is Bliss: Noise and Heterogeneity in Multi-Agent Persistent Surveillance</title>
+				<link>https://tomekent.com/posts/collective-dynamics-seminar/</link>
+				<pubDate>Sat, 19 Oct 2019 15:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/collective-dynamics-seminar/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; &lt;a href=&#34;https://seis.bristol.ac.uk/~nb14397/seminars.html&#34;&gt;Collective Dynamics Seminar&lt;/a&gt;, 19 October 2019&lt;/p&gt;&#xA;&lt;p&gt;Reinforcement Learning for Multi-Agent systems is hard! Can we instead get away with just training a single agent and then deploying it on many agents? Maybe, but there are catches.&lt;/p&gt;&#xA;&lt;p&gt;This talk explored a &amp;rsquo;toy&amp;rsquo; problem of multi-agent persistent surveillance where the basic objective is for agents to continuously monitor areas of a map to maximise a surveillance &amp;lsquo;score&amp;rsquo;. To see how a single agent policy, trained in isolation, can perform when deployed in a multi-agent scenario, I compared the performance of a number of single-agent policies: Reinforcement Learning (DDPG), Neuro-Evolution, and a gradient descent heuristic, against more traditional pre-defined boustrophedon-style &amp;lsquo;ploughing patterns&amp;rsquo;.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
