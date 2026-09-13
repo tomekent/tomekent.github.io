@@ -1,3797 +1,1043 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+	<meta name="generator" content="Hugo 0.166.0"><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/fav.png" type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  
-  
-  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
-  
-
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Thomas E. Kent">
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Lead Machine Learning Scientist">
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://tomekent.com/">
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-  
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-
-  
-  
-  
-  <meta name="theme-color" content="#0092D2">
-  
-
-  
-  
 
-  
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
-    
-
-    
-
-    
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
+<link rel="stylesheet" href="/css/font.css" media="all">
 
-      
-    
-      
 
-      
-      
 
-      
-    
-      
+<meta property="og:url" content="https://tomekent.com/">
+	<meta property="og:site_name" content="Thomas E. Kent">
+	<meta property="og:title" content="Thomas E. Kent">
+	<meta property="og:description" content="Lead Machine Learning Scientist at Mind Foundry, working on applied ML for defence and national security.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
 
-      
-      
 
-      
-    
-      
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Thomas E. Kent">
+	<meta name="twitter:description" content="Lead Machine Learning Scientist at Mind Foundry, working on applied ML for defence and national security.">
 
-      
-      
 
-      
-    
-      
 
-      
-      
 
-      
-    
-      
 
-      
-      
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
 
-      
-    
-      
 
-      
-      
+<link rel="stylesheet" href="/css/theme.css" media="all">
 
-      
-    
-      
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
 
-      
-      
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
 
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
-      
-    
-      
+    html {
+        background-color: var(--background-color) !important;
+    }
 
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-        
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-
-  
-
-  
-  
-  
-    
-      
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,600%7CPress+Start+2P:400%7CWork+Sans:300%7CEncode+Sans+Semi+Expanded:wght@200%7CInconsolata:wght@wght@200;400;700&display=swap">
-    
-  
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
 
-  
-  
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.css">
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
 
-  
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
 
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
 
 
 
-  
+<meta name="description" content=Lead&#32;Machine&#32;Learning&#32;Scientist&#32;at&#32;Mind&#32;Foundry,&#32;working&#32;on&#32;applied&#32;ML&#32;for&#32;defence&#32;and&#32;national&#32;security.>
+<link rel="stylesheet" href="/css/index.css" media="all">
+<link rel="stylesheet" href="/css/projects.css" media="all">
 
-  
 
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
-  
-  
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Thomas E. Kent">
   
 
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_192x192_fill_lanczos_center_2.png">
+  <title>
+Thomas E. Kent
 
-  <link rel="canonical" href="https://tomekent.com/">
+  </title>
+</head>
 
+<body class="light">
   
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="twitter:site" content="@tomekent">
-  <meta property="twitter:creator" content="@tomekent">
-  
-  <meta property="og:site_name" content="Thomas E. Kent">
-  <meta property="og:url" content="https://tomekent.com/">
-  <meta property="og:title" content="Thomas E. Kent">
-  <meta property="og:description" content="Lead Machine Learning Scientist"><meta property="og:image" content="https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
-  
-    <meta property="og:updated_time" content="2022-02-18T00:00:00&#43;00:00">
-  
-
   
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://tomekent.com/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://tomekent.com/"
-}
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
 </script>
 
 
-  
 
 
-  
-
-
-  
-
-
-
-
-
-  <title>Thomas E. Kent</title>
-
-</head>
-
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
-
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.js"></script>
-
-  <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-  <div class="page-header">
-    
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
 
 
 
-
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
-
-    
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Thomas E. Kent</a>
-    </div>
-    
-
-    
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
-    
-
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Thomas E. Kent</a>
-    </div>
-    
-
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
-
-      
-      <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Thomas E. Kent
+                
+            </a>
+
             
-          
-          
+
             
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
             
-            
-              
-            
-            
-          
-        
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Publications
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/posts" title="Posts">
+                            
+                            Posts
+                        </a>
+                    </li>
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
 
-        <li class="nav-item">
-          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#people" data-target="#people"><span>People</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/files/Tom%20Kent%20-%202022%20-%20resume.pdf"><span>CV</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-      </ul>
-    </div>
-
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
-
-      
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
-
-      
-
-    </ul>
-
-  </div>
-</nav>
-
-
-  </div>
-
-  <div class="page-body">
-    
-
-
-
-
-
-
-
-
-
-  
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="about" class="home-section wg-about  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle" src="/author/thomas-e.-kent/avatar_hu450dad5e54175fe8256f6b93f995da86_4483596_270x270_fill_lanczos_center_2.png" alt="Thomas E. Kent">
-      
-
-      <div class="portrait-title">
-        <h2>Thomas E. Kent</h2>
-        <h3>Lead Machine Learning Scientist</h3>
-
-        
-        <h3>
-          <a href="http://mindfoundry.ai" target="_blank" rel="noopener">
-          <span>Mind Foundry</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/#contact"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://twitter.com/tomekent" target="_blank" rel="noopener" aria-label="twitter">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://www.linkedin.com/in/tomekent/" target="_blank" rel="noopener" aria-label="linkedin">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://scholar.google.co.uk/citations?user=gdGPmPIAAAAJ" target="_blank" rel="noopener" aria-label="google-scholar">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://www.researchgate.net/profile/Thomas_Kent4" target="_blank" rel="noopener" aria-label="researchgate">
-            <i class="ai ai-researchgate big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/tomekent" target="_blank" rel="noopener" aria-label="github">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/files/Tom%20Kent%20-%202022%20-%20resume.pdf"  aria-label="cv">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    <h1>Biography</h1>
-
-    
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Artificial Intelligence</li>
-          
-          <li>Decision Making</li>
-          
-          <li>Path Planning</li>
-          
-          <li>Multi-Agent Systems</li>
-          
-          <li>Simulation</li>
-          
-          <li>Optimisation</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Aerospace Engineering, 2015</p>
-              <p class="institution">University of Bristol</p>
             </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Master of Arts with Honours Pure Mathematics, 2011</p>
-              <p class="institution">University of Edinburgh</p>
+        </div>
+    </nav>
+</header>
+<div id="content"><section id="hero" class="py-5 align-middle">
+    <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 content animate" id="primary-font">
+                <span class="subtitle">
+                    Hi, I&#39;m
+                </span>
+                <h1>
+                    Dr. Tom Kent.
+                </h1>
+                <h2>
+                    Lead Machine Learning Scientist at Mind Foundry
+                </h2>
+                <p class="hero-content">
+                    Machine learning leader with 10+ years&rsquo; experience spanning applied research and delivery in machine learning, autonomous systems, and robotics for defence and national security. I set technical direction, lead teams, and turn ambiguous operational problems into deployed ML solutions.
+                </p>
+                <div class="row">
+                    <div class="col-auto h-100">
+                        
+                        <a href="files/Tom%20Kent%20-%202026%20-%20resume.pdf" class="btn" download
+			  >
+                            Résumé
+                        </a>
+                        
+                    </div>
+                    <div class="col-auto px-0 h-100"><span>
+    
+    <span class="px-1">
+        <a href="https://github.com/tomekent"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-github"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/tomekent/"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://scholar.google.co.uk/citations?user=gdGPmPIAAAAJ"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fas fa-graduation-cap"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://www.researchgate.net/profile/Thomas_Kent4"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-researchgate"></i>
+        </a>
+    </span>
+    
+
+    
+</span>
+</div>
+                </div>
             </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="featured" class="home-section wg-featured  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>New Work</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>, <span ><a href="/author/arthur-g.-richards/">Arthur G. Richards</a></span>, <span ><a href="/author/angus-johnson/">Angus Johnson</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    February 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Drones</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  
-  
-  <a href="/publication/kent-2022/">
-    <div class="img-hover-zoom"><img src="/publication/kent-2022/featured_hu3530ff0f6acb12cbff1d466a9fdb94bb_433094_5fe271ec1243dccd78bee2720a16562e.png" data-src="/publication/kent-2022/featured_hu3530ff0f6acb12cbff1d466a9fdb94bb_433094_808x455_fill_lanczos_smart1_2.png" class="article-banner lazyload" alt="Homogeneous Agent Behaviours for the Multi-Agent Simultaneous Searching and Routing Problem"></div>
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/kent-2022/">Homogeneous Agent Behaviours for the Multi-Agent Simultaneous Searching and Routing Problem</a>
-  </h3>
-
-  
-  <a href="/publication/kent-2022/" class="summary-link">
-    <div class="article-style">
-      <p>Through the use of autonomy Unmanned Aerial Vehicles (UAVs) can be used to solve a range of of multi-agent problems that exist in the real world, for example search and rescue or surveillance. Within these scenarios the global objective might often be better achieved if aspects of the problem can be optimally shared amongst its agents. However, in uncertain, dynamic and often partially observable environments centralised global-optimisation techniques are not achievable. Instead, agents may have to act on their own belief of the world, making the best decisions independently and potentially myopically. With multiple agents acting in a decentralised manner how can we discourage competitive behaviour and instead facilitate cooperation. This paper focuses on the specific problem of multiple UAVs simultaneously searching for tasks in an environment whilst efficiently routing between them and ultimately visiting them. This paper is motivated by this idea that collaboration can be simple and achieved without the need for a dialogue but instead through the design of the individual agent’s behaviour. By focusing on what is communicated we expand the use of a single agent behaviour. Which through minor modifications can produce distinct agents demonstrating independent, collaborative and competitive behaviour. In particular by investigating the role of sensor and communication ranges this paper will show that increased sensor ranges can be detrimental to system performance, and instead the simple modelling of nearby agents’ intent is a far better approach.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_etal_2022_drones.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2022/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3390/drones6020051" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-  </div>
-  
-
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>, <span ><a href="/author/arthur-g.-richards/">Arthur G. Richards</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    December 2020
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      Journal of Aircraft
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  
-  
-  <a href="/publication/kent-2020-joa/">
-    <div class="img-hover-zoom"><img src="/publication/kent-2020-joa/featured_hub819ecd3f09e6afcf29dcb645b500cd4_49961_a1dd7b24499423431fac366fd3308229.png" data-src="/publication/kent-2020-joa/featured_hub819ecd3f09e6afcf29dcb645b500cd4_49961_808x455_fill_lanczos_smart1_2.png" class="article-banner lazyload" alt="Potential of Formation Flight for Commercial Aviation: Three Case Studies"></div>
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/kent-2020-joa/">Potential of Formation Flight for Commercial Aviation: Three Case Studies</a>
-  </h3>
-
-  
-  <a href="/publication/kent-2020-joa/" class="summary-link">
-    <div class="article-style">
-      <p>Formation flight has the potential to significantly reduce aircraft fuel consumption by allowing “follower” aircraft to fly in the aerodynamic wake of “leader” aircraft. However, this requirement for aircraft to be in close proximity for large parts of their journey raises questions about the suitability of flying in formation given the diverse range of existing flights and geographical regions. This paper demonstrates the potential for two-aircraft formation flight for three distinct case studies: long-haul airline, transatlantic airline, and low-cost airline, encompassing a range of typical airline regions and characteristics. The results indicate, even with only minor scheduling alterations, the potential fuel savings could result in saving hundreds of millions of dollars in fuel costs and reducing millions of tonnes of carbon dioxide emissions. An analytical geometric method for calculating all possible combinations of optimal routes is presented. This is coupled with a mixed integer linear program for providing an assignment of aircraft into formation pairs. A number of different key metrics, correlations, and predictive indicators help to determine which flights, airlines, and regions show “good” formation potential. Importantly, this paper also demonstrates these results for a wide range of drag-reduction possibilities and the impact this has on achievable fuel saving.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_Richards_2020_JOA.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2020-joa/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.2514/1.C035954" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-  </div>
-  
-
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span ><a href="/author/thomas-kent/">Thomas Kent</a></span>, <span ><a href="/author/arthur-richards/">Arthur Richards</a></span>, <span ><a href="/author/angus-johnson/">Angus Johnson</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    September 2020
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      EUMAS 2020
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  
-  
-  <a href="/publication/kent-2020a/">
-    <div class="img-hover-zoom"><img src="/publication/kent-2020a/featured_hud2714bedf994646be88bc580f835aa11_129703_ba3d230117ca81fa25c3791fad7fd76e.png" data-src="/publication/kent-2020a/featured_hud2714bedf994646be88bc580f835aa11_129703_808x455_fill_lanczos_smart1_2.png" class="article-banner lazyload" alt="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity"></div>
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/kent-2020a/">Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</a>
-  </h3>
-
-  
-  <a href="/publication/kent-2020a/" class="summary-link">
-    <div class="article-style">
-      <p>Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This paper is motivated by the question of if it is possible to train single- agent policies in isolation and without the need for explicit cooperation or coordination still successfully deploy them to multi-agent scenarios. In particular we look at the multi-agent Persistent Surveillance Problem (MAPSP), which is the problem of using a number of agents to continually visit and re-visit areas of a map to maximise a metric of surveillance. We outline five distinct single-agent policies to solve the MAPSP: Reinforcement Learning (DDPG); Neuro-Evolution (NEAT); a Gradient Descent (GD) heuristic; a random heuristic; and a pre-defined ‘ploughing pattern’ (Trail). We will compare the performance and scalability of these single-agent policies to the Multi-Agent PSP. Importantly, in doing so we will demonstrate an emergent property which we call the Homogeneous-Policy Convergence Cycle (HPCC), whereby agents following homogeneous policies can get stuck together, continuously repeating the same action as other agents, significantly impacting performance. This paper will show that just a small amount of noise, at the state or action level, is sufficient to solve the problem, essentially creating artificially-heterogeneous policies for the agents.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_Richards_Johnson_2020_EUMAS.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2020a/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-  
-
-
-
-
-
-
-  </div>
-  
-
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>, <span ><a href="/author/anthony-pipe/">Anthony Pipe</a></span>, <span ><a href="/author/arthur-g.-richards/">Arthur G. Richards</a></span>, <span ><a href="/author/jim-hutchinson/">Jim Hutchinson</a></span>, <span ><a href="/author/wolfgang-schuster/">Wolfgang Schuster</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    January 2020
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Automation</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  
-  
-  <a href="/publication/kent-2020/">
-    <div class="img-hover-zoom"><img src="/publication/kent-2020/featured_hu9503ceb22912b783bb66a487586e11c5_178423_1de29e90e43658a28c9759f003b98b14.jpg" data-src="/publication/kent-2020/featured_hu9503ceb22912b783bb66a487586e11c5_178423_808x455_fill_q75_lanczos_smart1.jpg" class="article-banner lazyload" alt="A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned"></div>
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/kent-2020/">A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned</a>
-  </h3>
-
-  
-  <a href="/publication/kent-2020/" class="summary-link">
-    <div class="article-style">
-      <p>VENTURER was one of the first three UK government funded research and innovation projects on Connected Autonomous Vehicles (CAVs) and was conducted predominantly in the South West region of the country. A series of increasingly complex scenarios conducted in an urban setting were used to: (i) evaluate the technology created as a part of the project; (ii) systematically assess participant responses to CAVs and; (iii) inform the development of potential insurance models and legal frameworks. Developing this understanding contributed key steps towards facilitating the deployment of CAVs on UK roads. This paper aims to describe the VENTURER Project trials, their objectives and detail some of the key technologies used. Importantly we aim to introduce some informative challenges that were overcame and the subsequent project and technological lessons learned in a hope to help others plan and execute future CAV research. The project successfully integrated several technologies crucial to CAV development. These included, a Decision Making System using behaviour trees to make high level decisions; A pilot-control system to smoothly and comfortably turn plans into throttle and steering actuation; Sensing and perception systems to make sense of raw sensor data; Inter-CAV Wireless communication capable of demonstrating vehicle-to-vehicle communication of potential hazards. The closely coupled technology integration, testing and participant-focused trial schedule led to a greatly improved understanding of the engineering and societal barriers that CAV development faces. From a behavioural standpoint the importance of reliability and repeatability far outweighs a need for novel trajectories, while the sensor-to-perception capabilities are critical, the process of verification and validation is extremely time consuming.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_etal_2020_Automation.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2020/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3390/automation1010002" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-  </div>
-  
-
-</div>
-
-    
-  
-
-  
-  
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="posts" class="home-section wg-pages  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>Recent Posts</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/formation-flight-potential/" >Formation Flight for Commercial Aviation</a>
-    </h3>
-
-    
-    <a href="/post/formation-flight-potential/"  class="summary-link">
-      <div class="article-style">
-        Journal of Aircraft Paper Follow on work from my PhD has recently been published in the Journal of Aircraft and is titled &ldquo;Potential of Formation Flight for Commercial Aviation: Three Case Studies&rdquo;.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Dec 9, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    8 min read
-  </span>
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a href="/post/formation-flight-potential/" >
-      <img src="/post/formation-flight-potential/featured_hu8400b2ca2231807d19b0bfdef79074c3_357236_326d9f0d52ac401648ef75cd92210cb3.jpg" data-src="/post/formation-flight-potential/featured_hu8400b2ca2231807d19b0bfdef79074c3_357236_150x0_resize_q75_lanczos.jpg" alt="Formation Flight for Commercial Aviation" class="lazyload">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/neuron_saturation/" >Continuous Control, DDPG and Neuron saturation</a>
-    </h3>
-
-    
-    <a href="/post/neuron_saturation/"  class="summary-link">
-      <div class="article-style">
-        Never work with angles I&rsquo;m sure if W.C. Fields was alive today and interested in machine learning he might have updated his maxim of never working with children or animals to include angles.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Feb 20, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    4 min read
-  </span>
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a href="/post/neuron_saturation/" >
-      <img src="/post/neuron_saturation/featured_hu0f4b464f92eaed595070d2fece475984_107298_adcbf510473617600b6d144baa8be386.png" data-src="/post/neuron_saturation/featured_hu0f4b464f92eaed595070d2fece475984_107298_150x0_resize_lanczos_2.png" alt="Continuous Control, DDPG and Neuron saturation" class="lazyload">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/multiagent-travellingsalesmanproblem/" >Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem</a>
-    </h3>
-
-    
-    <a href="/post/multiagent-travellingsalesmanproblem/"  class="summary-link">
-      <div class="article-style">
-        This is a summary of some work published last year at the 2019 Genetic and Evolutionary Computation Conference. Where we are looking to solve routing and allocation problems and trying to find ways to balance the increase in computational demand required when increasing the number of numbers of agents
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Feb 7, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    6 min read
-  </span>
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a href="/post/multiagent-travellingsalesmanproblem/" >
-      <img src="/post/multiagent-travellingsalesmanproblem/featured_hue0bd2db435aa9af77e6497dbe594cb4a_79345_90516f217cc49715aeb7607058b0744f.png" data-src="/post/multiagent-travellingsalesmanproblem/featured_hue0bd2db435aa9af77e6497dbe594cb4a_79345_150x0_resize_lanczos_2.png" alt="Evolutionary Algorithms for the Multi Agent Travelling Salesman Problem" class="lazyload">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/co2-formation/" >Co2 Emissions Reduction via formation flight</a>
-    </h3>
-
-    
-    <a href="/post/co2-formation/"  class="summary-link">
-      <div class="article-style">
-        Co2 Emissions I had a quick look back over some of my PhD work in preparation of a new paper I&rsquo;m writing. I found it slightly mad that I never really included any numbers on Co2 emissions.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jan 15, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a href="/post/co2-formation/" >
-      <img src="/post/co2-formation/featured_hu90fd9de69fa66f48cf8fd60c4420ae6f_206359_7703029c933947f50624d05af42a1e8e.png" data-src="/post/co2-formation/featured_hu90fd9de69fa66f48cf8fd60c4420ae6f_206359_150x0_resize_lanczos_2.png" alt="Co2 Emissions Reduction via formation flight" class="lazyload">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-
-  
-  
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="experience" class="home-section wg-experience  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>Research</h1>
-            <p>Some of my previous projects</p>
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-  
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Hiearchical Decision Making in Multi-Agent Systems</h4>
-          <h4 class="card-title exp-company text-muted my-0">TB-Phase Project</h4>
-          <div class="text-muted exp-meta">
-            Jan 2018 –
-            
-              Mar 2022
-            
-            
-              <span class="middot-divider"></span>
-              <span>University of Bristol</span>
-            
-          </div>
-          <div class="card-text">As part of the TB-Phase project: a 5 year EPSRC Prosperity Partnership researching new engineering design for hybrid autonomous systems. My research explores the use of Multi-Agent systems for tasking, routing and surveillance problems. Using Evolutionary Algorithms and Reinforcement Learning to develop local single-agent policies capable of scaling to multi-agent scenarios.</div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
+                        <img src="/images/profile.png"
+                            class="img-thumbnail mx-auto"
+                            alt="Thomas E. Kent profile image"
+                        >
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
     </div>
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Decision Making for Driverless cars</h4>
-          <h4 class="card-title exp-company text-muted my-0">Venturer Project</h4>
-          <div class="text-muted exp-meta">
-            Jan 2015 –
+</section>
+<section id="about" class="py-0 py-sm-5">
+    <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">About Me</h3>
+        <div class="bg-transparent row justify-content-center px-3 py-5">
             
-              Apr 2018
+            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
+                <div class="image d-flex px-5">
+                    <img src="/images/profile.png" class="img-thumbnail mx-auto rounded-circle" alt="Thomas E. Kent profile picture">
+                </div>
+            </div>
             
-            
-              <span class="middot-divider"></span>
-              <span>Bristol Robotics Laboratory</span>
-            
-          </div>
-          <div class="card-text">This project employed a number of my research interests, areas of control, optimisation, simulation and mathematical modelling within a robotics setting. I was tasked with the design, implementation and testing of a number of motion planning and decision making algorithms. With the algorithms being
-capable of driving a car autonomously for a set real-world trials involving members of the public. Some of the most useful insight gained from this was not only how big the jump can be from theory and simulation to real-world implementation but also physical integration between hardware and bespoke software from
-a number of project partners with differing requirements.</div>
+            <div class="col-sm-12 col-md-12 col-lg-8 content">
+                <p>I&rsquo;m a Lead Machine Learning Scientist at Mind Foundry, with 10+ years&rsquo; experience spanning applied research and delivery leadership in machine learning, autonomous systems, robotics in defence and national security. I lead cross-functional teams of ML scientists and engineers, line manage senior technical staff, and work closely with customers and commercial stakeholders to turn ambiguous operational problems into deployed ML solutions — spanning computer vision, anomaly detection, predictive maintenance, electronic surveillance, and localisation and tracking.</p>
+<p>Before moving into industry, I spent seven years as a researcher at the University of Bristol working on multi-agent systems, decision-making, and autonomous vehicles, including the UK&rsquo;s flagship driverless car project (Venturer) and a PhD in Aerospace Engineering focused on optimal routing for commercial formation flight.</p>
+<p>You can find my academic publications below, or see my <a href="https://scholar.google.co.uk/citations?user=gdGPmPIAAAAJ">Google Scholar</a> and <a href="https://www.researchgate.net/profile/Thomas_Kent4">ResearchGate</a> profiles for the full record.</p>
+
+
+                
+                Technical areas I work across:
+                <ul>
+                    
+                    <li>Machine Learning</li>
+                    
+                    <li>Computer vision</li>
+                    
+                    <li>Anomaly detection</li>
+                    
+                    <li>predictive maintenance</li>
+                    
+                    <li>Signal Processing</li>
+                    
+                    <li>Electronic surveillance</li>
+                    
+                    <li>State estimation and Tracking</li>
+                    
+                    <li>Multi-Agent Systems</li>
+                    
+                    <li>Robotics and Control</li>
+                    
+                    <li>Optimisation</li>
+                    
+                </ul>
+                
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Optimal Routing and Assignment for Commercial Formation Flight</h4>
-          <h4 class="card-title exp-company text-muted my-0">PhD</h4>
-          <div class="text-muted exp-meta">
-            Oct 2011 –
-            
-              Jul 2015
-            
-            
-              <span class="middot-divider"></span>
-              <span>University of Bristol</span>
-            
-          </div>
-          <div class="card-text">PhD in the aerospace engineering department of the University of Bristol. Working under the headline of &lsquo;future concepts in aviation&rsquo;. Investigated potential fuel saving opportunities arising from commercial airliners flying in a close or extended formation; Looking to optimise routes on a global scale. By developing a fast analytic methodology for optimising rendezvous locations of formation members enables the macro/global problem of fleet assignment to become tractable.</div>
+</section>
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Experience</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="pills-tab" role="tablist">
+                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link active bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='mind-foundry-2023-present-tab'
+                                    data-bs-target='#pills-mind-foundry-2023-present'
+                                    aria-controls='mind-foundry-2023-present'
+                                >
+                                    Mind Foundry
+                                </div>
+                            </li>
+                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='university-of-bristol-2018-2022-tab'
+                                    data-bs-target='#pills-university-of-bristol-2018-2022'
+                                    aria-controls='university-of-bristol-2018-2022'
+                                >
+                                    University of Bristol
+                                </div>
+                            </li>
+                        
+                    </ul>
+
+                    <div class="tab-content pb-3 bg-transparent primary-font" id="pills-tabContent">
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent show active"
+                                role="tabpanel"
+                                id='pills-mind-foundry-2023-present'
+                                aria-labelledby='mind-foundry-2023-present-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Lead Machine Learning Scientist</span>
+                                                
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="http://mindfoundry.ai" target="_blank">Mind Foundry</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>2023 - Present</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            Set technical direction and scientific standards across Mind Foundry&rsquo;s Defence and National Security portfolio. Lead cross-functional teams of Machine Learning Scientists and Engineers, line managing senior technical staff and driving hiring, mentorship and team growth. Partner with customers and commercial stakeholders to translate ambiguous operational challenges into deployed ML solutions, leading technical bids that have helped win over £2.5m in new and follow-on work. Hands-on technical lead across projects spanning computer vision, anomaly detection, predictive maintenance, electronic surveillance, and localisation and tracking.
+                                        </div>
+                                    </div>
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h5">Machine Learning Scientist</span>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>2022 - 2023</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            Developed machine learning, signal processing, simulation and modelling techniques for novel solutions across domains including radar and RF sensing. Acted as technical lead on projects spanning radar, tracking, multi-agent systems, explainability and interpretability, and contributed significantly to writing successful bids for new and follow-on work.
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-university-of-bristol-2018-2022'
+                                aria-labelledby='university-of-bristol-2018-2022-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Senior Research Associate</span>
+                                                
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://www.bristol.ac.uk" target="_blank">University of Bristol</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>2018 - 2022</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            As part of the <a href="https://www.tbphase.org">TB-Phase project</a>, a 5 year EPSRC Prosperity Partnership researching new engineering design for hybrid autonomous systems, researched the use of multi-agent systems for tasking, routing and surveillance problems. Used evolutionary algorithms and reinforcement learning to develop local single-agent policies capable of scaling to multi-agent scenarios, and built multi-agent simulation software for testing and deployment across a range of vehicles.
+                                        </div>
+                                    </div>
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h5">Research Associate</span>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>2015 - 2018</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            Developed path-planning and decision-making capabilities for the <a href="https://www.venturer-cars.com/venturer-project/">Venturer project</a>, the UK&rsquo;s flagship driverless car trials. Designed and implemented motion planning and decision-making algorithms capable of driving a car autonomously through real-world trials involving members of the public, and led the physical and software integration work across a number of project partners.
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  
-  
-</div>
+</section>
 
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="people" class="home-section wg-people  "  >
-   <div class="home-section-bg " ></div>
+<section id="education" class="py-5">
     <div class="container">
-
-    
-
-      
-
-
-
-
-
-
-
-
-
-<div class="row justify-content-center people-widget">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Researchers</h1>
-    <p>Research students that I have supervised over the years.</p>
-  </div>
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-  
-
-  
-
-  
-  
-  
-
-  
-
-  
-  
-  
-
-  
-  <div class="col-md-12">
-    <h2 class="mb-4">Alumni</h2>
-  </div>
-  
-
-  
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-auto people-person">
-    
-    
-      
-      
-    
-    
-      
-      <a href="/author/anas-shrinah/"><img class="avatar avatar-circle" src="/author/anas-shrinah/avatar_hu0d91749c9d9240a4448747692e0b9468_73542_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
-    
-
-    <div class="portrait-title">
-      <h2><a href="/author/anas-shrinah/">Anas Shrinah</a></h2>
-      
-      <h3>MSc Student</h3>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://research-information.bris.ac.uk/en/persons/anas-shrinah%28432011d3-d378-4562-b362-26d8cd26ed2f%29.html" target="_blank" rel="noopener">
-        <i class="fas fa-university"></i>
-      </a>
-    </li>
-  
-</ul>
-
-      
-    </div>
-  </div>
-  
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-auto people-person">
-    
-    
-      
-      
-    
-    
-      
-      <a href="/author/christos-sevastopoulos/"><img class="avatar avatar-circle" src="/author/christos-sevastopoulos/avatar_hu3b7e0d9f6616c1a811cfe7826b874ad9_339096_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
-    
-
-    <div class="portrait-title">
-      <h2><a href="/author/christos-sevastopoulos/">Christos Sevastopoulos</a></h2>
-      
-      <h3>MSc Student</h3>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/linkedin.com/in/christos-sevastopoulos" >
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-</ul>
-
-      
-    </div>
-  </div>
-  
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-auto people-person">
-    
-    
-      
-      
-    
-    
-      
-      <a href="/author/jian-jiao/"><img class="avatar avatar-circle" src="/author/jian-jiao/avatar_hu9c8c9b231737d957626f534b6d66d8b5_2441_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
-    
-
-    <div class="portrait-title">
-      <h2><a href="/author/jian-jiao/">Jian Jiao</a></h2>
-      
-      <h3>MSc Student</h3>
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-      
-    </div>
-  </div>
-  
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-auto people-person">
-    
-    
-      
-      
-    
-    
-      
-      <a href="/author/karam-safarov/"><img class="avatar avatar-circle" src="/author/karam-safarov/avatar_hua1e6cb752d5a559fd6a33198a06776a0_94612_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
-    
-
-    <div class="portrait-title">
-      <h2><a href="/author/karam-safarov/">Karam Safarov</a></h2>
-      
-      <h3>Phd Student</h3>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/" >
-        <i class="fas fa-university"></i>
-      </a>
-    </li>
-  
-</ul>
-
-      
-    </div>
-  </div>
-  
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-auto people-person">
-    
-    
-      
-      
-    
-    
-      
-      <a href="/author/xingyu-guo/"><img class="avatar avatar-circle" src="/author/xingyu-guo/avatar_hu9c8c9b231737d957626f534b6d66d8b5_2441_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
-    
-
-    <div class="portrait-title">
-      <h2><a href="/author/xingyu-guo/">Xingyu Guo</a></h2>
-      
-      <h3>MSc Student</h3>
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-      
-    </div>
-  </div>
-  
-  
-</div>
-
-
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="talks" class="home-section wg-pages  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>Recent &amp; Upcoming Talks</h1>
+        <h3 class="text-center">Education</h3>
+        <div class="row justify-content-center py-5">
             
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/talk/eumas2020/" >Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</a>
-    </h3>
-
-    
-    <a href="/talk/eumas2020/"  class="summary-link">
-      <div class="article-style">
-        Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Sep 14, 2020 3:00 PM &mdash; 3:15 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Virtual - Online</span>
-        
-      </div>
-      
-
-      
-      <div>
-        
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://users.auth.gr/nbassili/EUMAS-AT-2020-proceedings/EUMAS_2020_paper_31.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/slides/EUMAS_2020_slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/kent-2020a/" >
-    
-    Paper
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a href="/talk/eumas2020/" >
-      <img src="/talk/eumas2020/featured_hu4c314f7bdcb44063fed6154fb5d3c18a_204590_86a0ffcb1f043a2030b098cfe8e20f5a.png" data-src="/talk/eumas2020/featured_hu4c314f7bdcb44063fed6154fb5d3c18a_204590_150x0_resize_lanczos_2.png" alt="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity" class="lazyload">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-
-  
-  
-  
-
-    
-    
-      
-    
-
-    
-
-    <div class="see-all">
-      <a href="/talk/">
-        See all talks
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="publications" class="home-section wg-pages  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>Recent Publications</h1>
             
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>, <span ><a href="/author/arthur-g.-richards/">Arthur G. Richards</a></span>, <span ><a href="/author/angus-johnson/">Angus Johnson</a></span>
-  </span>
-  (2022).
-  <a href="/publication/kent-2022/">Homogeneous Agent Behaviours for the Multi-Agent Simultaneous Searching and Routing Problem</a>.
-  <em>Drones</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_etal_2022_drones.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2022/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3390/drones6020051" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-</p>
-
-  
-  
-</div>
-
-    
-  
-    
-      <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>, <span ><a href="/author/arthur-g.-richards/">Arthur G. Richards</a></span>
-  </span>
-  (2020).
-  <a href="/publication/kent-2020-joa/">Potential of Formation Flight for Commercial Aviation: Three Case Studies</a>.
-  Journal of Aircraft.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_Richards_2020_JOA.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2020-joa/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.2514/1.C035954" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-</p>
-
-  
-  
-</div>
-
-    
-  
-    
-      <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span ><a href="/author/thomas-kent/">Thomas Kent</a></span>, <span ><a href="/author/arthur-richards/">Arthur Richards</a></span>, <span ><a href="/author/angus-johnson/">Angus Johnson</a></span>
-  </span>
-  (2020).
-  <a href="/publication/kent-2020a/">Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</a>.
-  EUMAS 2020.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_Richards_Johnson_2020_EUMAS.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2020a/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-  
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-    
-  
-    
-      <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>, <span ><a href="/author/anthony-pipe/">Anthony Pipe</a></span>, <span ><a href="/author/arthur-g.-richards/">Arthur G. Richards</a></span>, <span ><a href="/author/jim-hutchinson/">Jim Hutchinson</a></span>, <span ><a href="/author/wolfgang-schuster/">Wolfgang Schuster</a></span>
-  </span>
-  (2020).
-  <a href="/publication/kent-2020/">A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned</a>.
-  <em>Automation</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_etal_2020_Automation.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2020/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3390/automation1010002" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-</p>
-
-  
-  
-</div>
-
-    
-  
-    
-      <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span ><a href="/author/thomas-e.-kent/">Thomas E. Kent</a></span>, <span ><a href="/author/arthur-g.-richards/">Arthur G. Richards</a></span>
-  </span>
-  (2019).
-  <a href="/publication/kent-2019-a/">Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</a>.
-  <em>arXiv preprint arXiv:1906.05616</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/publications/Kent_Richards_2019_GECCO_full.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/kent-2019-a/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-    
-  
-
-  
-  
-  
-
-    
-    
-      
-    
-
-    
-
-    <div class="see-all">
-      <a href="/publication/">
-        See all publications
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="contact" class="home-section wg-contact  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>Contact</h1>
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>2011 - 2015</small>
+                                </div>
+                                <h5 class="card-title">PhD, Aerospace Engineering</h5>
+                                
+                                
+                                <a href="https://www.bristol.ac.uk" target="_blank">
+                                    <h6>
+                                    University of Bristol
+                                    </h6>
+                                </a>
+                                
+
+                                
+                                <div class="py-1 education-content">
+                                    <p>Thesis: <em>&ldquo;Optimal Routing and Assignment for Commercial Formation Flight&rdquo;</em>.</p>
+<p>Developed a scalable analytic-geometric approach to commercial formation flight routing, enabling fast cost estimation and large-scale fleet assignment via Mixed Integer Linear Programming. Demonstrated fuel savings of 8-13% in a Transatlantic case study, with consistent gains shown across flights of varied distance, geography, and formation size.</p>
+
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-          </div>
-        
-      
-    
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
 
-      
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>2007 - 2011</small>
+                                </div>
+                                <h5 class="card-title">MA (Hons), Pure Mathematics</h5>
+                                
+                                
+                                <a href="https://www.ed.ac.uk" target="_blank">
+                                    <h6>
+                                    University of Edinburgh
+                                    </h6>
+                                </a>
+                                
 
+                                
+                                <div class="py-1 education-content">
+                                    
+                                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
-    
-    
-      
-    
-
-    <div class="mb-3">
-      <form name="contact" method="POST" netlify netlify-honeypot="welcome-bot" >
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputName">Name</label>
-          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputEmail">Email</label>
-          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+    </div>
+</section>
+
+<section id="achievements" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Publications</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-3 px-md-5 px-lg-5">
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.3390/drones6020051" title="Homogeneous Agent Behaviours for the Multi-Agent Simultaneous Searching and Routing Problem" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Homogeneous Agent Behaviours for the Multi-Agent Simultaneous Searching and Routing Problem</h5>
+                            <div class="card-text secondary-font">
+                                Drones, 2022
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.2514/1.C035954" title="Potential of Formation Flight for Commercial Aviation: Three Case Studies" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Potential of Formation Flight for Commercial Aviation: Three Case Studies</h5>
+                            <div class="card-text secondary-font">
+                                Journal of Aircraft, 2020
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.3390/automation1010002" title="A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">A Connected Autonomous Vehicle Testbed: Capabilities, Experimental Processes and Lessons Learned</h5>
+                            <div class="card-text secondary-font">
+                                Automation, 2020
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="/files/publications/Kent_Richards_Johnson_2020_EUMAS.pdf" title="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</h5>
+                            <div class="card-text secondary-font">
+                                European Conference on Multi-Agent Systems (EUMAS), 2020
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.1145/3319619.3321993" title="Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Decentralised Multi-Demic Evolutionary Approach to the Dynamic Multi-Agent Travelling Salesman Problem</h5>
+                            <div class="card-text secondary-font">
+                                Genetic and Evolutionary Computation Conference (GECCO &#39;19), 2019
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.2514/1.G000806" title="Analytic Approach to Optimal Routing for Commercial Formation Flight" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Analytic Approach to Optimal Routing for Commercial Formation Flight</h5>
+                            <div class="card-text secondary-font">
+                                Journal of Guidance, Control, and Dynamics, 2015
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.13140/RG.2.2.27277.74721" title="Optimal Routing and Assignment for Commercial Formation Flight (PhD Thesis)" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Optimal Routing and Assignment for Commercial Formation Flight (PhD Thesis)</h5>
+                            <div class="card-text secondary-font">
+                                University of Bristol, 2015
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.1109/CONTROL.2014.6915123" title="Accounting for the effect of ground delay on commercial formation flight" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Accounting for the effect of ground delay on commercial formation flight</h5>
+                            <div class="card-text secondary-font">
+                                UKACC International Conference on Control, 2014
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.2514/6.2013-4889" title="On Optimal Routing for Commercial Formation Flight" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">On Optimal Routing for Commercial Formation Flight</h5>
+                            <div class="card-text secondary-font">
+                                AIAA Guidance, Navigation, and Control Conference, 2013
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a class="card my-3 h-100 p-3" href="https://doi.org/10.2514/6.2012-4769" title="A Geometric Approach to Optimal Routing for Commercial Formation Flight" target="_blank">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">A Geometric Approach to Optimal Routing for Commercial Formation Flight</h5>
+                            <div class="card-text secondary-font">
+                                AIAA Guidance, Navigation, and Control Conference, 2012
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+            </div>
         </div>
-        <div class="form-group">
-          <label class="sr-only" for="inputMessage">Message</label>
-          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+    </div>
+</section>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check-circle-fill" viewBox="0 0 16 16">
+    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+  </symbol>
+  <symbol id="info-fill" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+  <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </symbol>
+</svg>
+
+  </div><footer>
+    
+
+
+  
+
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/posts/saab-lookout-phase-3/">
+                        <img src="/posts/saab-lookout-phase-3/featured.jpg" class="card-img-top" alt="Saab UK Awards Mind Foundry LookOut Phase 3 Contract">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/saab-lookout-phase-3/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Saab UK Awards Mind Foundry LookOut Phase 3 Contract">Saab UK Awards Mind …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p>Mind Foundry has been selected by Saab UK to work together on Phase 3 of the LookOut programme, funded through the Defence and Security Accelerator (DASA) on behalf of the Royal Navy.</p>
+<p>The project aims to mature and de-risk new technology that will inform the Royal Navy&rsquo;s future Maritime Early …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">January 24, 2024</span>
+                    <a href="/posts/saab-lookout-phase-3/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
         </div>
         
-          <div class="d-none">
-            <label>Do not fill this field unless you are a bot: <input name="welcome-bot"></label>
-          </div>
-          
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/posts/formation-flight-potential/">
+                        <img src="/posts/formation-flight-potential/featured.jpg" class="card-img-top" alt="Formation Flight for Commercial Aviation">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/formation-flight-potential/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Formation Flight for Commercial Aviation">Formation Flight for …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><h2 id="journal-of-aircraft-paper">Journal of Aircraft Paper</h2>
+<p>Follow on work from my PhD has recently been published in the <a href="https://arc.aiaa.org/doi/10.2514/1.C035954">Journal of Aircraft</a> and is titled &ldquo;Potential of Formation Flight for Commercial Aviation: Three Case Studies&rdquo;.</p>
+<p>The paper explores the concept of utilising the fuel-saving benefits of formation flight …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">December 9, 2020</span>
+                    <a href="/posts/formation-flight-potential/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
         
-        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
-      </form>
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/posts/eumas2020-single-agent-policies/">
+                        <img src="/posts/eumas2020-single-agent-policies/featured.png" class="card-img-top" alt="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/eumas2020-single-agent-policies/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity">Single-Agent Policies for …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p><strong>Event:</strong> <a href="https://eumas2020.csd.auth.gr/eumas2020/">17th European Conference on Multi-Agent Systems</a> (EUMAS 2020), 14 September 2020 — Thessaloniki, Greece (held virtually)</p>
+<p>Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">September 14, 2020</span>
+                    <a href="/posts/eumas2020-single-agent-policies/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
     </div>
-  
-
-  <ul class="fa-ul">
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-  </ul>
-
-  
-
 </div>
 
-
+<div class="text-center pt-2">
     
-      </div>
-    
+    <span class="px-1">
+        <a href="https://github.com/tomekent" target="_blank" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
 
-    </div>
-  </section>
-
-
-
-  </div>
-
-  <div class="page-footer">
-    
-    
-    <div class="container">
-      <footer class="site-footer">
-  
-
-  <p class="powered-by">
-    
-  </p>
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-    Published with
-    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
-    </div>
-    
-  </div>
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
         </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/tomekent/" target="_blank" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
         </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
+    </span>
+    
 
     
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-
-      
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
-        
-      
 
     
 
     
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
-    
-
-    
-    
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
-
-    
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="https://tomekent.com/" title="Thomas E. Kent">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2026  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
         </div>
-      </div>
-      </div>
-    </script>
-    
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
+    }
+</script>
 
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
 
-    
-    
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-    
-    
-    
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
-    
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
 
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    <script src="/js/wowchemy.min.231395dcf9061b18682c54d09c8de936.js"></script>
-
-    
+</script>
 
 
 
 
 
 
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
 </body>
+
 </html>

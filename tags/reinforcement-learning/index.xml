@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Reinforcement Learning on Thomas E. Kent</title>
+		<link>https://tomekent.com/tags/reinforcement-learning/</link>
+		<description>Recent content in Reinforcement Learning on Thomas E. Kent</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 20 Feb 2020 12:10:03 +0000</lastBuildDate>
+		
+			<atom:link href="https://tomekent.com/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Continuous Control, DDPG and Neuron Saturation</title>
+				<link>https://tomekent.com/posts/neuron_saturation/</link>
+				<pubDate>Thu, 20 Feb 2020 12:10:03 +0000</pubDate>
+				<guid>https://tomekent.com/posts/neuron_saturation/</guid>
+				<description>&lt;h2 id=&#34;never-work-with-angles&#34;&gt;Never work with angles&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m sure if W.C. Fields was alive today and interested in machine learning he might have updated his maxim of never working with children or animals to include angles.&lt;/p&gt;&#xA;&lt;p&gt;Many off the shelf RL algorithms seem like straightforward tools to replicate state of the art results on your own specific problem domain. Deep neural nets have shown great promise of &amp;rsquo;learning&amp;rsquo; complex tasks such as computer vision and continuous control problems but to adapt them can be challenging and require greater knowledge of the underlying mathematics and Neural Network structures to debug problems - often parameter tuning by trial and error.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

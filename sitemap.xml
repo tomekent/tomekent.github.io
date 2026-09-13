@@ -1,356 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://tomekent.com/author/angus-johnson/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/arthur-g.-richards/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/authors/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2022/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/multi-agent-systems/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/path-planning/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/search-and-rescue/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/simulation/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <loc>https://tomekent.com/tags/defence/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/tags/machine-learning/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/posts/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/posts/saab-lookout-phase-3/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tomekent.com/tags/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/thomas-e.-kent/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tomekent.com/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/travelling-salesman-problem/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/unmanned-aerial-vehicles/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/post/formation-flight-potential/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/tags/formation-flight/</loc>
     <lastmod>2020-12-09T18:27:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/post/</loc>
+  </url><url>
+    <loc>https://tomekent.com/posts/formation-flight-potential/</loc>
     <lastmod>2020-12-09T18:27:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/allocation/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/formation-flight/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/optimisation/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2020-joa/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/routing/</loc>
-    <lastmod>2020-12-02T09:18:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/talk/</loc>
-    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/talk/eumas2020/</loc>
-    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/thomas-e.-kent/</loc>
-    <lastmod>2020-09-14T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/arthur-richards/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/autonomy/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/decision-making/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/distributed-problem-solving/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/machine-learning/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/reinforcement-learning/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2020a/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/thomas-kent/</loc>
-    <lastmod>2020-09-14T11:38:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/slides/</loc>
-    <lastmod>2020-02-26T09:46:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/slides/test/</loc>
-    <lastmod>2020-02-26T09:46:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/post/neuron_saturation/</loc>
+  </url><url>
+    <loc>https://tomekent.com/tags/multi-agent-systems/</loc>
+    <lastmod>2020-09-14T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/posts/eumas2020-single-agent-policies/</loc>
+    <lastmod>2020-09-14T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/tags/talk/</loc>
+    <lastmod>2020-09-14T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/posts/neuron_saturation/</loc>
     <lastmod>2020-02-20T12:10:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/post/multiagent-travellingsalesmanproblem/</loc>
+  </url><url>
+    <loc>https://tomekent.com/tags/reinforcement-learning/</loc>
+    <lastmod>2020-02-20T12:10:03+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/posts/multiagent-travellingsalesmanproblem/</loc>
     <lastmod>2020-02-07T22:55:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/post/co2-formation/</loc>
+  </url><url>
+    <loc>https://tomekent.com/tags/optimisation/</loc>
+    <lastmod>2020-02-07T22:55:39+00:00</lastmod>
+  </url><url>
+    <loc>https://tomekent.com/posts/co2-formation/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2020/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/anthony-pipe/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/automation/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/autonomous-systems/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/autonomous-vehicles/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/control/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/future-mobility/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/jim-hutchinson/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/sensors/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/wolfgang-schuster/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/talk/collectivedynamics/</loc>
+  </url><url>
+    <loc>https://tomekent.com/posts/collective-dynamics-seminar/</loc>
     <lastmod>2019-10-19T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2019-a/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2019/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/evolutionary-algorithms/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/multi-agent-travelling-salesman/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/talk/tbphase/</loc>
+  </url><url>
+    <loc>https://tomekent.com/posts/tb-phase-bi-level-optimisation/</loc>
     <lastmod>2018-08-07T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2015/</loc>
-    <lastmod>2015-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/delay/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/door-to-door-routing/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/dynamic-programming/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2015-thesis/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/thomas-e-kent/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2014/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/tag/value-iteration/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2013/</loc>
-    <lastmod>2013-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication/kent-2012/</loc>
-    <lastmod>2012-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/anas-shrinah/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tomekent.com/categories/</loc>
   </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/christos-sevastopoulos/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/jian-jiao/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/karam-safarov/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/positions/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/publication-types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tomekent.com/author/xingyu-guo/</loc>
-  </url>
-  
 </urlset>

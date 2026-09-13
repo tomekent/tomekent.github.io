@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Talk on Thomas E. Kent</title>
+		<link>https://tomekent.com/tags/talk/</link>
+		<description>Recent content in Talk on Thomas E. Kent</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 14 Sep 2020 15:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://tomekent.com/tags/talk/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity</title>
+				<link>https://tomekent.com/posts/eumas2020-single-agent-policies/</link>
+				<pubDate>Mon, 14 Sep 2020 15:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/eumas2020-single-agent-policies/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; &lt;a href=&#34;https://eumas2020.csd.auth.gr/eumas2020/&#34;&gt;17th European Conference on Multi-Agent Systems&lt;/a&gt; (EUMAS 2020), 14 September 2020 — Thessaloniki, Greece (held virtually)&lt;/p&gt;&#xA;&lt;p&gt;Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents the decision space grows rapidly and is made increasingly complex through interacting agents. This talk was motivated by the question of whether it is possible to train single-agent policies in isolation and without the need for explicit cooperation or coordination, and still successfully deploy them to multi-agent scenarios.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ignorance Is Bliss: Noise and Heterogeneity in Multi-Agent Persistent Surveillance</title>
+				<link>https://tomekent.com/posts/collective-dynamics-seminar/</link>
+				<pubDate>Sat, 19 Oct 2019 15:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/collective-dynamics-seminar/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; &lt;a href=&#34;https://seis.bristol.ac.uk/~nb14397/seminars.html&#34;&gt;Collective Dynamics Seminar&lt;/a&gt;, 19 October 2019&lt;/p&gt;&#xA;&lt;p&gt;Reinforcement Learning for Multi-Agent systems is hard! Can we instead get away with just training a single agent and then deploying it on many agents? Maybe, but there are catches.&lt;/p&gt;&#xA;&lt;p&gt;This talk explored a &amp;rsquo;toy&amp;rsquo; problem of multi-agent persistent surveillance where the basic objective is for agents to continuously monitor areas of a map to maximise a surveillance &amp;lsquo;score&amp;rsquo;. To see how a single agent policy, trained in isolation, can perform when deployed in a multi-agent scenario, I compared the performance of a number of single-agent policies: Reinforcement Learning (DDPG), Neuro-Evolution, and a gradient descent heuristic, against more traditional pre-defined boustrophedon-style &amp;lsquo;ploughing patterns&amp;rsquo;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bi-Level Optimisation for Assignment and Routing Problems</title>
+				<link>https://tomekent.com/posts/tb-phase-bi-level-optimisation/</link>
+				<pubDate>Tue, 07 Aug 2018 15:00:00 +0000</pubDate>
+				<guid>https://tomekent.com/posts/tb-phase-bi-level-optimisation/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Event:&lt;/strong&gt; TB-Phase Project, 7 August 2018&lt;/p&gt;&#xA;&lt;p&gt;We look at the use of bi-level optimisation techniques to solve a number of standard assignment and routing problems.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tomekent.com/files/slides/Bi-level%20Optimisation.pdf&#34;&gt;Download the slides&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

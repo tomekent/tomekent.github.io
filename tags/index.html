@@ -1,986 +1,640 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/fav.png" type="image/gif">
 
-<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  
-  
-  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
-  
-
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Thomas E. Kent">
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Lead Machine Learning Scientist">
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://tomekent.com/tags/">
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-  
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-
-  
-  
-  
-  <meta name="theme-color" content="#0092D2">
-  
-
-  
-  
-
-  
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
-    
-
-    
-
-    
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
 
-      
-    
-      
+<link rel="stylesheet" href="/css/font.css" media="all">
 
-      
-      
 
-      
-    
-      
 
-      
-      
+<meta property="og:url" content="https://tomekent.com/tags/">
+	<meta property="og:site_name" content="Thomas E. Kent">
+	<meta property="og:title" content="Tags">
+	<meta property="og:description" content="Lead Machine Learning Scientist at Mind Foundry, working on applied ML for defence and national security.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
 
-      
-    
-      
 
-      
-      
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Tags">
+	<meta name="twitter:description" content="Lead Machine Learning Scientist at Mind Foundry, working on applied ML for defence and national security.">
 
-      
-    
-      
 
-      
-      
 
-      
-    
-      
 
-      
-      
 
-      
-    
-      
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
 
-      
-      
 
-      
-    
-      
+<link rel="stylesheet" href="/css/theme.css" media="all">
 
-      
-      
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
 
-      
-    
-      
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
 
-      
-      
+    html {
+        background-color: var(--background-color) !important;
+    }
 
-      
-    
-      
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
 
-      
-      
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
 
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
-      
-    
-      
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
 
-      
-      
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
 
-      
-    
-      
 
-      
-      
 
-      
-    
-      
+<meta name="description" content="Tags of Thomas E. Kent">
+<link rel="stylesheet" href="/css/list.css" media="all">
 
-      
-      
-        
-      
 
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-
-  
-
-  
-  
-  
-    
-      
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,600%7CPress+Start+2P:400%7CWork+Sans:300%7CEncode+Sans+Semi+Expanded:wght@200%7CInconsolata:wght@wght@200;400;700&display=swap">
-    
-  
-
-  
-  
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.css">
-
-  
-
-
-
-
-  
-
-  
-
-
-  
-  
-
   
-  <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Thomas E. Kent">
   
-
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_192x192_fill_lanczos_center_2.png">
-
-  <link rel="canonical" href="https://tomekent.com/tags/">
-
-  
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="twitter:site" content="@tomekent">
-  <meta property="twitter:creator" content="@tomekent">
-  
-  <meta property="og:site_name" content="Thomas E. Kent">
-  <meta property="og:url" content="https://tomekent.com/tags/">
-  <meta property="og:title" content="Tags | Thomas E. Kent">
-  <meta property="og:description" content="Lead Machine Learning Scientist"><meta property="og:image" content="https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://tomekent.com/images/icon_hu089a70694c111964341dbc7ac20ec725_41855_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
-  
-    <meta property="og:updated_time" content="2022-02-18T00:00:00&#43;00:00">
-  
-
-  
-
-
-
-
-  
-
-
-  
-
-
-
-
 
-  <title>Tags | Thomas E. Kent</title>
+  <title>
+Tags | Thomas E. Kent
 
+  </title>
 </head>
 
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
 
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.js"></script>
 
-  <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
 
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Thomas E. Kent
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Publications
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/posts" title="Posts">
+                            
+                            Posts
+                        </a>
+                    </li>
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
         </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+    </nav>
+</header>
+<div id="content">
+<div class="container pt-5" id="list-page">
+    <h2 class="text-center pb-2">Tags</h2>
+    <div class="row">
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/defence/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Defence">Defence</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">January 24, 2024</span>
+                    <a href="/tags/defence/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-  <div class="page-header">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
-
-    
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Thomas E. Kent</a>
-    </div>
-    
-
-    
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
-    
-
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Thomas E. Kent</a>
-    </div>
-    
-
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
-
-      
-      <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#people"><span>People</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/files/Tom%20Kent%20-%202022%20-%20resume.pdf"><span>CV</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-      </ul>
-    </div>
-
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
-
-      
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/machine-learning/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Machine Learning">Machine Learning</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">January 24, 2024</span>
+                    <a href="/tags/machine-learning/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
         </div>
-      </li>
-      
-
-      
-
-    </ul>
-
-  </div>
-</nav>
-
-
-  </div>
-
-  <div class="page-body">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Tags</h1>
-
-  
-
-  
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/formation-flight/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Formation Flight">Formation Flight</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">December 9, 2020</span>
+                    <a href="/tags/formation-flight/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/multi-agent-systems/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Multi-Agent Systems">Multi-Agent Systems</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">September 14, 2020</span>
+                    <a href="/tags/multi-agent-systems/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/talk/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Talk">Talk</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">September 14, 2020</span>
+                    <a href="/tags/talk/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/reinforcement-learning/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Reinforcement Learning">Reinforcement Learning</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">February 20, 2020</span>
+                    <a href="/tags/reinforcement-learning/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-auto m-3">
+                
+		<ul class="pagination pagination-default">
+			<li class="page-item disabled">
+				<a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+			</li>
+		<li class="page-item disabled">
+			<a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+		</li>
+			<li class="page-item active">
+				<a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+			</li>
+			<li class="page-item">
+				<a href="/tags/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+			</li>
+		<li class="page-item">
+			<a href="/tags/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+		</li>
+			<li class="page-item">
+				<a href="/tags/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+			</li>
+		</ul>
+            </div>
+        </div>
+    </div>
 </div>
 
+  </div><footer>
+    
 
 
-<div class="universal-wrapper">
   
 
-  
-  
+ 
+ 
+<div class="container py-3" id="recent-posts">
     
     
-    
-    <div>
-      <h2><a href="/tag/multi-agent-systems/" >Multi-Agent Systems</a></h2>
-      <div class="article-style">
-        
-      </div>
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
     </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/path-planning/" >path planning</a></h2>
-      <div class="article-style">
+    <div class="row justify-content-center">
         
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/search-and-rescue/" >search and rescue</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/simulation/" >Simulation</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/travelling-salesman-problem/" >Travelling Salesman Problem</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/unmanned-aerial-vehicles/" >Unmanned Aerial Vehicles</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/allocation/" >Allocation</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/formation-flight/" >Formation Flight</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/optimisation/" >Optimisation</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/routing/" >Routing</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/tags/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
-
-
-</div>
-  </div>
-
-  <div class="page-footer">
-    
-    
-    <div class="container">
-      <footer class="site-footer">
-  
-
-  <p class="powered-by">
-    
-  </p>
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-    Published with
-    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
-    </div>
-    
-  </div>
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-
-      
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
-        
-      
-
-    
-
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
-    
-
-    
-    
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
-
-    
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/posts/saab-lookout-phase-3/">
+                        <img src="/posts/saab-lookout-phase-3/featured.jpg" class="card-img-top" alt="Saab UK Awards Mind Foundry LookOut Phase 3 Contract">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/saab-lookout-phase-3/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Saab UK Awards Mind Foundry LookOut Phase 3 Contract">Saab UK Awards Mind …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p>Mind Foundry has been selected by Saab UK to work together on Phase 3 of the LookOut programme, funded through the Defence and Security Accelerator (DASA) on behalf of the Royal Navy.</p>
+<p>The project aims to mature and de-risk new technology that will inform the Royal Navy&rsquo;s future Maritime Early …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">January 24, 2024</span>
+                    <a href="/posts/saab-lookout-phase-3/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
         </div>
-      </div>
-      </div>
-    </script>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/posts/formation-flight-potential/">
+                        <img src="/posts/formation-flight-potential/featured.jpg" class="card-img-top" alt="Formation Flight for Commercial Aviation">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/formation-flight-potential/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Formation Flight for Commercial Aviation">Formation Flight for …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><h2 id="journal-of-aircraft-paper">Journal of Aircraft Paper</h2>
+<p>Follow on work from my PhD has recently been published in the <a href="https://arc.aiaa.org/doi/10.2514/1.C035954">Journal of Aircraft</a> and is titled &ldquo;Potential of Formation Flight for Commercial Aviation: Three Case Studies&rdquo;.</p>
+<p>The paper explores the concept of utilising the fuel-saving benefits of formation flight …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">December 9, 2020</span>
+                    <a href="/posts/formation-flight-potential/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/posts/eumas2020-single-agent-policies/">
+                        <img src="/posts/eumas2020-single-agent-policies/featured.png" class="card-img-top" alt="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/eumas2020-single-agent-policies/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Single-Agent Policies for the Multi-Agent Persistent Surveillance Problem via Artificial Heterogeneity">Single-Agent Policies for …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p><strong>Event:</strong> <a href="https://eumas2020.csd.auth.gr/eumas2020/">17th European Conference on Multi-Agent Systems</a> (EUMAS 2020), 14 September 2020 — Thessaloniki, Greece (held virtually)</p>
+<p>Modelling and planning as well as Machine Learning techniques such as Reinforcement Learning are often difficult in multi-agent problems. With increasing numbers of agents …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">September 14, 2020</span>
+                    <a href="/posts/eumas2020-single-agent-policies/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/tomekent" target="_blank" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
     
 
     
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
-
-    
-    
-
-    
-    
-    
-
-    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/tomekent/" target="_blank" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
     
 
     
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    <script src="/js/wowchemy.min.231395dcf9061b18682c54d09c8de936.js"></script>
 
     
 
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="https://tomekent.com/" title="Thomas E. Kent">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2026  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
+    }
+</script>
+
+
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
 
 
 
 
 
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
 </body>
+
 </html>
